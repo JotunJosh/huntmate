@@ -1,0 +1,1926 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "de": "Angriffsbonus",
+      "en": "Attack Boost",
+      "fr": "Machine de guerre"
+    },
+    "description": {
+      "de": "Erhöht die Angriffskraft.",
+      "en": "Increases attack power.",
+      "fr": "Augmente l'attaque."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "de": "Offensive Abwehr",
+      "en": "Offensive Guard",
+      "fr": "Garde offensive"
+    },
+    "description": {
+      "de": "Erhöht vorübergehend die Angriffskraft nach dem Ausführen eines Blocks zur perfekten Zeit.",
+      "en": "Temporarily increases attack power after executing a perfectly-timed guard.",
+      "fr": "Accroît temporairement la puissance d'attaque après une garde parfaitement synchronisée."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "de": "Kritisches Auge",
+      "en": "Critical Eye",
+      "fr": "Maître d'armes"
+    },
+    "description": {
+      "de": "Erhöht die Affinität.",
+      "en": "Increases affinity.",
+      "fr": "Augmente l'affinité."
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "de": "Kritischer Boost",
+      "en": "Critical Boost",
+      "fr": "Berserker"
+    },
+    "description": {
+      "de": "Erhöht den Schaden durch kritische Treffer.",
+      "en": "Increases the damage of critical hits.",
+      "fr": "Augmente les dégâts des coups critiques."
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "de": "Kritisches Ziehen",
+      "en": "Critical Draw",
+      "fr": "Dégainage éclair"
+    },
+    "description": {
+      "de": "Erhöht die Affinität beim Ausführen von Zug-Angriffen. (Kein Effekt beim Reiten.)",
+      "en": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+      "fr": "Augmente l'affinité lorsque vous exécutez des attaques dégainées (sans effet en chevauchant)."
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "de": "Feuerangriff",
+      "en": "Fire Attack",
+      "fr": "Pyromane"
+    },
+    "description": {
+      "de": "Verbessert die Kraft von FeuerelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+      "en": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
+      "fr": "Augmente la puissance des attaques élémentaires feu. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "de": "Wasserangriff",
+      "en": "Water Attack",
+      "fr": "Maelstrom"
+    },
+    "description": {
+      "de": "Verbessert die Kraft von WasserelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+      "en": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+      "fr": "Augmente la puissance des attaques élémentaires eau. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "de": "Eisangriff",
+      "en": "Ice Attack",
+      "fr": "Blizzard"
+    },
+    "description": {
+      "de": "Verbessert die Kraft von EiselementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+      "en": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
+      "fr": "Augmente la puissance des attaques élémentaires glace. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "de": "Donnerangriff",
+      "en": "Thunder Attack",
+      "fr": "Feu du ciel"
+    },
+    "description": {
+      "de": "Verbessert die Kraft von DonnerelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+      "en": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+      "fr": "Augmente la puissance des attaques élémentaires foudre. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "de": "Drachenangriff",
+      "en": "Dragon Attack",
+      "fr": "Pourfendeur de dragon"
+    },
+    "description": {
+      "de": "Verbessert die Kraft von DrachenelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+      "en": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+      "fr": "Augmente la puissance des attaques élémentaires draconiques. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "de": "Giftangriff",
+      "en": "Poison Attack",
+      "fr": "Mort-aux-rats"
+    },
+    "description": {
+      "de": "Erhöht die Rate der Gift-Ansammlung. (Die Gift-Ansammlung hat eine Obergrenze.)",
+      "en": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
+      "fr": "Augmente la puissance des afflictions de type poison. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "de": "Lähmungsangriff",
+      "en": "Paralysis Attack",
+      "fr": "Neutralisation"
+    },
+    "description": {
+      "de": "Erhöht die Rate der Lähmung-Ansammlung. (Die Lähmung-Ansammlung hat eine Obergrenze.)",
+      "en": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+      "fr": "Augmente la puissance des afflictions de type paralysie. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "de": "Schlafangriff",
+      "en": "Sleep Attack",
+      "fr": "La nuit porte conseil"
+    },
+    "description": {
+      "de": "Erhöht die Rate der Schlaf-Ansammlung. (Die Schlaf-Ansammlung hat eine Obergrenze.)",
+      "en": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+      "fr": "Augmente la puissance des afflictions de type sommeil. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "de": "Explosionsangriff",
+      "en": "Blast Attack",
+      "fr": "Destruction massive"
+    },
+    "description": {
+      "de": "Erhöht die Rate der Explosion-Ansammlung. (Die Explosion-Ansammlung hat eine Obergrenze.)",
+      "en": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+      "fr": "Augmente la puissance des afflictions de type explosion. Il y a une limite aux augmentations."
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "de": "Kritisches Element",
+      "en": "Critical Element",
+      "fr": "Rage élémentaire"
+    },
+    "description": {
+      "de": "Erhöht den Elementschaden (Feuer, Wasser, Donner, Eis, Drache) durch kritische Treffer.",
+      "en": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+      "fr": "Augmente les dégâts élémentaires (feu, eau, foudre, glace, dragon) infligés par des coups critiques."
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "de": "Kritischer Status",
+      "en": "Critical Status",
+      "fr": "Attaque perfide"
+    },
+    "description": {
+      "de": "Verstärkt anomale Statuseffekte (Lähmung, Gift, Schlaf, Explosion) durch kritische Treffer.",
+      "en": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
+      "fr": "Augmente les afflictions (paralysie, poison, sommeil, explosion) infligées par des coups critiques."
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "de": "Auflademeister",
+      "en": "Charge Master",
+      "fr": "Maître de la charge"
+    },
+    "description": {
+      "de": "Erhöht Elementkraft und StatusAnsammlung für aufgeladene Angriffe.",
+      "en": "Increases element power and status buildup for charged attacks.",
+      "fr": "Augmente la puissance élémentaire et les afflictions des attaques chargées."
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "de": "Handwerk",
+      "en": "Handicraft",
+      "fr": "Savoir-faire"
+    },
+    "description": {
+      "de": "Erweitert den Waffenschärfebalken, allerdings nicht über das Maximum hinaus.",
+      "en": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+      "fr": "Augmente la jauge de tranchant de l'arme. Ne peut dépasser la limite maximum."
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "de": "Superscharf",
+      "en": "Razor Sharp",
+      "fr": "Samouraï"
+    },
+    "description": {
+      "de": "Verhindert, dass deine Waffe an Schärfe verliert.",
+      "en": "Prevents your weapon from losing sharpness.",
+      "fr": "Empêche votre arme de perdre son tranchant."
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "de": "Schutzpolitur",
+      "en": "Protective Polish",
+      "fr": "Acier trempé"
+    },
+    "description": {
+      "de": "Die Waffenschärfe sinkt für eine bestimmte Zeit nach dem Schärfen nicht.",
+      "en": "Weapon sharpness does not decrease for a set time after sharpening.",
+      "fr": "Le tranchant de l'arme ne diminue pas pendant un certain temps après l'affûtage."
+    }
+  },
+  {
+    "id": 21,
+    "name": {
+      "de": "Geistiges Auge",
+      "en": "Mind's Eye",
+      "fr": "Œil de l'esprit"
+    },
+    "description": {
+      "de": "Deine Angriffe prallen weniger ab und fügen harten Monsterteilen größeren Schaden zu.",
+      "en": "Your attacks are deflected less and deal more damage to hard targets.",
+      "fr": "Les cibles dures ont du mal à parer vos attaques et reçoivent plus de dégâts."
+    }
+  },
+  {
+    "id": 22,
+    "name": {
+      "de": "Prügler",
+      "en": "Bludgeoner",
+      "fr": "Matraquage"
+    },
+    "description": {
+      "de": "Erhöht die Angriffskraft, wenn die Schärfe deiner Waffe niedrig ist.",
+      "en": "Increases attack power when your weapon sharpness is low.",
+      "fr": "Augmente l'attaque lorsque votre arme est émoussée."
+    }
+  },
+  {
+    "id": 23,
+    "name": {
+      "de": "Meisterschliff",
+      "en": "Master's Touch",
+      "fr": "Main de maître"
+    },
+    "description": {
+      "de": "Verhindert, dass deine Waffe durch das Erzielen von kritischen Treffern an Schärfe verliert.",
+      "en": "Prevents your weapon from losing sharpness during critical hits.",
+      "fr": "Empêche votre arme de perdre son tranchant lors de coups critiques."
+    }
+  },
+  {
+    "id": 24,
+    "name": {
+      "de": "Standardboost",
+      "en": "Normal Shots",
+      "fr": "Tir maximum"
+    },
+    "description": {
+      "de": "Erhöht die Angriffskraft von Normaler Munition, Standardpfeilen sowie Schwalbenschuss.",
+      "en": "Increases the attack power of Normal Ammo, normal arrows, and Flying Swallow Shot.",
+      "fr": "Augmente la puissance des munitions et des flèches normales, et de Tir d'hirondelle volante."
+    }
+  },
+  {
+    "id": 25,
+    "name": {
+      "de": "Perforierschüsse",
+      "en": "Piercing Shots",
+      "fr": "Traque sans merci"
+    },
+    "description": {
+      "de": "Erhöht den Angriff von Perforationsmun. (Bogengewehr) sowie Drachentöter und Tausend Drachen (Bogen).",
+      "en": "Increases the attack of the bowgun's Pierce Ammo, and the bow's Dragon Piercer and Thousand Dragons.",
+      "fr": "Augmente l'attaque des munitions perforantes (fusarbalète) et de Perce-dragon/Mille dragons (arc)."
+    }
+  },
+  {
+    "id": 26,
+    "name": {
+      "de": "Schrot/Kraftschuss",
+      "en": "Spread/Power Shots",
+      "fr": "Désigné pour mourir"
+    },
+    "description": {
+      "de": "Erhöht die Angriffskraft von Schrotmunition (Bogengewehr) sowie von Kraftschuss und Schneller Schuss (Bogen).",
+      "en": "Increases the attack of the bowgun's Spread Ammo and the bow's Power Shots and Quick Shots.",
+      "fr": "Augmente l'attaque des munitions à grenaille (fusarbalète) et Tir de guerre/Tir rapide (arc)."
+    }
+  },
+  {
+    "id": 27,
+    "name": {
+      "de": "Ballistik",
+      "en": "Ballistics",
+      "fr": "Balistique"
+    },
+    "description": {
+      "de": "Vergrößert die Entfernung, bei der Munition und Pfeile maximale Kraft haben.",
+      "en": "Extends the range in which ammo and arrows have maximum power.",
+      "fr": "Augmente la portée à laquelle les munitions et les flèches sont à puissance maximum."
+    }
+  },
+  {
+    "id": 28,
+    "name": {
+      "de": "Schnellfeuer hoch",
+      "en": "Rapid Fire Up",
+      "fr": "Tir super rapide"
+    },
+    "description": {
+      "de": "Verbessert das Schnellfeuer des Leichten Bogengewehrs.",
+      "en": "Improves light bowgun rapid fire.",
+      "fr": "Tir rapide fusarbalète léger amélioré."
+    }
+  },
+  {
+    "id": 29,
+    "name": {
+      "de": "Eröffnungsschuss",
+      "en": "Opening Shot",
+      "fr": "Premier tir"
+    },
+    "description": {
+      "de": "Erhöht das Nachladetempo des Bogengewehrs. Bei voll geladenem Magazin steigt die Kraft von Schüssen.",
+      "en": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
+      "fr": "Augmente la vitesse de rechargement du fusarbalète et la puissance des balles quand il est chargé."
+    }
+  },
+  {
+    "id": 30,
+    "name": {
+      "de": "Tetradschuss",
+      "en": "Tetrad Shot",
+      "fr": "Quatrième tir"
+    },
+    "description": {
+      "de": "Erhöht Affinität von Bogengewehrmuni/Pfeilbeschichtungen ab 4. Schuss sowie Angriff des 4. und 6. Schusses.",
+      "en": "Increases affinity of bowgun ammo/ coatings from the fourth shot and attack of the fourth and sixth shots.",
+      "fr": "Augmente l'affinité des munitions (fusarbalète) et fioles (arc) dès le 4e tir et l'attaque pour les 4e et 6e tirs."
+    }
+  },
+  {
+    "id": 31,
+    "name": {
+      "de": "Spezialmunitionboost",
+      "en": "Special Ammo Boost",
+      "fr": "Salve mortelle"
+    },
+    "description": {
+      "de": "Erhöht Schaden von Spezialmunition (Bogengewehr) sowie Drachentöter, Tausend Drachen, Zielmark. (Bogen).",
+      "en": "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer.",
+      "fr": "Augmente la puissance des munitions spéciales (fusarbalète) et Perce-dragon/ Mille dragons/Munitions traçantes (arc)."
+    }
+  },
+  {
+    "id": 32,
+    "name": {
+      "de": "Giftbeschichtung",
+      "en": "Poison Functionality",
+      "fr": "Apothicaire"
+    },
+    "description": {
+      "de": "Ermöglicht das Auftragen von Giftbeschichtungen (Bogen).",
+      "en": "Allows you to apply poison coatings.",
+      "fr": "Permet d'utiliser des fioles de poison."
+    }
+  },
+  {
+    "id": 33,
+    "name": {
+      "de": "Lähmungsbeschichtung",
+      "en": "Para Functionality",
+      "fr": "Gibier de potence"
+    },
+    "description": {
+      "de": "Ermöglicht das Auftragen von Lähmungsbeschichtungen (Bogen).",
+      "en": "Allows you to apply paralysis coatings.",
+      "fr": "Permet d'utiliser des fioles de paralysie."
+    }
+  },
+  {
+    "id": 34,
+    "name": {
+      "de": "Schlafbeschichtung",
+      "en": "Sleep Functionality",
+      "fr": "Marchand de sable"
+    },
+    "description": {
+      "de": "Ermöglicht das Auftragen von Schlafbeschichtungen (Bogen).",
+      "en": "Allows you to apply sleep coatings.",
+      "fr": "Permet d'utiliser des fioles de sommeil."
+    }
+  },
+  {
+    "id": 35,
+    "name": {
+      "de": "Explosionsbeschichtung",
+      "en": "Blast Functionality",
+      "fr": "Maître bombardier"
+    },
+    "description": {
+      "de": "Ermöglicht das Auftragen von Explosionsbeschichtungen (Bogen).",
+      "en": "Allows you to apply blast coatings.",
+      "fr": "Permet d'utiliser des fioles explosives."
+    }
+  },
+  {
+    "id": 36,
+    "name": {
+      "de": "Ermüdungsbeschichtung",
+      "en": "Exhaust Functionality",
+      "fr": "Pattes engourdies"
+    },
+    "description": {
+      "de": "Ermöglicht das Auftragen von Ermüdungsbeschichtungen (Bogen).",
+      "en": "Allows you to apply exhaust coatings.",
+      "fr": "Permet d'utiliser des fioles de léthargie."
+    }
+  },
+  {
+    "id": 37,
+    "name": {
+      "de": "Fokus",
+      "en": "Focus",
+      "fr": "Concentration"
+    },
+    "description": {
+      "de": "Erhöht das Fülltempo von Waffen mit Balken und die Ladegeschwindigkeit von Waffen mit aufgeladenen Angriffen.",
+      "en": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+      "fr": "Améliore la vitesse de remplissage des armes à jauges et la vitesse de chargement des armes à charges."
+    }
+  },
+  {
+    "id": 38,
+    "name": {
+      "de": "Kraftverlängerung",
+      "en": "Power Prolonger",
+      "fr": "Puissance absolue"
+    },
+    "description": {
+      "de": "Langschwerter, Doppelklingen, Insektenglefen, Morph-Äxte und Energieklingen bleiben länger verstärkt.",
+      "en": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
+      "fr": "Les épées longues, insectoglaives, lames doubles, morpho-haches, et volto-haches restent chargés plus longtemps."
+    }
+  },
+  {
+    "id": 39,
+    "name": {
+      "de": "Bestrafender Zug",
+      "en": "Punishing Draw",
+      "fr": "Batto-jutsu"
+    },
+    "description": {
+      "de": "Erweitert Zug-Angriffe um Betäubung und erhöht die Angriffskraft geringfügig. (Kein Effekt beim Reiten.)",
+      "en": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+      "fr": "Ajoute un étourdissement aux attaques dégainées. Augmente un peu l'attaque (sans effet en chevauchant)."
+    }
+  },
+  {
+    "id": 40,
+    "name": {
+      "de": "Lähmer",
+      "en": "Slugger",
+      "fr": "Cogneur"
+    },
+    "description": {
+      "de": "Erleichtert das Betäuben von Monstern.",
+      "en": "Makes it easier to stun monsters.",
+      "fr": "Permet d'étourdir plus facilement les monstres."
+    }
+  },
+  {
+    "id": 41,
+    "name": {
+      "de": "Ausdauerdieb",
+      "en": "Stamina Thief",
+      "fr": "Vol d'endurance"
+    },
+    "description": {
+      "de": "Erhöht die Fähigkeit bestimmter Angriffe, Monster zu ermüden.",
+      "en": "Increases certain attacks' ability to exhaust monsters.",
+      "fr": "Augmente la capacité de certaines attaques à infliger l'affliction léthargie aux monstres."
+    }
+  },
+  {
+    "id": 42,
+    "name": {
+      "de": "Artillerie",
+      "en": "Artillery",
+      "fr": "BOUM !"
+    },
+    "description": {
+      "de": "Verstärkt Explosivangriffe: Wyvernfeuer, Patronen, Detonationsmunition und Phiolenangriffe der Energieklinge.",
+      "en": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+      "fr": "Augmente la puissance des attaques explosives : lancecanon, Feu de wyverne, fioles de choc et munitions antiblindage."
+    }
+  },
+  {
+    "id": 43,
+    "name": {
+      "de": "Blitz-Morphen",
+      "en": "Rapid Morph",
+      "fr": "Morphose rapide"
+    },
+    "description": {
+      "de": "Erhöht Morph-Geschwindigkeit und Kraft von Morph-Äxten und Energieklingen.",
+      "en": "Increases switch speed and power for switch axes and charge blades.",
+      "fr": "Augmente la vitesse de la morphose et la puissance des morpho-haches et des volto-haches."
+    }
+  },
+  {
+    "id": 44,
+    "name": {
+      "de": "Horn-Maestro",
+      "en": "Horn Maestro",
+      "fr": "Maestro"
+    },
+    "description": {
+      "de": "Verlängert die Effektdauer von Jagdhornmelodien. (Der Effekt geht bei einem Waffenwechsel verloren.)",
+      "en": "Increases the effect duration of hunting horn melodies. (Effect lost when you change weapons.)",
+      "fr": "Prolonge la durée des mélodies des cornes de chasse (effet perdu lorsque vous changez d'arme)."
+    }
+  },
+  {
+    "id": 45,
+    "name": {
+      "de": "Aufladen",
+      "en": "Charge Up",
+      "fr": "Surcharge"
+    },
+    "description": {
+      "de": "Erhöht deine Fähigkeit, Betäubung auszulösen, wenn du ein Monster mit dem aufgeladenen Angriff eines Hammers triffst.",
+      "en": "Increases your power to induce stun when you hit a monster with a hammer's charged attack.",
+      "fr": "Augmente votre capacité à étourdir lorsque vous frappez un monstre avec une attaque de marteau chargée."
+    }
+  },
+  {
+    "id": 46,
+    "name": {
+      "de": "Luftherrschaft",
+      "en": "Airborne",
+      "fr": "Mort venue d'en haut"
+    },
+    "description": {
+      "de": "Erhöht den Schaden durch gesprungene Angriffe.",
+      "en": "Increases the damage caused by jumping attacks.",
+      "fr": "Augmente la puissance des attaques sautées."
+    }
+  },
+  {
+    "id": 47,
+    "name": {
+      "de": "Giftdauer hoch",
+      "en": "Poison Duration Up",
+      "fr": "Poison +"
+    },
+    "description": {
+      "de": "Verlängert die Dauer des Effekts deines Gifts auf Monster.",
+      "en": "Extends the duration of your poison's effect on monsters.",
+      "fr": "Prolonge la durée de l'effet de votre poison sur les monstres."
+    }
+  },
+  {
+    "id": 48,
+    "name": {
+      "de": "Blocken",
+      "en": "Guard",
+      "fr": "Paladin"
+    },
+    "description": {
+      "de": "Reduziert Rückwürfe und den Ausdauerverbrauch beim Blocken.",
+      "en": "Reduces knockbacks and stamina depletion when guarding.",
+      "fr": "Réduit les repoussements et la perte d'endurance lorsque vous bloquez."
+    }
+  },
+  {
+    "id": 49,
+    "name": {
+      "de": "Blocken hoch",
+      "en": "Guard Up",
+      "fr": "Ultra garde"
+    },
+    "description": {
+      "de": "Ermöglicht das Blocken von normalerweise nicht blockbaren Angriffen.",
+      "en": "Allows you to guard against ordinarily unblockable attacks.",
+      "fr": "Permet de parer des attaques normalement imparables."
+    }
+  },
+  {
+    "id": 50,
+    "name": {
+      "de": "Patronennachlader",
+      "en": "Load Shells",
+      "fr": "Recharge chargée"
+    },
+    "description": {
+      "de": "Verbessert das Nachladen und erhöht die Munitionskapazität der Gewehrlanze sowie die Phiolenkapazität der Energieklinge.",
+      "en": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+      "fr": "Améliore le rechargement et augmente le nombre de munitions du lancecanon et de fioles de volto-hache."
+    }
+  },
+  {
+    "id": 51,
+    "name": {
+      "de": "Schnelles Schärfen",
+      "en": "Speed Sharpening",
+      "fr": "Affûtage rapide"
+    },
+    "description": {
+      "de": "Beschleunigt das Schärfen von Waffen bei der Verwendung eines Wetzsteins.",
+      "en": "Speeds up weapon sharpening when using a whetstone.",
+      "fr": "Accélère l'affûtage d'une arme avec un aiguisoir."
+    }
+  },
+  {
+    "id": 52,
+    "name": {
+      "de": "Groll",
+      "en": "Resentment",
+      "fr": "Vengeance"
+    },
+    "description": {
+      "de": "Erhöht den Angriff, wenn du erholbaren Schaden erlitten hast (der rote Abschnitt des Gesundheitsbalkens).",
+      "en": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
+      "fr": "Augmente l'attaque lorsque vous avez subi des dégâts temporaires (zone rouge de la jauge de vie)."
+    }
+  },
+  {
+    "id": 53,
+    "name": {
+      "de": "Adrenalinschub",
+      "en": "Adrenaline Rush",
+      "fr": "Poussée d'adrénaline"
+    },
+    "description": {
+      "de": "Erhöht nach perfekt getimtem Ausweichen während eines Monsterangriffs vorübergehend die Angriffskraft.",
+      "en": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+      "fr": "Esquivez juste avant une attaque pour un bonus d'attaque temporaire."
+    }
+  },
+  {
+    "id": 54,
+    "name": {
+      "de": "Höchstleistung",
+      "en": "Peak Performance",
+      "fr": "Performance optimale"
+    },
+    "description": {
+      "de": "Verbessert den Angriff, wenn dein Gesundheitsbalken gefüllt ist.",
+      "en": "Increases attack when your health is full.",
+      "fr": "Augmente l'attaque quand votre vie est à son maximum."
+    }
+  },
+  {
+    "id": 55,
+    "name": {
+      "de": "Gegenschlag",
+      "en": "Counterstrike",
+      "fr": "Contre-attaque"
+    },
+    "description": {
+      "de": "Erhöht vorübergehend die Angriffskraft, nachdem du zurückgeworfen wurdest.",
+      "en": "Temporarily increases attack power after being knocked back.",
+      "fr": "Accroît temporairement la puissance d'attaque après avoir été projeté."
+    }
+  },
+  {
+    "id": 56,
+    "name": {
+      "de": "Schwächevorteil",
+      "en": "Weakness Exploit",
+      "fr": "Mise à mort"
+    },
+    "description": {
+      "de": "Erhöht die Affinität von Angriffen, die Schwachpunkte und Wunden eines Monsters ausnutzen.",
+      "en": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
+      "fr": "Augmente l'affinité lorsque vous attaquez le point faible d'un monstre et ses blessures."
+    }
+  },
+  {
+    "id": 57,
+    "name": {
+      "de": "Höchstmacht",
+      "en": "Maximum Might",
+      "fr": "Corps et âme"
+    },
+    "description": {
+      "de": "Erhöht die Affinität, wenn der Ausdauerbalken für eine bestimmte Zeit voll ist.",
+      "en": "Increases affinity if stamina is kept full for a period of time.",
+      "fr": "Augmente l'affinité si l'endurance est à son maximum pendant un certain temps."
+    }
+  },
+  {
+    "id": 58,
+    "name": {
+      "de": "Elemente umwandeln",
+      "en": "Convert Element",
+      "fr": "Conversion élémentaire"
+    },
+    "description": {
+      "de": "Erleidest du Elementschaden, erhältst du vorübergehend Drachenelementeffekte. (Abklingzeit nach Effektende.)",
+      "en": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
+      "fr": "En subissant des dégâts élémentaires, confère temporairement des effets de l'élément dragon. (Temps de rechargement après activation.)"
+    }
+  },
+  {
+    "id": 59,
+    "name": {
+      "de": "Verteidigungsboost",
+      "en": "Defense Boost",
+      "fr": "Bastion"
+    },
+    "description": {
+      "de": "Erhöht die Verteidigung. Auf höheren Stufen werden auch die Widerstände verbessert.",
+      "en": "Increases defense. Also improves resistances at higher levels.",
+      "fr": "Augmente la défense, ainsi que les résistances élémentaires aux niveaux supérieurs."
+    }
+  },
+  {
+    "id": 60,
+    "name": {
+      "de": "Göttlicher Segen",
+      "en": "Divine Blessing",
+      "fr": "Bénédiction"
+    },
+    "description": {
+      "de": "Verringert den von dir erlittenen Schaden mit einer bestimmten Wahrscheinlichkeit.",
+      "en": "Has a predetermined chance of reducing the damage you take.",
+      "fr": "A une chance prédéfinie de réduire les dégâts que vous subissez."
+    }
+  },
+  {
+    "id": 61,
+    "name": {
+      "de": "Feuerwiderstand",
+      "en": "Fire Resistance",
+      "fr": "Ignifuge"
+    },
+    "description": {
+      "de": "Erhöht den Feuerwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+      "en": "Increases fire resistance. Also improves defense at higher levels.",
+      "fr": "Augmente la protection contre les attaques élémentaires feu puis les attaques physiques."
+    }
+  },
+  {
+    "id": 62,
+    "name": {
+      "de": "Wasserwiderstand",
+      "en": "Water Resistance",
+      "fr": "Étanchéité"
+    },
+    "description": {
+      "de": "Erhöht den Wasserwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+      "en": "Increases water resistance. Also improves defense at higher levels.",
+      "fr": "Augmente la protection contre les attaques élémentaires eau puis les attaques physiques."
+    }
+  },
+  {
+    "id": 63,
+    "name": {
+      "de": "Donnerwiderstand",
+      "en": "Thunder Resistance",
+      "fr": "Paratonnerre"
+    },
+    "description": {
+      "de": "Erhöht den Donnerwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+      "en": "Increases thunder resistance. Also improves defense at higher levels.",
+      "fr": "Augmente la protection contre les attaques élémentaires foudre puis les attaques physiques."
+    }
+  },
+  {
+    "id": 64,
+    "name": {
+      "de": "Eiswiderstand",
+      "en": "Ice Resistance",
+      "fr": "Antigel"
+    },
+    "description": {
+      "de": "Erhöht den Eiswiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+      "en": "Increases ice resistance. Also improves defense at higher levels.",
+      "fr": "Augmente la protection contre les attaques élémentaires glace puis les attaques physiques."
+    }
+  },
+  {
+    "id": 65,
+    "name": {
+      "de": "Drachenwiderstand",
+      "en": "Dragon Resistance",
+      "fr": "Aura draconique"
+    },
+    "description": {
+      "de": "Erhöht den Drachenwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+      "en": "Increases dragon resistance. Also improves defense at higher levels.",
+      "fr": "Augmente la protection contre les attaques élémentaires dragon puis les attaques physiques."
+    }
+  },
+  {
+    "id": 66,
+    "name": {
+      "de": "Giftwiderstand",
+      "en": "Poison Resistance",
+      "fr": "Toxicologie"
+    },
+    "description": {
+      "de": "Verringert den Schaden bei Vergiftungen.",
+      "en": "Reduces damage while poisoned.",
+      "fr": "Réduit les dégâts subis en cas d'empoisonnement."
+    }
+  },
+  {
+    "id": 67,
+    "name": {
+      "de": "Lähmungswiderstand",
+      "en": "Paralysis Resistance",
+      "fr": "Antiparalysie"
+    },
+    "description": {
+      "de": "Reduziert die Dauer von Lähmungen.",
+      "en": "Reduces the duration of paralysis.",
+      "fr": "Réduit la durée de paralysie."
+    }
+  },
+  {
+    "id": 68,
+    "name": {
+      "de": "Schlafwiderstand",
+      "en": "Sleep Resistance",
+      "fr": "Insomnie"
+    },
+    "description": {
+      "de": "Reduziert die Dauer von Schlaf.",
+      "en": "Reduces the duration of sleep.",
+      "fr": "Réduit la durée de sommeil."
+    }
+  },
+  {
+    "id": 69,
+    "name": {
+      "de": "Eisenhaut",
+      "en": "Iron Skin",
+      "fr": "Peau de fer"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen Verteidigung runter.",
+      "en": "Grants protection against defense down.",
+      "fr": "Confère une résistance aux effets de Défense réduite."
+    }
+  },
+  {
+    "id": 70,
+    "name": {
+      "de": "Pestwiderstand",
+      "en": "Blight Resistance",
+      "fr": "Totem élémentaire"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen alle elementbasierten Pestarten.",
+      "en": "Grants protection against all elemental blights.",
+      "fr": "Confère une résistance à tous les fléaux élémentaires."
+    }
+  },
+  {
+    "id": 71,
+    "name": {
+      "de": "Betäubungswiderstand",
+      "en": "Stun Resistance",
+      "fr": "Crâne d'acier"
+    },
+    "description": {
+      "de": "Reduziert die Dauer von Betäubungen.",
+      "en": "Reduces the duration of stun.",
+      "fr": "Réduit la durée d'étourdissement."
+    }
+  },
+  {
+    "id": 72,
+    "name": {
+      "de": "Blutungswiderstand",
+      "en": "Bleeding Resistance",
+      "fr": "Antihémorragie"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen Blutungen.",
+      "en": "Grants protection against bleeding.",
+      "fr": "Confère une résistance à l'hémorragie."
+    }
+  },
+  {
+    "id": 73,
+    "name": {
+      "de": "Befreiungskunst",
+      "en": "Bind Resistance",
+      "fr": "Anti-immobilisation"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen den Status „Eingenetzt“ und Frostpest.",
+      "en": "Grants protection against webbed status and frostblight.",
+      "fr": "Confère une résistance à l'état Toile et au fléau-givre."
+    }
+  },
+  {
+    "id": 74,
+    "name": {
+      "de": "Explosionswiderstand",
+      "en": "Blast Resistance",
+      "fr": "Antiexplosion"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen Explosionspest.",
+      "en": "Grants protection against blastblight.",
+      "fr": "Confère une résistance au fléau-explosion."
+    }
+  },
+  {
+    "id": 75,
+    "name": {
+      "de": "Gestankswiderstand",
+      "en": "Stench Resistance",
+      "fr": "Antipuanteur"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen Gestank.",
+      "en": "Grants protection against stench.",
+      "fr": "Confère une résistance à la puanteur."
+    }
+  },
+  {
+    "id": 76,
+    "name": {
+      "de": "Anpassung",
+      "en": "Adaptability",
+      "fr": "Adaptabilité"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen Umgebungsschaden wie Hitze oder Kälte.",
+      "en": "Grants protection against environmental damage, such as from heat or cold.",
+      "fr": "Confère une résistance aux dégâts environnementaux, comme la chaleur ou le froid."
+    }
+  },
+  {
+    "id": 77,
+    "name": {
+      "de": "Erholungsplus",
+      "en": "Recovery Up",
+      "fr": "Cercle de vie"
+    },
+    "description": {
+      "de": "Erhöht die Menge der wiederhergestellten Gesundheit.",
+      "en": "Increases the amount recovered when restoring health.",
+      "fr": "Augmente la quantité de vie restaurée."
+    }
+  },
+  {
+    "id": 78,
+    "name": {
+      "de": "Erholungstempo",
+      "en": "Recovery Speed",
+      "fr": "Halo de guérison"
+    },
+    "description": {
+      "de": "Erlaubt die schnellere Heilung von erholbarem Schaden (der rote Abschnitt des Gesundheitsbalkens).",
+      "en": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+      "fr": "Augmente la vitesse de guérison des dégâts temporaires (zone rouge de la jauge de vie)."
+    }
+  },
+  {
+    "id": 79,
+    "name": {
+      "de": "Überlebensexperte",
+      "en": "Survival Expert",
+      "fr": "Ami de la nature"
+    },
+    "description": {
+      "de": "Erhöht die wiederhergestellte Gesundheit bei Umgebungsinteraktionen.",
+      "en": "Extra health is recovered from environmental interactables.",
+      "fr": "Vous récupérez plus de vie en interagissant avec des éléments de l'environnement."
+    }
+  },
+  {
+    "id": 80,
+    "name": {
+      "de": "Konstitution",
+      "en": "Constitution",
+      "fr": "Athlète"
+    },
+    "description": {
+      "de": "Reduziert den Ausdauerverlust beim Ausweichen, Blocken und bestimmten anderen Aktionen.",
+      "en": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+      "fr": "Ralentit la perte d'endurance en cas d'esquive, de blocage, etc."
+    }
+  },
+  {
+    "id": 81,
+    "name": {
+      "de": "Ausdauererholung",
+      "en": "Stamina Surge",
+      "fr": "Métabolisme"
+    },
+    "description": {
+      "de": "Beschleunigt die Ausdauerregeneration.",
+      "en": "Speeds up stamina recovery.",
+      "fr": "Accélère la récupération d'endurance."
+    }
+  },
+  {
+    "id": 82,
+    "name": {
+      "de": "Marathon-Läufer",
+      "en": "Marathon Runner",
+      "fr": "Marathonien"
+    },
+    "description": {
+      "de": "Verlangsamt den Ausdauerverbrauch von Aktionen, die andauernd Ausdauer erschöpfen (etwa Sprinten).",
+      "en": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+      "fr": "Réduit la consommation d'endurance des actions qui en utilisent en continu (exemple : courir)."
+    }
+  },
+  {
+    "id": 83,
+    "name": {
+      "de": "Hungerwiderstand",
+      "en": "Hunger Resistance",
+      "fr": "Coupe-faim"
+    },
+    "description": {
+      "de": "Reduziert die Abnahme der maximalen Ausdauer.",
+      "en": "Reduces maximum stamina depletion over time.",
+      "fr": "Réduit la perte d'endurance maximum au fil du temps."
+    }
+  },
+  {
+    "id": 84,
+    "name": {
+      "de": "Aufhetzer",
+      "en": "Agitator",
+      "fr": "Témérité"
+    },
+    "description": {
+      "de": "Erhöht Angriffskraft und Affinität, wenn große Monster wütend werden.",
+      "en": "Increases attack power and affinity when large monsters become enraged.",
+      "fr": "Augmente l'attaque et l'affinité lorsque les grands monstres sont enragés."
+    }
+  },
+  {
+    "id": 85,
+    "name": {
+      "de": "Kraftentfesselung",
+      "en": "Latent Power",
+      "fr": "Force latente"
+    },
+    "description": {
+      "de": "Erhöht unter bestimmten Bedingungen vorübergehend die Affinität und verringert den Ausdauerverbrauch.",
+      "en": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+      "fr": "Augmente temporairement l'affinité et réduit la perte d'endurance dans certaines conditions."
+    }
+  },
+  {
+    "id": 86,
+    "name": {
+      "de": "Heldentat",
+      "en": "Heroics",
+      "fr": "Héroïsme"
+    },
+    "description": {
+      "de": "Erhöht die Angriffskraft und die Verteidigung, wenn deine Gesundheit bei 35 % oder weniger ist.",
+      "en": "Increases attack power and defense when health drops to 35% or lower.",
+      "fr": "Augmente l'attaque et la défense lorsque la vie est inférieure ou égale à 35 %."
+    }
+  },
+  {
+    "id": 87,
+    "name": {
+      "de": "Salve",
+      "en": "Burst",
+      "fr": "Vendetta"
+    },
+    "description": {
+      "de": "Kontinuierliche Treffer erhöhen allmählich Angriff und Elementangriff, das Ausmaß ist abhängig von der Waffe.",
+      "en": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+      "fr": "Attaquez sans arrêt pour augmenter progressivement l'attaque et l'attaque élémentaire. (L'augmentation dépend de l'arme.)"
+    }
+  },
+  {
+    "id": 88,
+    "name": {
+      "de": "Vorstoß",
+      "en": "Foray",
+      "fr": "Incursion"
+    },
+    "description": {
+      "de": "Erhöht Angriffskraft und Affinität gegen von Gift oder Lähmung betroffene große Monster.",
+      "en": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
+      "fr": "Augmente l'attaque et l'affinité contre les grands monstres empoisonnés ou paralysés."
+    }
+  },
+  {
+    "id": 89,
+    "name": {
+      "de": "Schinder",
+      "en": "Flayer",
+      "fr": "Écorcheur"
+    },
+    "description": {
+      "de": "Erleichtert das Verursachen von Wunden. Verursacht bei genug Schaden zusätzlichen Nicht-Element-Schaden.",
+      "en": "Makes it easier to inflict wounds. Upon inflicting enough damage, also deals additional non-elemental damage.",
+      "fr": "Facilite la création d'une blessure. Infligez assez de dégâts pour un bonus de dégâts non élémentaires."
+    }
+  },
+  {
+    "id": 90,
+    "name": {
+      "de": "Palico-Versammlung",
+      "en": "Palico Rally",
+      "fr": "Esprit Palico"
+    },
+    "description": {
+      "de": "Stärkt Palicos.",
+      "en": "Powers up Palicoes.",
+      "fr": "Augmente l'attaque et la défense du Palico."
+    }
+  },
+  {
+    "id": 91,
+    "name": {
+      "de": "Teilezerstörer",
+      "en": "Partbreaker",
+      "fr": "Destructeur"
+    },
+    "description": {
+      "de": "Erleichtert Brechen von Teilen großer Monster und erhöht Schaden nach Wundenmaximierung mit Fokusangriff.",
+      "en": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+      "fr": "Facilite la destruction des parties des monstres et augmente les dégâts quand vous détruisez une blessure avec une Attaque Focus."
+    }
+  },
+  {
+    "id": 92,
+    "name": {
+      "de": "Verschmelzung",
+      "en": "Coalescence",
+      "fr": "Union"
+    },
+    "description": {
+      "de": "Verbessert nach der Erholung von Pest und anormalem Status vorübergehend Elementangriff und Statuseffekte.",
+      "en": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+      "fr": "Augmente temporairement l'attaque élémentaire et les afflictions après la fin d'un fléau ou d'un statut anormal."
+    }
+  },
+  {
+    "id": 93,
+    "name": {
+      "de": "Überfall",
+      "en": "Ambush",
+      "fr": "Embuscade"
+    },
+    "description": {
+      "de": "Erhöht vorübergehend den Schaden gegen große Monster nach erfolgreichen Schleichangriffen.",
+      "en": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+      "fr": "Augmente temporairement les dégâts infligés aux grands monstres par les attaques furtives."
+    }
+  },
+  {
+    "id": 94,
+    "name": {
+      "de": "Antivirus",
+      "en": "Antivirus",
+      "fr": "Antivirus"
+    },
+    "description": {
+      "de": "Erleichtert die Überwindung einer Raserei-Infektion. Verbessert nach der Heilung die Affinität.",
+      "en": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
+      "fr": "En cas d'infection, permet de surmonter plus facilement la Furie et augmente l'affinité en guérissant."
+    }
+  },
+  {
+    "id": 95,
+    "name": {
+      "de": "Elementare Absorption",
+      "en": "Elemental Absorption",
+      "fr": "Absorption élémentaire"
+    },
+    "description": {
+      "de": "Erleidest du Elementschaden, erhältst du vorübergehend Elementeffekte. (Abklingzeit nach Effektende.)",
+      "en": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
+      "fr": "En subissant des dégâts élémentaires, confère temporairement des effets élémentaires. (Temps de rechargement après activation.)"
+    }
+  },
+  {
+    "id": 96,
+    "name": {
+      "de": "Selbstverbesserung",
+      "en": "Self-Improvement",
+      "fr": "Auto-amélioration"
+    },
+    "description": {
+      "de": "Angriff und Verteidigung steigen mit der Zeit während einer Quest. (Das Maximum ist nach 30 Minuten erreicht.)",
+      "en": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
+      "fr": "Augmente progressivement l'attaque et la défense pendant une quête. (N'augmente plus après 30 minutes.)"
+    }
+  },
+  {
+    "id": 97,
+    "name": {
+      "de": "Unverwundbarkeit",
+      "en": "Evade Window",
+      "fr": "Fenêtre d'invulnérabilité"
+    },
+    "description": {
+      "de": "Verlängert die Unverwundbarkeitsdauer beim Ausweichen.",
+      "en": "Extends the invulnerability period when evading.",
+      "fr": "Augmente la durée de l'invulnérabilité en cas d'esquive."
+    }
+  },
+  {
+    "id": 98,
+    "name": {
+      "de": "Ausweichdistanz",
+      "en": "Evade Extender",
+      "fr": "Trompe-la-mort"
+    },
+    "description": {
+      "de": "Erhöht die Ausweichentfernung.",
+      "en": "Increases evade distance.",
+      "fr": "Augmente la distance d'esquive."
+    }
+  },
+  {
+    "id": 99,
+    "name": {
+      "de": "Ohrstöpsel",
+      "en": "Earplugs",
+      "fr": "Bouchon d'oreilles"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen das Brüllen großer Monster.",
+      "en": "Grants protection from large monsters' roars.",
+      "fr": "Confère une résistance aux rugissements des grands monstres."
+    }
+  },
+  {
+    "id": 100,
+    "name": {
+      "de": "Schnelles Wegstecken",
+      "en": "Quick Sheathe",
+      "fr": "Rengainage éclair"
+    },
+    "description": {
+      "de": "Beschleunigt das Wegstecken von Waffen.",
+      "en": "Speeds up weapon sheathing.",
+      "fr": "Augmente la vitesse de rengainage."
+    }
+  },
+  {
+    "id": 101,
+    "name": {
+      "de": "Windsicher",
+      "en": "Windproof",
+      "fr": "Pare-vent"
+    },
+    "description": {
+      "de": "Gewährt Schutz gegen Winddruck.",
+      "en": "Grants protection against wind pressure.",
+      "fr": "Confère une résistance aux bourrasques."
+    }
+  },
+  {
+    "id": 102,
+    "name": {
+      "de": "Bebenwiderstand",
+      "en": "Tremor Resistance",
+      "fr": "Sismologie"
+    },
+    "description": {
+      "de": "Gewährt Schutz vor Erdbeben.",
+      "en": "Grants protection against ground tremors.",
+      "fr": "Confère une résistance aux secousses."
+    }
+  },
+  {
+    "id": 103,
+    "name": {
+      "de": "Unbeeindruckt",
+      "en": "Flinch Free",
+      "fr": "Nerfs d'acier"
+    },
+    "description": {
+      "de": "Verhindert das Zurückwerfen sowie andere Reaktionen auf geringen Schaden.",
+      "en": "Prevents knockbacks and other reactions to small damage.",
+      "fr": "Évite les chutes et autres réactions aux dégâts mineurs."
+    }
+  },
+  {
+    "id": 104,
+    "name": {
+      "de": "Einschüchtern",
+      "en": "Intimidator",
+      "fr": "Intimidation"
+    },
+    "description": {
+      "de": "Verringert Chance, dass kleine Monster dich bei Sichtkontakt angreifen. (Kein Effekt auf bestimmte Monster.)",
+      "en": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
+      "fr": "Réduit les chances de vous faire attaquer par de petits monstres s'ils vous repèrent. Sans effet sur certains monstres."
+    }
+  },
+  {
+    "id": 105,
+    "name": {
+      "de": "Schnellessen",
+      "en": "Speed Eating",
+      "fr": "Carnassier"
+    },
+    "description": {
+      "de": "Beschleunigt den Verzehr von Fleisch und den Verbrauch von Objekten.",
+      "en": "Increases meat-eating and item-consumption speed.",
+      "fr": "Augmente la vitesse de consommation de viande et d'objets."
+    }
+  },
+  {
+    "id": 106,
+    "name": {
+      "de": "Sumpfläufer",
+      "en": "Aquatic/Oilsilt Mobility",
+      "fr": "Mobilité eau/boue huileuse"
+    },
+    "description": {
+      "de": "Gewährt Widerstand gegen Bewegungseinschränkungen durch Wasser, Ölschlamm oder Flüsse.",
+      "en": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
+      "fr": "Augmente la résistance contre les entraves à la mobilité dans l'eau, la boue huileuse ou les ruisseaux."
+    }
+  },
+  {
+    "id": 107,
+    "name": {
+      "de": "Schockabsorber",
+      "en": "Shock Absorber",
+      "fr": "Antichocs"
+    },
+    "description": {
+      "de": "Deaktiviert Schadensreaktionen, wenn du einen Freund triffst oder wenn ein Freund dich trifft.",
+      "en": "Disables damage reactions when you hit a friend or when a friend hits you.",
+      "fr": "Désactive les réactions aux dégâts lorsque vous touchez un allié ou inversement."
+    }
+  },
+  {
+    "id": 108,
+    "name": {
+      "de": "Schicksalssprung",
+      "en": "Leap of Faith",
+      "fr": "Saut de la foi"
+    },
+    "description": {
+      "de": "Weiche großen Monstern per langem Hechtsprung aus, indem du auf sie zuspringst. Hechtsprung-Distanz erhöht.",
+      "en": "Allows you to do a dive-evade when facing towards large monsters and extends the dive-evade distance.",
+      "fr": "Permet d'esquiver de grands monstres en sautant vers eux et d'étendre la distance d'esquive."
+    }
+  },
+  {
+    "id": 109,
+    "name": {
+      "de": "Sprungmeister",
+      "en": "Jump Master",
+      "fr": "Acrobate"
+    },
+    "description": {
+      "de": "Verhindert, dass du im Sprung durch Angriffe zurückgeworfen wirst.",
+      "en": "Prevents attacks from knocking you back during a jump.",
+      "fr": "Empêche les attaques de vous repousser pendant un saut."
+    }
+  },
+  {
+    "id": 110,
+    "name": {
+      "de": "Kletterer",
+      "en": "Cliffhanger",
+      "fr": "Monte-en-l'air"
+    },
+    "description": {
+      "de": "Verringert den Ausdauerverlust beim Erklimmen von Ranken.",
+      "en": "Decreases stamina depletion when climbing on vines.",
+      "fr": "Réduit la perte d'endurance lorsque vous grimpez sur des lianes."
+    }
+  },
+  {
+    "id": 111,
+    "name": {
+      "de": "Wirkbereich",
+      "en": "Wide-Range",
+      "fr": "Un pour tous"
+    },
+    "description": {
+      "de": "Teilt einige Objekteffekte mit benachbarten Verbündeten.",
+      "en": "Allows the effects of certain items to also affect nearby allies.",
+      "fr": "Partage les effets de certains objets avec les alliés à proximité."
+    }
+  },
+  {
+    "id": 112,
+    "name": {
+      "de": "Werkzeugmeister",
+      "en": "Tool Specialist",
+      "fr": "Expert en survie"
+    },
+    "description": {
+      "de": "Reduziert die Wartezeit, bis Spezialwerkzeuge erneut benutzt werden können.",
+      "en": "Reduces the recharge time for specialized tools.",
+      "fr": "Réduit le délai de réutilisation des outils de survie."
+    }
+  },
+  {
+    "id": 113,
+    "name": {
+      "de": "Bombardier",
+      "en": "Bombardier",
+      "fr": "Bombardier"
+    },
+    "description": {
+      "de": "Erhöht den durch explosive Objekte zugefügten Schaden.",
+      "en": "Increases the damage of explosive items.",
+      "fr": "Augmente les dégâts occasionnés par les objets explosifs."
+    }
+  },
+  {
+    "id": 114,
+    "name": {
+      "de": "Mykologie",
+      "en": "Mushroomancer",
+      "fr": "Mycologue extrême"
+    },
+    "description": {
+      "de": "Erlaubt die Verdauung von Pilzen, die sonst ungenießbar wären, wodurch du deren Bonuseffekte erhältst.",
+      "en": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+      "fr": "Permet de digérer des champignons non comestibles pour bénéficier de leurs effets positifs."
+    }
+  },
+  {
+    "id": 115,
+    "name": {
+      "de": "Objektverlängerung",
+      "en": "Item Prolonger",
+      "fr": "Chimiste"
+    },
+    "description": {
+      "de": "Verlängert die Dauer einiger Objekteffekte.",
+      "en": "Extends the duration of some item effects.",
+      "fr": "Augmente la durée des effets pour certains objets."
+    }
+  },
+  {
+    "id": 116,
+    "name": {
+      "de": "Freie Mahlzeit",
+      "en": "Free Meal",
+      "fr": "Pique-assiette"
+    },
+    "description": {
+      "de": "Nahrungsmittel können mit einer bestimmten Wahrscheinlichkeit kostenlos verzehrt werden.",
+      "en": "Gives you a predetermined chance of consuming a food or drink item for free.",
+      "fr": "Octroie une chance prédéfinie de consommer une nourriture ou un breuvage gratuitement."
+    }
+  },
+  {
+    "id": 117,
+    "name": {
+      "de": "Verblendung",
+      "en": "Blindsider",
+      "fr": "Aveuglement"
+    },
+    "description": {
+      "de": "Erhöht die Effektivität von Blitzangriffen und -objekten.",
+      "en": "Improves the effectiveness of flash attacks and items.",
+      "fr": "Améliore l'efficacité des attaques et objets flash."
+    }
+  },
+  {
+    "id": 118,
+    "name": {
+      "de": "Botaniker",
+      "en": "Botanist",
+      "fr": "Botaniste"
+    },
+    "description": {
+      "de": "Erhöht die Menge an Kräutern und anderen Verbrauchsobjekten, die du sammelst.",
+      "en": "Increases the quantity of herbs and other consumable items you gather.",
+      "fr": "Augmente la quantité d'herbes et d'objets utilisables que vous collectez."
+    }
+  },
+  {
+    "id": 119,
+    "name": {
+      "de": "Geologe",
+      "en": "Geologist",
+      "fr": "Géologiste"
+    },
+    "description": {
+      "de": "Erhöht die Anzahl an Objekten, die an Sammelpunkten erhalten werden.",
+      "en": "Increases the number of items you gain at gathering points.",
+      "fr": "Augmente le nombre d'objets récupérés aux points de collecte."
+    }
+  },
+  {
+    "id": 120,
+    "name": {
+      "de": "Entomologe",
+      "en": "Entomologist",
+      "fr": "Entomologiste"
+    },
+    "description": {
+      "de": "Die Körper kleiner Insektenmonster werden nicht zerstört und können so für Materialien zerlegt werden.",
+      "en": "The bodies of small insect monsters won't be destroyed, allowing them to be carved.",
+      "fr": "Les corps des petits insectes ne sont pas détruits, ce qui vous permet de les dépecer."
+    }
+  },
+  {
+    "id": 121,
+    "name": {
+      "de": "Naturbursche",
+      "en": "Outdoorsman",
+      "fr": "Art de la chasse"
+    },
+    "description": {
+      "de": "Verbessert Angel-, Grillund Transportfähigkeiten.",
+      "en": "Improves fishing, grilling, and transporting abilities.",
+      "fr": "Améliore la pêche, le gril et les capacités de déplacement."
+    }
+  },
+  {
+    "id": 122,
+    "name": {
+      "de": "Neopteron-Alarm",
+      "en": "Neopteron Alert",
+      "fr": "Alerte Neopteron"
+    },
+    "description": {
+      "de": "3 → Erhöht die an Sammelpunkten erhaltene Menge Honig.",
+      "en": "3 → Increases the amount of honey you gain from gathering points.",
+      "fr": "3 → Augmente la quantité de miel obtenu aux points de collecte."
+    }
+  },
+  {
+    "id": 123,
+    "name": {
+      "de": "Neopteron-Tarnung",
+      "en": "Neopteron Camouflage",
+      "fr": "Camouflage Neopteron"
+    },
+    "description": {
+      "de": "3 → Erhöht das Bewegungstempo in der Hocke und erleichtert es, von großen Monstern nicht gesehen zu werden.",
+      "en": "3 → Increases movement speed while crouching, and makes it easier to escape large monsters' detection.",
+      "fr": "3 → Augmente la vitesse de déplacement en position accroupie. Les monstres vous repèrent moins facilement."
+    }
+  },
+  {
+    "id": 124,
+    "name": {
+      "de": "Skalierungstechnik",
+      "en": "Scaling Prowess",
+      "fr": "Maîtrise des écailles"
+    },
+    "description": {
+      "de": "3 → Erleichtert das Aufsteigen auf Monster, um sie danach zu verletzen.",
+      "en": "3 → Makes it easier to mount monsters and to wound them once mounted.",
+      "fr": "3 → Permet de monter et de blesser les monstres plus facilement."
+    }
+  },
+  {
+    "id": 125,
+    "name": {
+      "de": "Schuppenschichtung",
+      "en": "Scale Layering",
+      "fr": "Écailles superposées"
+    },
+    "description": {
+      "de": "3 → Reduziert die Ausdauerabnahme vorübergehend, wenn die Gesundheit bei 40 % oder weniger liegt.",
+      "en": "3 → Temporarily reduces stamina depletion when health is at 40% or lower.",
+      "fr": "3 → Réduit temporairement la perte d'endurance lorsque la vie est inférieure ou égale à 40 %."
+    }
+  },
+  {
+    "id": 126,
+    "name": {
+      "de": "Flexibles Lederhandwerk",
+      "en": "Flexible Leathercraft",
+      "fr": "Cuir souple"
+    },
+    "description": {
+      "de": "3 → Erhöht die Sammelgeschwindigkeit und du kannst beim Sammeln oder Zerlegen nicht mehr zurückgestoßen werden.",
+      "en": "3 → Increases gathering speed, and prevents knock back when gathering or carving.",
+      "fr": "3 → Augmente la vitesse de collecte et empêche les attaques de vous repousser pendant la collecte ou le dépeçage."
+    }
+  },
+  {
+    "id": 127,
+    "name": {
+      "de": "Buttriges Lederhandwerk",
+      "en": "Buttery Leathercraft",
+      "fr": "Douceur du cuir"
+    },
+    "description": {
+      "de": "3 → Erhöht kurzzeitig deine Affinität, wenn du über das Gelände schlitterst.",
+      "en": "3 → Increases your affinity temporarily when sliding on terrain.",
+      "fr": "3 → Augmente temporairement votre affinité pendant les glissades."
+    }
+  },
+  {
+    "id": 128,
+    "name": {
+      "de": "Kräftigender Pelz",
+      "en": "Fortifying Pelt",
+      "fr": "Pelage de renforcement"
+    },
+    "description": {
+      "de": "3 → Erhöht auf einer Quest nach Ohnmacht Angriff und Verteidigung. (Kann zweimal genutzt werden.)",
+      "en": "3 → Increases attack and defense after fainting during a quest. (Can be used twice.)",
+      "fr": "3 → Augmente l'attaque et la défense après un évanouissement pendant une quête. *Deux fois max."
+    }
+  },
+  {
+    "id": 129,
+    "name": {
+      "de": "Ködernder Pelz",
+      "en": "Alluring Pelt",
+      "fr": "Pelage attrayant"
+    },
+    "description": {
+      "de": "3 → Erhöht die beim Angreifen eines Monsters erweckte Aufmerksamkeit.",
+      "en": "3 → Increases the attention drawn to you when attacking a monster.",
+      "fr": "3 → Attire davantage l'attention d'un monstre quand vous l'attaquez."
+    }
+  },
+  {
+    "id": 130,
+    "name": {
+      "de": "Gefallen für den Fürsten",
+      "en": "Lord's Favor",
+      "fr": "Faveur du seigneur"
+    },
+    "description": {
+      "de": "3 → Erhöht vorübergehend Angriffskraft, wenn Effekte wie Melodie-Effekte sich auf Gefährten im Umkreis auswirken.",
+      "en": "3 → Temporarily increases attack power when using effects like Melody Effects that affect companions in range.",
+      "fr": "3 → Augmente temporairement la puissance d'attaque avec les effets qui affectent les compagnons (comme les Mélodies)."
+    }
+  },
+  {
+    "id": 131,
+    "name": {
+      "de": "Apex-Zorn",
+      "en": "Lord's Fury",
+      "fr": "Rage supérieure"
+    },
+    "description": {
+      "de": "3 → Erhöht den Angriff, wenn du von Statusanomalien betroffen bist.",
+      "en": "3 → Increases attack when inflicted with ailments.",
+      "fr": "3 → Augmente l'attaque quand vous êtes victime d'une affliction."
+    }
+  },
+  {
+    "id": 132,
+    "name": {
+      "de": "Wächterpuls",
+      "en": "Guardian's Pulse",
+      "fr": "Pouls du Gardien"
+    },
+    "description": {
+      "de": "3 → Beschleunigt die Erholung von Ausdauer und roter Gesundheit in der Nähe von Wiolkristallen.",
+      "en": "3 → Increases recovery speed of stamina and red gauge when near Wylkrystals.",
+      "fr": "3 → Accélère la récupération d'endurance et de la jauge rouge près des cristaux de wylait."
+    }
+  },
+  {
+    "id": 133,
+    "name": {
+      "de": "Wächter-Schutz",
+      "en": "Guardian's Protection",
+      "fr": "Protection du Gardien"
+    },
+    "description": {
+      "de": "3 → Verringert in den Ruinen von Wyveria Elementund besonderen Schaden, den du erleidest.",
+      "en": "3 → Reduces elemental and unique damage while in the Ruins of Wyveria.",
+      "fr": "3 → Réduit les dégâts uniques et élémentaires dans les Ruines de Wyveria."
+    }
+  },
+  {
+    "id": 134,
+    "name": {
+      "de": "Vermittelte Weisheit",
+      "en": "Imparted Wisdom",
+      "fr": "Sagesse transmise"
+    },
+    "description": {
+      "de": "3 → Erhöht die Wahrscheinlichkeit, seltene Sammelpunkte zu finden.",
+      "en": "3 → Increases the chance of finding rare gathering points.",
+      "fr": "3 → Augmente les chances de trouver des points de collecte rare."
+    }
+  },
+  {
+    "id": 135,
+    "name": {
+      "de": "Doshaguma-Macht",
+      "en": "Doshaguma's Might",
+      "fr": "Puissance du Doshaguma"
+    },
+    "description": {
+      "de": "2 → Vorübergehend Angriff +10 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff.\r\n4 → Vorübergehend Angriff +25 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff.",
+      "en": "2 → Temporarily grants attack +10 after a successful Power Clash or Offset attack\r\n4 → Temporarily grants attack +25 after a successful Power Clash or Offset attack",
+      "fr": "2 → Octroie temporairement Attaque +10 après une Neutralisation ou un Duel de force réussi.\r\n4 → Octroie temporairement Attaque +25 après une Neutralisation ou un Duel de force réussi."
+    }
+  },
+  {
+    "id": 136,
+    "name": {
+      "de": "Rathalos’ Auflodern",
+      "en": "Rathalos's Flare",
+      "fr": "Éclat du Rathalos"
+    },
+    "description": {
+      "de": "2 → Chance auf zusätzlichen Feuerschaden nach erfolgreichem Treffer.\r\n4 → Erhöht den zusätzlichen Feuerschaden nach erfolgreichem Treffer.",
+      "en": "2 → Chance to deal additional fire damage after landing an attack.\r\n4 → Increases additional fire damage after landing an attack.",
+      "fr": "2 → Chances d'infliger des dégâts de feu supplémentaires après une attaque réussie.\r\n4 → Augmente les dégâts de feu supplémentaires après une attaque réussie."
+    }
+  },
+  {
+    "id": 137,
+    "name": {
+      "de": "Xu Wus Nachdruck",
+      "en": "Xu Wu's Vigor",
+      "fr": "Vigueur du Xu Wu"
+    },
+    "description": {
+      "de": "2 → Vorübergehend Angriff +15 nach dem Essen von Objekten wie Gebratenem Steak.\r\n4 → Vorübergehend Angriff +25 nach dem Essen von Objekten wie Gebratenem Steak.",
+      "en": "2 → Temporarily grants attack +15 after eating items such as well-done steak.\r\n4 → Temporarily grants attack +25 after eating items such as well-done steak.",
+      "fr": "2 → Confère temporairement +15 d'attaque après avoir consommé des objets tels que des steaks à point.\r\n4 → Confère temporairement +25 d'attaque après avoir consommé des objets tels que des steaks à point."
+    }
+  },
+  {
+    "id": 138,
+    "name": {
+      "de": "Gravios’ Schutz",
+      "en": "Gravios's Protection",
+      "fr": "Protection du Gravios"
+    },
+    "description": {
+      "de": "2 → Verringert deinen erlittenen Schaden um 5 %, wenn dein Gesundheitsbalken gefüllt ist.\r\n4 → Verringert deinen erlittenen Schaden um 10 %, wenn dein Gesundheitsbalken gefüllt ist.",
+      "en": "2 → Reduces the damage you take by 5% when your health is full.\r\n4 → Reduces the damage you take by 10% when your health is full.",
+      "fr": "2 → Réduit les dégâts subis de 5 % quand votre vie est pleine.\r\n4 → Réduit les dégâts subis de 10 % quand votre vie est pleine."
+    }
+  },
+  {
+    "id": 139,
+    "name": {
+      "de": "Blangongas Geist",
+      "en": "Blangonga's Spirit",
+      "fr": "Esprit du Blangonga"
+    },
+    "description": {
+      "de": "2 → Die Geste „Zum Sieg!“ erhöht kurzzeitig den Angriff naher Verbündeter wie Palicos und Hilfsjägern etwas.\r\n4 → Die Geste „Zum Sieg!“ erhöht kurzzeitig den Angriff naher Verbündeter wie Palicos und Hilfsjägern.",
+      "en": "2 → Using the To Victory! gesture moderately increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.\r\n4 → Using the To Victory! gesture increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.",
+      "fr": "2 → Augmente l'attaque modérément et temporairement dans la zone après Victoire ! (accru pour Palicos/Chasseurs de soutien).\r\n4 → Augmente l'attaque temporairement dans la zone après Victoire ! (accru pour Palicos/Chasseurs de soutien)."
+    }
+  },
+  {
+    "id": 140,
+    "name": {
+      "de": "Vulkan-Odogarons Macht",
+      "en": "Ebony Odogaron's Power",
+      "fr": "Pouvoir de l'Odogaron désastre"
+    },
+    "description": {
+      "de": "2 → Verlängert die Dauer der SalveFähigkeit; und Angriff +3, wenn Salve aktiv ist.\r\n4 → Verlängert die Dauer der SalveFähigkeit in hohem Maße; und Angriff +10, wenn Salve aktiv ist.",
+      "en": "2 → Extends the duration of the Burst skill and grants attack +3 while Burst is active.\r\n4 → Further extends the duration of the Burst skill and grants attack +10 while Burst is active.",
+      "fr": "2 → Augmente la durée du talent Vendetta et confère Attaque +3 quand Vendetta est actif.\r\n4 → Augmente encore la durée du talent Vendetta et confère Attaque +10 quand Vendetta est actif."
+    }
+  },
+  {
+    "id": 141,
+    "name": {
+      "de": "Fulgur-Anjanaths Wille",
+      "en": "Fulgur Anjanath's Will",
+      "fr": "Volonté de l'Anjanath tonnerre"
+    },
+    "description": {
+      "de": "2 → Verleiht einen zweiten Ausdauerbalken.\r\n4 → Verleiht einen zweiten langen Ausdauerbalken.",
+      "en": "2 → Grants an additional Stamina Gauge.\r\n4 → Grants an additional long Stamina Gauge.",
+      "fr": "2 → Confère une jauge d'endurance supplémentaire.\r\n4 → Confère une grande jauge d'endurance supplémentaire."
+    }
+  },
+  {
+    "id": 142,
+    "name": {
+      "de": "Uth Dunas Deckung",
+      "en": "Uth Duna's Cover",
+      "fr": "Couverture de l'Uth Duna"
+    },
+    "description": {
+      "de": "2 → Erhöht vorübergehend Verteidigung bei der Verwendung von Spezialwerkzeugen.\r\n4 → Erhöht vorübergehend die Verteidigung und Widerstände bei der Verwendung eines Spezialwerkzeugs deutlich.",
+      "en": "2 → Increases defense temporarily when using a specialized tool.\r\n4 → Greatly increases defense and resistance temporarily when using a specialized tool.",
+      "fr": "2 → Augmente temporairement la défense quand vous utilisez un outil de survie.\r\n4 → Augmente grandement la défense et la résistance temporairement quand vous utilisez un outil de survie."
+    }
+  },
+  {
+    "id": 143,
+    "name": {
+      "de": "Rey Daus Spannung",
+      "en": "Rey Dau's Voltage",
+      "fr": "Tension du Rey Dau"
+    },
+    "description": {
+      "de": "2 → Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung etwas.\r\n4 → Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung.",
+      "en": "2 → Moderately extends the activation time of the Latent Power skill.\r\n4 → Extends the activation time of the Latent Power skill.",
+      "fr": "2 → Augmente modérément la durée de Force latente.\r\n4 → Augmente la durée de Force latente."
+    }
+  },
+  {
+    "id": 144,
+    "name": {
+      "de": "Nu Udras Meuterei",
+      "en": "Nu Udra's Mutiny",
+      "fr": "Mutinerie du Nu Udra"
+    },
+    "description": {
+      "de": "2 → Verursacht etwas zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist.\r\n4 → Verursacht zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist.",
+      "en": "2 → Deals moderate additional damage while the Resentment skill is active.\r\n4 → Deals additional damage while the Resentment skill is active.",
+      "fr": "2 → Inflige une quantité modérée de dégâts supplémentaires quand le talent Vengeance est actif.\r\n4 → Inflige des dégâts supplémentaires quand le talent Vengeance est actif."
+    }
+  },
+  {
+    "id": 145,
+    "name": {
+      "de": "Jin-Dahaads Aufstand",
+      "en": "Jin Dahaad's Revolt",
+      "fr": "Révolte du Jin Dahaad"
+    },
+    "description": {
+      "de": "2 → Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff.\r\n4 → Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff deutlich.",
+      "en": "2 → Increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.\r\n4 → Greatly increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
+      "fr": "2 → Augmente l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force.\r\n4 → Augmente grandement l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force."
+    }
+  },
+  {
+    "id": 146,
+    "name": {
+      "de": "Gore Magalas Tyrannei",
+      "en": "Gore Magala's Tyranny",
+      "fr": "Tyrannie du Gore Magala"
+    },
+    "description": {
+      "de": "2 → Löst im Kampf gegen große Monster Raserei aus.\r\n4 → Löst im Kampf gegen große Monster Raserei aus und erhöht den Angriff. Angriffskraft steigt nach Erholung.",
+      "en": "2 → Infects you with Frenzy when against large monsters.\r\n4 → Infects you with Frenzy and raises attack when against large monsters. Attack power increases upon recovery.",
+      "fr": "2 → Vous inflige la Furie face aux grands monstres.\r\n4 → Vous inflige la Furie et augmente votre attaque face aux grands monstres. Après guérison, l'attaque est encore accrue."
+    }
+  },
+  {
+    "id": 147,
+    "name": {
+      "de": "Arkvelds Hunger",
+      "en": "Arkveld's Hunger",
+      "fr": "Appétit de l'Arkveld"
+    },
+    "description": {
+      "de": "2 → Regeneriert etwas Gesundheit, solange du kontinuierlich Monster angreifst. Erholung hängt von der Waffe ab.\r\n4 → Regeneriert Gesundheit, solange du kontinuierlich ein Monster angreifst. Erholung hängt von der Waffe ab.",
+      "en": "2 → Regenerates a small amount of your health as you continually attack a monster. Recovery varies by weapon.\r\n4 → Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
+      "fr": "2 → Restaure une quantité modérée de vie tant que vous attaquez. La régénération varie selon l'arme.\r\n4 → Restaure de la vie tant que vous attaquez. La régénération varie selon l'arme."
+    }
+  },
+  {
+    "id": 148,
+    "name": {
+      "de": "Wächter-Arkvelds Vitalität",
+      "en": "Guardian Arkveld's Vitality",
+      "fr": "Vitalité de l'Arkveld Gardien"
+    },
+    "description": {
+      "de": "2 → Stellt etwas Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird.\r\n4 → Stellt Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird.",
+      "en": "2 → Restores a moderate amount of health when destroying a wound on a large monster.\r\n4 → Restores health when destroying a wound on a large monster.",
+      "fr": "2 → Restaure une quantité modérée de vie quand vous détruisez une blessure sur un grand monstre.\r\n4 → Restaure de la vie quand vous détruisez une blessure sur un grand monstre."
+    }
+  }
+]

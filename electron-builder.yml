@@ -1,0 +1,41 @@
+extends: null
+
+directories:
+  output: dist
+  buildResources: assets
+
+files:
+  - electron.js
+  - preload.js
+  - data.json
+  - data-decos.json
+  - package.json
+  - build/**/*
+  - public/**/*
+  - assets/**/*
+
+extraResources:
+  - from: data-decos.json
+    to: app/data-decos.json
+  - from: data.json
+    to: app/data.json
+  - from: preload.js  # ✅ Direkt aus src
+    to: app/preload.js  # ✅ Richtiger Speicherort
+
+asar: false
+appId: com.huntmate.app
+productName: HuntMate
+icon: assets/icon
+
+win:
+  target: msi  # ✅ Erzeugt eine MSI-Datei
+
+msi:
+  oneClick: false  # ❌ Kein Auto-Installer (Nutzer muss Installation bestätigen)
+  perMachine: false  # ✅ Falls `true`, wird für alle Benutzer installiert
+  createDesktopShortcut: true  # ✅ Desktop-Shortcut erstellen
+  createStartMenuShortcut: true  # ✅ Startmenü-Eintrag erstellen
+  shortcutName: "HuntMate"  # ✅ Name der Verknüpfung
+  menuCategory: true  # ✅ Erstellt eine eigene Kategorie im Startmenü
+  upgradeCode: "12345678-90AB-CDEF-1234-567890ABCDEF"  # ✅ Eindeutige MSI-ID für Updates (muss unverändert bleiben)
+  warningsAsErrors: false  # ✅ Unterdrückt unnötige Warnungen beim Build
