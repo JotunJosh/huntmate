@@ -15,13 +15,17 @@ import SplashScreen from "./pages/SplashScreen";
 import "./App.css";
 
 function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [showSplash, setShowSplash] = useState(false);
 
   useEffect(() => {
     // 🌙 Dark Mode direkt beim Start setzen
     const storedDarkMode = localStorage.getItem("darkMode") === "true";
     document.body.classList.toggle("dark-mode", storedDarkMode);
+
+    // 🌐 Sprache beim Start setzen
+  const storedLanguage = localStorage.getItem("language") || "de";
+  i18n.changeLanguage(storedLanguage);
 
     // 🖼 Splash-Screen zeigen, wenn noch nie gezeigt
     const alreadyShown = localStorage.getItem("splashShown");

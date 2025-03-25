@@ -1,9 +1,9 @@
 {
   "name": "huntmate",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "private": true,
   "main": "public/electron.js",
-  "description": "Monster Hunter Wilds Skill Suche",
+  "description": "Monster Hunter Wilds Companion App",
   "author": "JotunJosh",
   "homepage": ".",
   "dependencies": {
