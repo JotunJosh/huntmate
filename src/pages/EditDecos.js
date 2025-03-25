@@ -84,7 +84,8 @@ const EditDecos = () => {
       </div>
 
       <div className="button-container">
-        <button onClick={saveChanges}>{t("save")}</button>
+      <button onClick={saveChanges}>{t("save")}</button>
+      <button onClick={() => navigate("/edit")}>{t("back")}</button>
       </div>
     </div>
   );

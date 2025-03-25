@@ -54,6 +54,20 @@ ipcMain.handle("getDecoDataPath", () => {
   return decoDataPath;
 });
 
+// In electron.js (Main Process)
+ipcMain.handle("getSkillDetailsPath", (_, lang) => {
+  const fileName = `skills_${lang}.json`;
+  const filePath = app.isPackaged
+    ? path.join(process.resourcesPath, "app", fileName)
+    : path.join(fileName);
+
+  console.log("📂 Sende Datenpfad:", filePath);
+  return filePath;
+});
+
+ipcMain.handle("get-app-version", () => {
+  return app.getVersion();
+});
 
 ipcMain.handle("fileExists", (event, filePath) => {
   return fs.existsSync(filePath);

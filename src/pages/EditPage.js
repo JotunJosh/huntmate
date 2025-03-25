@@ -17,6 +17,9 @@ const EditPage = () => {
         <button className="edit-nav-button" onClick={() => navigate("/Editskill")}>
           🧠 {t("editSkills") || "Skills bearbeiten"}
         </button>
+        <button className="edit-nav-button" onClick={() => navigate("/EditSkillDetails")}>
+          📦 {t("editSkillDetails") || "Dekorationen bearbeiten"}
+        </button>
         <button className="edit-nav-button" onClick={() => navigate("/Ediddeco")}>
           💎 {t("editDecos") || "Dekorationen bearbeiten"}
         </button>

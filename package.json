@@ -1,6 +1,6 @@
 {
   "name": "huntmate",
-  "version": "2.3.2",
+  "version": "2.4.1",
   "private": true,
   "main": "public/electron.js",
   "description": "Monster Hunter Wilds Companion App",

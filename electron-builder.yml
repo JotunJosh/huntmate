@@ -17,10 +17,16 @@ files:
 extraResources:
   - from: data-decos.json
     to: app/data-decos.json
+  - from: skills_de.json
+    to: app/skills_de.json
+  - from: skills_fr.json
+    to: app/skills_fr.json
+  - from: skills_en.json
+    to: app/skills_en.json
   - from: data.json
     to: app/data.json
-  - from: preload.js  # ✅ Direkt aus src
-    to: app/preload.js  # ✅ Richtiger Speicherort
+  - from: preload.js  
+    to: app/preload.js  
 
 asar: false
 appId: com.huntmate.app

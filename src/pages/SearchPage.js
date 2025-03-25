@@ -8,7 +8,8 @@ const SearchPage = () => {
   const [skills, setSkills] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [dataPath, setDataPath] = useState("");
-  const [savedSkills, setSavedSkills] = useState([]); // 🔹 Gespeicherte Skills im State halten
+  const [skillDetails, setSkillDetails] = useState([]);
+  const [savedSkills, setSavedSkills] = useState([]);
   const [displayFormat] = useState(
     localStorage.getItem("displayFormat") || "{name} ({altName}) - {description}"
   );
@@ -50,6 +51,24 @@ const SearchPage = () => {
     }
   }, [dataPath]);
 
+useEffect(() => {
+  async function loadSkillDetails() {
+    const lang = i18n.language || "en";
+    try {
+      const path = await window.electronAPI.getSkillDetailsPath(lang);
+      if (window.electronAPI.fileExists && (await window.electronAPI.fileExists(path))) {
+        const raw = await window.electronAPI.readFile(path);
+        const parsed = JSON.parse(raw);
+        setSkillDetails(parsed);
+      }
+    } catch (err) {
+      console.error("❌ Fehler beim Laden der Skill-Details:", err);
+    }
+  }
+
+  loadSkillDetails();
+}, [i18n.language]);
+
   // 📌 3️⃣ Beim Laden gespeicherte Skills abrufen
   useEffect(() => {
     const storedSkills = JSON.parse(localStorage.getItem("buildSkills")) || [];
@@ -84,6 +103,19 @@ const SearchPage = () => {
     setSavedSkills(updatedSkills); // ⬅️ State aktualisieren, damit die UI sich anpasst
   };
 
+  const getSkillTooltip = (skillNameEn) => {
+    if (!skillNameEn || !skillDetails) return null;
+  
+    const normalized = skillNameEn.trim().toLowerCase();
+    const match = skillDetails.find((s) => s.name.trim().toLowerCase() === normalized);
+  
+    if (!match || !match.levels?.length) return null;
+  
+    return match.levels
+      .map((lvl) => `🔹 ${lvl.level}: ${lvl.effect} ${lvl.value ? `(${lvl.value})` : ""}`)
+      .join("\n");
+  };
+
   // 📌 6️⃣ Formatierte Anzeige der Suchergebnisse
   const formatSkill = (skill) => {
     return displayFormat
@@ -108,14 +140,23 @@ const SearchPage = () => {
 <ul>
   {filteredSkills.map((skill) => {
     const isSaved = savedSkills.some((s) => s.id === skill.id);
-    const currentSkillName = skill.name[i18n.language] || skill.name.en;
+    const skillName = skill.name[i18n.language] || skill.name.en;
+    const tooltip = getSkillTooltip(skillName);
 
     return (
       <li key={skill.id} className="skill-item">
-        <span dangerouslySetInnerHTML={{ __html: formatSkill(skill) }} className="skill-text" />
+        <span className="tooltip-wrapper">
+        <span className="tooltip-icon">ℹ️</span>
+          <span
+            className="skill-text"
+            dangerouslySetInnerHTML={{ __html: formatSkill(skill) }}
+          />
+          <div className="tooltip-content">
+            {getSkillTooltip(skill.name[i18n.language]) || t("noDetails")}
+          </div>
+        </span>
 
         <div style={{ display: "flex", gap: "8px" }}>
-          {/* ✅ Hinzufügen / Entfernen */}
           <button
             onClick={() => toggleSkillInBuild(skill)}
             className={`add-button ${isSaved ? "saved" : ""}`}
@@ -124,13 +165,13 @@ const SearchPage = () => {
             {isSaved ? "✔" : "+"}
           </button>
 
-          {/* 🔍 Deko-Suche Button */}
           <button
-              onClick={() => navigate("/deco", { state: { query: skill.name[i18n.language] } })}
-              className="search-button"
-            >
-              🔍
-            </button>
+            onClick={() => navigate("/deco", { state: { query: skillName } })}
+            className="search-button"
+            title={t("searchDecosWithSkill")}
+          >
+            🔍
+          </button>
         </div>
       </li>
     );

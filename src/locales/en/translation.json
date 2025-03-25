@@ -45,5 +45,6 @@
   "editSkillTitle": "Edit the skills",
   "resetSplash": "Reset Splash Screen",
   "splashWelcome": "Welcome to HuntMate",
-  "splashText": "Load your hunting tools ..."
+  "splashText": "Load your hunting tools ...",
+  "editSkillDetails":"Editing skills details"
 }

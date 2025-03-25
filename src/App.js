@@ -9,6 +9,7 @@ import BuildSkillsPage from "./pages/BuildSkillsPage";
 import DecoSearchPage from "./pages/DecoSearchPage";
 import AppHeader from "./pages/AppHeader";
 import EditSkills from "./pages/EditSkills";
+import EditSkillDetails from "./pages/EditSkillDetails";
 import EditDecos from "./pages/EditDecos";
 import SplashScreen from "./pages/SplashScreen";
 
@@ -17,59 +18,93 @@ import "./App.css";
 function App() {
   const { t, i18n } = useTranslation();
   const [showSplash, setShowSplash] = useState(false);
+  const [loadingDone, setLoadingDone] = useState(false);
+  const [appVersion, setAppVersion] = useState("...");
 
   useEffect(() => {
-    // 🌙 Dark Mode direkt beim Start setzen
+    // 🌙 Dark Mode beim Start setzen
     const storedDarkMode = localStorage.getItem("darkMode") === "true";
     document.body.classList.toggle("dark-mode", storedDarkMode);
 
     // 🌐 Sprache beim Start setzen
-  const storedLanguage = localStorage.getItem("language") || "de";
-  i18n.changeLanguage(storedLanguage);
+    const storedLanguage = localStorage.getItem("language") || "de";
+    i18n.changeLanguage(storedLanguage);
 
-    // 🖼 Splash-Screen zeigen, wenn noch nie gezeigt
-    const alreadyShown = localStorage.getItem("splashShown");
-    if (!alreadyShown) {
-      setShowSplash(true);
-      setTimeout(() => {
-        localStorage.setItem("splashShown", "true");
-        setShowSplash(false);
-      }, 5000); // Splashscreen Dauer in ms
+    // 🖼 SplashScreen auf Basis der App-Version
+    async function checkSplashVersion() {
+      console.log("🔍 Starte SplashCheck...");
+
+      let currentVersion = null;
+      try {
+        currentVersion = await window.electronAPI?.getAppVersion?.();
+        console.log("📦 App-Version:", currentVersion);
+      } catch (err) {
+        console.warn("⚠️ Konnte App-Version nicht abrufen!", err);
+      }
+
+      const lastSplashVersion = localStorage.getItem("lastSplashVersion");
+      console.log("💾 Zuletzt angezeigte Version:", lastSplashVersion);
+
+      if (!lastSplashVersion || lastSplashVersion !== currentVersion) {
+        console.log("🌊 Splash wird angezeigt!");
+        setShowSplash(true);
+
+        setTimeout(() => {
+          console.log("✅ Splash fertig – weiter zur App.");
+          if (currentVersion) {
+            localStorage.setItem("lastSplashVersion", currentVersion);
+          }
+          setShowSplash(false);
+          setLoadingDone(true);
+        }, 5000);
+      } else {
+        console.log("🔁 Splash nicht nötig – Version unverändert.");
+        setLoadingDone(true);
+      }
+
+      if (currentVersion) {
+        setAppVersion(currentVersion);
+      }
     }
+
+    checkSplashVersion();
   }, []);
+
+  if (showSplash) {
+    console.log("🌊 SplashScreen wird gerendert!");
+    return <SplashScreen />;
+  }
+
+  if (!loadingDone) {
+    console.log("⏳ Warte auf Splash-Freigabe...");
+    return null;
+  }
 
   return (
     <Router>
       <div>
-        {showSplash ? (
-          <SplashScreen />
-        ) : (
-          <>
-            <AppHeader />
-
-            <Routes>
-              <Route path="/" element={<SearchPage />} />
-              <Route path="/edit" element={<EditPage />} />
-              <Route path="/settings" element={<SettingsPage />} />
-              <Route path="/build" element={<BuildSkillsPage />} />
-              <Route path="/deco" element={<DecoSearchPage />} />
-              <Route path="/Editskill" element={<EditSkills />} />
-              <Route path="/Ediddeco" element={<EditDecos />} />
-            </Routes>
-
-            <footer
-              style={{
-                textAlign: "center",
-                padding: "10px",
-                background: "#222",
-                color: "#fff",
-                marginTop: "30px",
-              }}
-            >
-              © 2025 HuntMate – {t("copyright")} – Version 2.3.0
-            </footer>
-          </>
-        )}
+        <AppHeader />
+        <Routes>
+          <Route path="/" element={<SearchPage />} />
+          <Route path="/edit" element={<EditPage />} />
+          <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/build" element={<BuildSkillsPage />} />
+          <Route path="/deco" element={<DecoSearchPage />} />
+          <Route path="/Editskill" element={<EditSkills />} />
+          <Route path="/Ediddeco" element={<EditDecos />} />
+          <Route path="/EditSkillDetails" element={<EditSkillDetails />} />
+        </Routes>
+        <footer
+          style={{
+            textAlign: "center",
+            padding: "10px",
+            background: "#222",
+            color: "#fff",
+            marginTop: "30px",
+          }}
+        >
+          © 2025 HuntMate – {t("copyright")} – Version {appVersion}
+        </footer>
       </div>
     </Router>
   );

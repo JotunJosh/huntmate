@@ -100,7 +100,7 @@ const SettingsPage = () => {
 
         <div className="splash-reset-button">
           <button onClick={() => {
-            localStorage.removeItem("splashShown");
+            localStorage.removeItem("lastSplashVersion");
             alert("Der SplashScreen wird beim nächsten Start erneut angezeigt.");
           }}>
             🔁 {t("resetSplash") || "SplashScreen zurücksetzen"}
