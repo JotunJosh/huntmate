@@ -46,5 +46,35 @@
   "resetSplash": "SplashScreen zurücksetzen",
   "splashWelcome": "Willkommen bei HuntMate",
   "splashText": "Lade deine Jagt-Tools ...",
-  "editSkillDetails":"Bearbeitung der Skills-Details"
+  "editSkillDetails":"Bearbeitung der Skills-Details",
+  "updateModal": {
+    "title": "👾 Jäger-Upgrade läuft...",
+    "clickHint": "🖱️ Klick für Details",
+    "clickForInfo": "Klick für mehr Info",
+    "infoTitle": "📦 Neue Version verfügbar!",
+    "infoText": "Du kannst sie direkt auf GitHub herunterladen oder den Installer ausführen.",
+    "openGithub": "GitHub öffnen",
+    "downloadMsi": "MSI herunterladen",
+    "close": "Schließen"
+  },
+  "update": {
+  "title": "Update & Versionen",
+  "checkNow": "Jetzt nach Updates suchen",
+  "logTitle": "Versionsverlauf",
+  "searching": "🔄 Suche nach Updates…",
+  "searchingVersion": "📦 Neue Version wird gesucht...",
+  "devSearching": "🔄 (Testmodus) Suche nach Updates…",
+  "devNoneFound": "✅ (Testmodus) Keine Updates gefunden.",
+  "noResponse": "🕐 Keine Antwort vom Updater – bitte App neu starten.",
+  "error": "❌ Fehler beim Prüfen auf Updates.",
+  "availableBadge": "Update verfügbar!",
+  "noInfo": "Keine Informationen vorhanden."
+},
+"externalLinks": {
+  "title": "Externe Links",
+  "downloadLatest": "Neueste Version herunterladen (.msi)",
+  "allReleases": "Alle Releases auf GitHub",
+  "nexus": "HuntMate auf NexusMods"
+},
+"resetSplashAlert": "Der SplashScreen wird beim nächsten Start erneut angezeigt."
 }

@@ -1,6 +1,6 @@
 {
   "name": "huntmate",
-  "version": "2.4.1",
+  "version": "3.0.4",
   "private": true,
   "main": "public/electron.js",
   "description": "Monster Hunter Wilds Companion App",
@@ -14,9 +14,12 @@
     "concurrently": "^9.1.2",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "electron-updater": "^6.6.2",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
     "i18next": "^24.2.3",
+    "lottie-react": "^2.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
@@ -26,10 +29,13 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "electron": "^35.0.1",
     "electron-builder": "^25.1.8",
     "electron-is-dev": "^3.0.1",
-    "rimraf": "^6.0.1"
+    "postcss": "^8.5.3",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^4.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,7 +47,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rimraf build dist",
-    "full-build": "npm run clean && npm run build && npm run package"
+    "full-build": "npm run clean && npm run build && npm run package",
+    "release": "node release.js"
   },
   "build": {
     "appId": "com.huntmate.app",
@@ -59,6 +66,14 @@
       {
         "from": "data.json",
         "to": "data.json"
+      }
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "releaseType": "release",
+        "owner": "JotunJosh",
+        "repo": "huntmate"
       }
     ],
     "win": {

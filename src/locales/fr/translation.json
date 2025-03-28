@@ -46,6 +46,36 @@
   "resetSplash": "Réinitialiser l'écran de démarrage",
   "splashWelcome": "Bienvenue sur HuntMate",
   "splashText": "Chargez vos outils de chasse ...",
-  "editSkillDetails":"Modification des détails des compétences"
+  "editSkillDetails":"Modification des détails des compétences",
+  "updateModal": {
+    "title": "👾 Mise à jour du chasseur en cours...",
+    "clickHint": "🖱️ Cliquez pour les détails",
+    "clickForInfo": "Cliquez pour plus d'infos",
+    "infoTitle": "📦 Nouvelle version disponible !",
+    "infoText": "Vous pouvez la télécharger depuis GitHub ou exécuter l’installateur.",
+    "openGithub": "Ouvrir GitHub",
+    "downloadMsi": "Télécharger le MSI",
+    "close": "Fermer"
+  },
+  "update": {
+  "title": "Mise à jour & Versions",
+  "checkNow": "Vérifier les mises à jour",
+  "logTitle": "Historique des versions",
+  "searching": "🔄 Recherche des mises à jour…",
+  "searchingVersion": "📦 Vérification d’une nouvelle version...",
+  "devSearching": "🔄 (Mode test) Recherche des mises à jour…",
+  "devNoneFound": "✅ (Mode test) Aucune mise à jour trouvée.",
+  "noResponse": "🕐 Pas de réponse du système de mise à jour – redémarrez l'application.",
+  "error": "❌ Erreur lors de la vérification des mises à jour.",
+  "availableBadge": "Mise à jour dispo !",
+  "noInfo": "Aucune information de mise à jour disponible."
+},
+"externalLinks": {
+  "title": "Liens externes",
+  "downloadLatest": "Télécharger la dernière version (.msi)",
+  "allReleases": "Toutes les versions sur GitHub",
+  "nexus": "HuntMate sur NexusMods"
+},
+"resetSplashAlert": "L'écran de démarrage s'affichera à nouveau au prochain lancement."
   }
   

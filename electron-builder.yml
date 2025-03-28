@@ -11,6 +11,7 @@ files:
   - data-decos.json
   - package.json
   - build/**/*
+  - RELEASE_LOG.md
   - public/**/*
   - assets/**/*
 
@@ -27,6 +28,10 @@ extraResources:
     to: app/data.json
   - from: preload.js  
     to: app/preload.js  
+
+publish:
+  provider: github
+  releaseType: release
 
 asar: false
 appId: com.huntmate.app

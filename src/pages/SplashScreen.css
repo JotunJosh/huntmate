@@ -86,3 +86,26 @@
   0%, 100% { opacity: 0.3; transform: scale(1); }
   50% { opacity: 0.6; transform: scale(1.15); }
 }
+
+.release-log-box {
+  white-space: pre-wrap;
+  padding: 1rem;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-family: monospace;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease;
+}
+
+.release-log-box.light {
+  background: #f4f4f4;
+  color: #222;
+}
+
+.release-log-box.dark {
+  background: #1e1e1e;
+  color: #ddd;
+  border-color: #444;
+}

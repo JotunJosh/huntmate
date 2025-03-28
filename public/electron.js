@@ -1,4 +1,5 @@
-const { app, Menu ,BrowserWindow, ipcMain } = require("electron");
+const { app, Menu, BrowserWindow, ipcMain } = require("electron");
+const { autoUpdater } = require("electron-updater"); // ⬅️ hinzugefügt
 const fs = require("fs");
 const path = require("path");
 
@@ -10,58 +11,94 @@ function createWindow() {
       preload: path.join(app.getAppPath(), "preload.js"),
       contextIsolation: true,
       nodeIntegration: false,
+      sandbox: false,
     },
   });
 
   // 🔹 Menüleiste komplett entfernen
-  Menu.setApplicationMenu(null); // ✅ Standard-Menü ausblenden
-  mainWindow.setMenuBarVisibility(false); // ✅ Auch ALT-Drücken verhindert Anzeige
-  mainWindow.removeMenu(); // ✅ Menü komplett aus der App entfernen
+  Menu.setApplicationMenu(null);
+  mainWindow.setMenuBarVisibility(false);
+  mainWindow.removeMenu();
 
   let finalPath;
 
   if (app.isPackaged) {
-    // ✅ Korrigierter Pfad für die verpackte App
     finalPath = path.join(process.resourcesPath, "app", "build", "index.html");
   } else {
-    // ✅ Korrigierter Pfad für den Entwicklermodus
     finalPath = "build/index.html";
   }
 
-  console.log("📂 Lade Datei:", finalPath); // Debug-Ausgabe
+  console.log("📂 Lade Datei:", finalPath);
 
   mainWindow.loadFile(finalPath).catch((err) => {
     console.error("❌ Ladefehler:", err);
   });
 }
 
-// 📌 IPC-Handler für Datei-Operationen
+// 📦 Auto-Updater aktivieren, sobald App bereit ist
+app.whenReady().then(() => {
+  createWindow();
+
+  // 🔄 Prüfe auf Updates & lade automatisch herunter
+  autoUpdater.checkForUpdatesAndNotify();
+
+  // 💬 Debug-Ausgaben
+  autoUpdater.on("checking-for-update", () => {
+    console.log("🔍 Suche nach Updates...");
+  });
+
+  autoUpdater.on("update-available", () => {
+    console.log("🚀 Update verfügbar!");
+  });
+
+  autoUpdater.on("update-not-available", () => {
+    console.log("✅ App ist aktuell.");
+  });
+
+  autoUpdater.on("error", (err) => {
+    console.error("❌ Fehler beim Update:", err);
+  });
+
+  autoUpdater.on("download-progress", (progressObj) => {
+    console.log(`⬇️ Lade Update... ${Math.round(progressObj.percent)}%`);
+  });
+
+  autoUpdater.on("update-downloaded", () => {
+    mainWindow.webContents.send("update-status", "✅ Update fertig. App startet neu…");
+  
+    // Nur im Entwicklermodus: Modal nach ein paar Sekunden schließen
+    if (!app.isPackaged) {
+      setTimeout(() => {
+        mainWindow.webContents.send("update-status", "");
+      }, 5000);
+    }
+  
+    setTimeout(() => {
+      autoUpdater.quitAndInstall();
+    }, 3000);
+  });  
+});
+
+// 📌 IPC-Handler
 ipcMain.handle("getDataPath", () => {
   const dataPath = app.isPackaged
-    ? path.join(process.resourcesPath, "app" , "data.json") // 📦 Richtiger Pfad nach dem Build
-    : path.join("data.json"); // 🛠 Richtiger Pfad im Entwicklermodus
-
-  console.log("📂 Sende Datenpfad:", dataPath);
+    ? path.join(process.resourcesPath, "app", "data.json")
+    : path.join("data.json");
   return dataPath;
 });
 
 ipcMain.handle("getDecoDataPath", () => {
   const decoDataPath = app.isPackaged
-    ? path.join(process.resourcesPath, "app", "data-decos.json") // 📦 Richtiger Pfad nach dem Build
-    : path.join("data-decos.json"); // 🛠 Richtiger Pfad im Entwicklermodus
-
-  console.log("📂 Sende Datenpfad:", decoDataPath);
+    ? path.join(process.resourcesPath, "app", "data-decos.json")
+    : path.join("data-decos.json");
   return decoDataPath;
 });
 
-// In electron.js (Main Process)
 ipcMain.handle("getSkillDetailsPath", (_, lang) => {
   const fileName = `skills_${lang}.json`;
   const filePath = app.isPackaged
     ? path.join(process.resourcesPath, "app", fileName)
     : path.join(fileName);
-
-  console.log("📂 Sende Datenpfad:", filePath);
   return filePath;
 });
 
@@ -82,12 +119,28 @@ ipcMain.handle("writeFile", (event, filePath, data) => {
   return true;
 });
 
-// app.whenReady().then(() => {
-//   createWindow();
-// });
-
-app.whenReady().then(createWindow);
-
+// 🔻 MacOS-Standardverhalten
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
+});
+
+const logFilePath = app.isPackaged
+  ? path.join(process.resourcesPath, "app", "RELEASE_LOG.md")
+  : path.join("RELEASE_LOG.md");
+
+ipcMain.handle("get-release-log", () => {
+  try {
+    return fs.readFileSync(logFilePath, "utf8");
+  } catch (err) {
+    return "Keine Release-Infos gefunden.";
+  }
+});
+
+ipcMain.handle("check-for-updates", () => {
+  autoUpdater.checkForUpdatesAndNotify();
+  return true;
+});
+
+ipcMain.handle("is-dev", () => {
+  return !app.isPackaged;
 });

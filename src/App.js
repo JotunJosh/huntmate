@@ -12,6 +12,7 @@ import EditSkills from "./pages/EditSkills";
 import EditSkillDetails from "./pages/EditSkillDetails";
 import EditDecos from "./pages/EditDecos";
 import SplashScreen from "./pages/SplashScreen";
+import UpdateStatusOverlay from "./components/UpdateStatusOverlay"; // ✅ bleibt
 
 import "./App.css";
 
@@ -22,15 +23,12 @@ function App() {
   const [appVersion, setAppVersion] = useState("...");
 
   useEffect(() => {
-    // 🌙 Dark Mode beim Start setzen
     const storedDarkMode = localStorage.getItem("darkMode") === "true";
     document.body.classList.toggle("dark-mode", storedDarkMode);
 
-    // 🌐 Sprache beim Start setzen
     const storedLanguage = localStorage.getItem("language") || "de";
     i18n.changeLanguage(storedLanguage);
 
-    // 🖼 SplashScreen auf Basis der App-Version
     async function checkSplashVersion() {
       console.log("🔍 Starte SplashCheck...");
 
@@ -83,6 +81,9 @@ function App() {
   return (
     <Router>
       <div>
+        {/* 🟡 Update-Status jederzeit sichtbar */}
+        <UpdateStatusOverlay />
+
         <AppHeader />
         <Routes>
           <Route path="/" element={<SearchPage />} />
@@ -94,6 +95,7 @@ function App() {
           <Route path="/Ediddeco" element={<EditDecos />} />
           <Route path="/EditSkillDetails" element={<EditSkillDetails />} />
         </Routes>
+
         <footer
           style={{
             textAlign: "center",

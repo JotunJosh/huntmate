@@ -122,3 +122,27 @@ body.dark-mode .splash-reset-button {
 body.dark-mode .splash-reset-button:hover {
   background-color: #bbb;
 }
+
+.external-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.link-button {
+  display: inline-block;
+  background: #444;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+  text-align: center;
+  font-weight: 500;
+}
+
+.link-button:hover {
+  background: #666;
+  text-decoration: none;
+}

@@ -1,24 +1,19 @@
 /* 🔹 Allgemeine Styles für die App */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Cinzel', serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* 🔹 Dark Mode */
+  background: url('./assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f5f2eb;}
+/* Dark Mode */
 body.dark-mode {
-  background-color: #222;
-  color: #e0e0e0;
-}
-
+  background-color: #111;
+  color: #e0e0e0;}
 /* 🔹 Hauptüberschrift */
 h1 {
   text-align: center;
-  margin-top: 20px;
-}
-
+  margin-top: 20px;}
 /* 🔹 Suchleiste */
 input[type="text"] {
   width: 90%;
@@ -27,16 +22,12 @@ input[type="text"] {
   margin: 10px auto;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
+  border-radius: 5px;}
 /* 🔹 Dark Mode für Suchleiste */
 body.dark-mode input[type="text"] {
   background-color: #333;
   color: white;
-  border: 1px solid #777;
-}
-
+  border: 1px solid #777;}
 /* 🔹 Buttons */
 button {
   display: inline-block;
@@ -47,40 +38,28 @@ button {
   font-size: 14px;
   cursor: pointer;
   border-radius: 5px;
-  transition: 0.3s;
-}
-
+  transition: 0.3s;}
 button:hover {
-  background-color: #0056b3;
-}
-
+  background-color: #0056b3;}
 /* 🔹 Dark Mode für Buttons */
 body.dark-mode button {
   background-color: #0056b3;
-  color: white;
-}
-
+  color: white;}
 body.dark-mode button:hover {
-  background-color: #003d80;
-}
-
+  background-color: #003d80;}
 /* 🔹 Button-Container für Navigation */
 .button-container {
   display: flex;
   justify-content: center;
   gap: 15px;  /* Fügt Abstand zwischen den Buttons ein */
-  margin-bottom: 15px;  /* Optional: Abstand unter den Buttons */
-}
-
+  margin-bottom: 15px;  /* Optional: Abstand unter den Buttons */}
 /* 🔹 Suchergebnisse */
 ul {
   list-style: none;
   padding: 0;
   margin: 20px auto;
   width: 90%;
-  max-width: 600px;
-}
-
+  max-width: 600px;}
 li {
   background: #fff;
   padding: 12px;
@@ -90,27 +69,19 @@ li {
   font-size: 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Text links, Button rechts */
-}
-
+  justify-content: space-between; /* Text links, Button rechts */}
 /* 🔹 Dark Mode für Suchergebnisse */
 body.dark-mode li {
   background: #444;
   color: white;
-  border: 1px solid #666;
-}
-
+  border: 1px solid #666;}
 /* 🔹 Fettgedruckter Skill-Name */
 .skill-text strong {
   font-weight: bold;
-  color: #007bff;
-}
-
+  color: #007bff;}
 /* 🔹 Dark Mode für Skill-Namen */
 body.dark-mode .skill-text strong {
-  color: #4da3ff;
-}
-
+  color: #4da3ff;}
 /* 🔹 Skill-Container */
 .skill-item {
   display: flex;
@@ -120,23 +91,17 @@ body.dark-mode .skill-text strong {
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
 /* 🔹 Dark Mode für Skill-Container */
 body.dark-mode .skill-item {
   background: #444;
   color: white;
-  border: 1px solid #666;
-}
-
+  border: 1px solid #666;}
 /* 🔹 Text in der Suchergebnis-Box */
 .skill-text {
   flex-grow: 1; /* Nimmt den gesamten freien Platz ein */
   font-size: 16px;
-  word-break: break-word;
-}
-
+  word-break: break-word;}
 /* 🔹 Hinzufügen-Button */
 .add-button {
   font-size: 14px;
@@ -152,18 +117,12 @@ body.dark-mode .skill-item {
   margin-left: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
+  justify-content: center;}
 .add-button:hover {
-  background-color: #1e7e34;
-}
-
+  background-color: #1e7e34;}
 /* 🔹 Wenn ein Skill bereits gespeichert ist */
 .add-button.saved {
-  background-color: #218838;
-}
-
+  background-color: #218838;}
 /* 🔹 Entfernen-Button (X-Button) */
 .remove-button {
   width: 30px;
@@ -178,22 +137,14 @@ body.dark-mode .skill-item {
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
+  justify-content: center;}
 .remove-button:hover {
-  background: #cc0000;
-}
-
+  background: #cc0000;}
 /* 🔹 Dark Mode für Entfernen-Button */
 body.dark-mode .remove-button {
-  background: #cc0000;
-}
-
+  background: #cc0000;}
 body.dark-mode .remove-button:hover {
-  background: #990000;
-}
-
+  background: #990000;}
 /* 🔹 Einstellungen Container */
 .settings-container {
   background: #fff;
@@ -201,29 +152,21 @@ body.dark-mode .remove-button:hover {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 600px;
-  margin: 20px auto;
-}
-
+  margin: 20px auto;}
 /* 🔹 Dark Mode für Einstellungen */
 body.dark-mode .settings-container {
   background: #333;
-  border: 1px solid #555;
-}
-
+  border: 1px solid #555;}
 /* 🔹 Labels für bessere Lesbarkeit */
 label {
   font-size: 16px;
   font-weight: bold;
   display: block;
   margin: 10px 0 5px;
-  color: #222;
-}
-
+  color: #222;}
 /* 🔹 Dark Mode für Labels */
 body.dark-mode label {
-  color: #ffffff;
-}
-
+  color: #ffffff;}
 /* 🔹 Dropdowns */
 select {
   width: 100%;
@@ -231,15 +174,12 @@ select {
   border-radius: 5px;
   border: 1px solid #ccc;
   background-color: #fff;
-  color: #222;
-}
-
+  color: #222;}
 /* 🔹 Dark Mode für Dropdowns */
 body.dark-mode select {
   background-color: #444;
   color: white;
-  border: 1px solid #777;
-}
+  border: 1px solid #777;}
 .search-deco-button {
   font-size: 14px;
   padding: 6px 8px;
@@ -249,21 +189,13 @@ body.dark-mode select {
   border-radius: 5px;
   cursor: pointer;
   height: 30px;
-  width: 30px;
-}
-
+  width: 30px;}
 .search-deco-button:hover {
-  background-color: #5a6268;
-}
-
+  background-color: #5a6268;}
 body.dark-mode .search-deco-button {
-  background-color: #888;
-}
-
+  background-color: #888;}
 body.dark-mode .search-deco-button:hover {
-  background-color: #aaa;
-}
-
+  background-color: #aaa;}
 /* 🔹 AppHeader Grundstruktur */
 .app-header {
   display: flex;
@@ -274,22 +206,16 @@ body.dark-mode .search-deco-button:hover {
   border-bottom: 2px solid #ccc;
   position: sticky;
   top: 0;
-  z-index: 100;
-}
-
+  z-index: 100;}
 /* 🔹 Dark Mode Header */
 body.dark-mode .app-header {
   background: #222;
-  border-bottom: 2px solid #444;
-}
-
+  border-bottom: 2px solid #444;}
 /* 🔹 Navigation Buttons */
 .nav-left, .nav-right {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-
+  gap: 10px;}
 .nav-link {
   padding: 8px 12px;
   background-color: transparent;
@@ -298,35 +224,24 @@ body.dark-mode .app-header {
   border-radius: 5px;
   cursor: pointer;
   color: #333;
-  transition: background-color 0.3s;
-}
-
+  transition: background-color 0.3s;}
 /* 🔹 Hover Style */
 .nav-link:hover {
-  background-color: #e0e0e0;
-}
-
+  background-color: #e0e0e0;}
 /* 🔹 Dark Mode Buttons */
 body.dark-mode .nav-link {
-  color: #ddd;
-}
-
+  color: #ddd;}
 body.dark-mode .nav-link:hover {
-  background-color: #333;
-}
-
+  background-color: #333;}
 /* 🔹 Aktive Seite */
 .nav-link.active {
   background-color: #007bff;
   color: white;
-  font-weight: bold;
-}
-
+  font-weight: bold;}
 /* 🔹 Dark Mode für aktive Seite */
 body.dark-mode .nav-link.active {
   background-color: #4da3ff;
-  color: black;
-}
+  color: black;}
 .edit-page-container {
   max-width: 500px;
   margin: 40px auto;
@@ -334,32 +249,22 @@ body.dark-mode .nav-link.active {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
+  text-align: center;}
 body.dark-mode .edit-page-container {
   background-color: #333;
   color: #fff;
-  border: 1px solid #555;
-}
-
+  border: 1px solid #555;}
 .edit-subtext {
   font-size: 16px;
   margin-bottom: 30px;
-  color: #555;
-}
-
+  color: #555;}
 body.dark-mode .edit-subtext {
-  color: #ccc;
-}
-
+  color: #ccc;}
 .edit-button-group {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 30px;
-}
-
+  margin-bottom: 30px;}
 .edit-nav-button {
   background-color: #007bff;
   color: white;
@@ -368,13 +273,9 @@ body.dark-mode .edit-subtext {
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
+  transition: background-color 0.2s ease;}
 .edit-nav-button:hover {
-  background-color: #0056b3;
-}
-
+  background-color: #0056b3;}
 .back-button {
   background-color: #6c757d;
   color: white;
@@ -383,23 +284,179 @@ body.dark-mode .edit-subtext {
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
+  transition: background-color 0.2s ease;}
 .back-button:hover {
-  background-color: #495057;
-}
-
+  background-color: #495057;}
 /* Tooltip Wrapper */
 .tooltip-wrapper {
   position: relative;
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  cursor: help;
+  cursor: help;}
+/* Info Icon (optional) */
+.tooltip-icon {
+  font-size: 14px;
+  color: #888;
+  transition: color 0.2s ease;}
+.tooltip-wrapper:hover .tooltip-icon {
+  color: #007bff;}
+
+/* Zeige Tooltip beim Hover */
+.tooltip-wrapper:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);}
+body.dark-mode .tooltip-content {
+  background-color: #222;
+  color: #eee;}
+body.dark-mode .tooltip-icon {
+  color: #aaa;}
+/* 🔹 Edit Container */
+.edit-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+body.dark-mode .edit-container {
+  background: #333;
+  border: 1px solid #555;}
+/* 🔹 Edit Input Fields */
+.edit-input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;}
+body.dark-mode .edit-input {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;}
+/* 🔹 Edit Save Button */
+.edit-save-button {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;}
+.edit-save-button:hover {
+  background-color: #218838;}
+body.dark-mode .edit-save-button {
+  background-color: #1e7e34;}
+body.dark-mode .edit-save-button:hover {
+  background-color: #155d27;}
+/* 🔹 Edit List Styling */
+.edit-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;}
+.edit-list li {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);}
+body.dark-mode .edit-list li {
+  background: #444;
+  color: white;
+  border: 1px solid #666;}
+/* 🔹 MH Style Hauptüberschrift Start */
+/* 🔹 Allgemeine Styles für die App */
+body {
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  padding: 0;
+  background: url('./assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f5f2eb;
 }
 
-/* Info Icon (optional) */
+body.dark-mode {
+  background-color: #111;
+  color: #e0e0e0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+input[type="text"] {
+  width: 90%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+}
+
+body.dark-mode input[type="text"] {
+  background-color: #333;
+  color: white;
+  border: 1px solid #777;
+}
+
+button, .edit-nav-button, .edit-save-button {
+  display: inline-block;
+  padding: 10px 16px;
+  border: none;
+  background-color: #b08d57;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #e2c084;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+button:hover, .edit-nav-button:hover, .edit-save-button:hover {
+  background-color: #d4af37;
+}
+
+body.dark-mode button, body.dark-mode .edit-nav-button, body.dark-mode .edit-save-button {
+  background-color: #a67c52;
+  color: white;
+}
+
+body.dark-mode button:hover, body.dark-mode .edit-nav-button:hover, body.dark-mode .edit-save-button:hover {
+  background-color: #c69748;
+}
+
+.skill-text strong {
+  font-weight: bold;
+  color: #d4af37;
+  text-shadow: 1px 1px 2px #000;
+}
+
+body.dark-mode .skill-text strong {
+  color: #ffcc66;
+}
+
+.tooltip-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: help;
+  z-index: auto;
+}
+
 .tooltip-icon {
   font-size: 14px;
   color: #888;
@@ -410,12 +467,11 @@ body.dark-mode .edit-subtext {
   color: #007bff;
 }
 
-/* Tooltip Content Box */
 .tooltip-content {
   visibility: hidden;
   opacity: 0;
-  background-color: #333;
-  color: #fff;
+  background-color: rgba(30, 30, 30, 0.95);
+  color: #f5f2eb;
   padding: 8px 12px;
   border-radius: 6px;
   font-size: 13px;
@@ -424,13 +480,12 @@ body.dark-mode .edit-subtext {
   position: absolute;
   top: 125%;
   left: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   transform: translateY(-5px);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Zeige Tooltip beim Hover */
 .tooltip-wrapper:hover .tooltip-content {
   visibility: visible;
   opacity: 1;
@@ -445,82 +500,40 @@ body.dark-mode .tooltip-content {
 body.dark-mode .tooltip-icon {
   color: #aaa;
 }
-/* 🔹 Edit Container */
-.edit-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+.edit-container,
+.settings-container,
+.edit-page-container,
+.skill-item,
+li {
+  position: relative;
+  z-index: 0;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(20, 15, 10, 0.7);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+  color: #f5f2eb;
 }
 
-body.dark-mode .edit-container {
-  background: #333;
+body.dark-mode .edit-container,
+body.dark-mode .settings-container,
+body.dark-mode .edit-page-container,
+body.dark-mode .skill-item,
+body.dark-mode li {
+  position: relative;
+  z-index: 0;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(20, 15, 10, 0.7);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
   border: 1px solid #555;
+  color: #f5f2eb;
 }
 
-/* 🔹 Edit Input Fields */
-.edit-input {
-  width: 100%;
-  padding: 10px;
-  margin: 6px 0;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-  box-sizing: border-box;
-}
+/* 🔹 Google Fonts Einbindung (in public/index.html einfügen) */
+/* <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet"> */
 
-body.dark-mode .edit-input {
-  background-color: #444;
-  color: white;
-  border: 1px solid #666;
-}
 
-/* 🔹 Edit Save Button */
-.edit-save-button {
-  display: block;
-  width: 100%;
-  margin-top: 15px;
-  padding: 10px;
-  background-color: #28a745;
-  color: white;
-  font-size: 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.edit-save-button:hover {
-  background-color: #218838;
-}
-
-body.dark-mode .edit-save-button {
-  background-color: #1e7e34;
-}
-
-body.dark-mode .edit-save-button:hover {
-  background-color: #155d27;
-}
-
-/* 🔹 Edit List Styling */
-.edit-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 15px;
-}
-
-.edit-list li {
-  background: #fff;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-body.dark-mode .edit-list li {
-  background: #444;
-  color: white;
-  border: 1px solid #666;
-}
+/* 🔹 MH Style Hauptüberschrift Ende */

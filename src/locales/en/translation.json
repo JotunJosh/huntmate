@@ -46,5 +46,35 @@
   "resetSplash": "Reset Splash Screen",
   "splashWelcome": "Welcome to HuntMate",
   "splashText": "Load your hunting tools ...",
-  "editSkillDetails":"Editing skills details"
+  "editSkillDetails":"Editing skills details",
+  "updateModal": {
+    "title": "👾 Hunter upgrade in progress...",
+    "clickHint": "🖱️ Click for details",
+    "clickForInfo": "Click for more info",
+    "infoTitle": "📦 New version available!",
+    "infoText": "You can download it directly from GitHub or run the installer.",
+    "openGithub": "Open GitHub",
+    "downloadMsi": "Download MSI",
+    "close": "Close"
+  },
+  "update": {
+  "title": "Update & Versions",
+  "checkNow": "Check for updates now",
+  "logTitle": "Version history",
+  "searching": "🔄 Searching for updates…",
+  "searchingVersion": "📦 Checking for a new version...",
+  "devSearching": "🔄 (Dev Mode) Searching for updates…",
+  "devNoneFound": "✅ (Dev Mode) No updates found.",
+  "noResponse": "🕐 No response from updater – please restart the app.",
+  "error": "❌ Error while checking for updates.",
+  "availableBadge": "Update available!",
+  "noInfo": "No update information found."
+},
+"externalLinks": {
+  "title": "External Links",
+  "downloadLatest": "Download latest version (.msi)",
+  "allReleases": "All releases on GitHub",
+  "nexus": "HuntMate on NexusMods"
+},
+"resetSplashAlert": "The splash screen will appear again on next start."
 }
