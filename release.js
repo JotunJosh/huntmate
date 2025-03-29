@@ -40,7 +40,7 @@ rl.question("📝 Changelog für dieses Release:\n> ", (changelogText) => {
   fs.appendFileSync(logPath, logEntry);
   console.log("✅ RELEASE_LOG.md aktualisiert.");
 
-  const buildCommand = `npm run build && npx electron-builder --publish always`;
+  const buildCommand = `npm run build && npx electron-builder --config electron-builder.yml --publish always`;
 
   try {
     execSync(buildCommand, { stdio: "inherit", env: { ...process.env } });

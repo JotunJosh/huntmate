@@ -16,3 +16,11 @@
 
 - new ui, semi auto update, bug fixes
 
+📦 v3.0.5 – 29.3.2025
+
+- Update für msi
+
+📦 v3.0.6 – 29.3.2025
+
+- bug fix für die msi
+
