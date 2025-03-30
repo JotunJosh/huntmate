@@ -24,3 +24,7 @@
 
 - bug fix für die msi
 
+📦 v3.1.0 – 30.3.2025
+
+- Anpassung skill seiten, neues UI im White und Dark Mode 
+
