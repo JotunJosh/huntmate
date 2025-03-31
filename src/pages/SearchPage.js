@@ -1,8 +1,10 @@
+// ⚛️ React + Routing + i18n
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import ReactDOM from "react-dom";
 
+// 💬 Tooltip-Komponente (per Portal gerendert)
 const Tooltip = ({ children, position }) => {
   if (!position) return null;
 
@@ -22,15 +24,15 @@ const Tooltip = ({ children, position }) => {
     pointerEvents: "none"
   };
 
-  return ReactDOM.createPortal(
-    <div style={style}>{children}</div>,
-    document.body
-  );
+  return ReactDOM.createPortal(<div style={style}>{children}</div>, document.body);
 };
 
+// 🔍 Hauptkomponente für Skill-Suche
 const SearchPage = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+
+  // 📦 States
   const [skills, setSkills] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [dataPath, setDataPath] = useState("");
@@ -42,6 +44,7 @@ const SearchPage = () => {
   const [tooltipContent, setTooltipContent] = useState("");
   const [tooltipPosition, setTooltipPosition] = useState(null);
 
+  // 📁 Hole Pfad zur data.json
   useEffect(() => {
     async function fetchData() {
       if (!window.electronAPI) {
@@ -57,6 +60,7 @@ const SearchPage = () => {
     fetchData();
   }, []);
 
+  // 📄 Lade Skills aus data.json
   useEffect(() => {
     if (!dataPath) return;
 
@@ -77,6 +81,7 @@ const SearchPage = () => {
     }
   }, [dataPath]);
 
+  // 📄 Lade skillDetails (Level-Effekte)
   useEffect(() => {
     async function loadSkillDetails() {
       const lang = i18n.language || "en";
@@ -95,11 +100,13 @@ const SearchPage = () => {
     loadSkillDetails();
   }, [i18n.language]);
 
+  // 💾 Lade gespeicherte Skills (Build)
   useEffect(() => {
     const storedSkills = JSON.parse(localStorage.getItem("buildSkills")) || [];
     setSavedSkills(storedSkills);
   }, []);
 
+  // 🔍 Filterlogik
   const filteredSkills = skills.filter((skill) => {
     if (!searchTerm) return true;
 
@@ -111,6 +118,7 @@ const SearchPage = () => {
     return nameMatch || altNameMatch || descriptionMatch;
   });
 
+  // ➕/➖ Skill zum Build hinzufügen oder entfernen
   const toggleSkillInBuild = (skill) => {
     let updatedSkills = JSON.parse(localStorage.getItem("buildSkills")) || [];
 
@@ -124,6 +132,7 @@ const SearchPage = () => {
     setSavedSkills(updatedSkills);
   };
 
+  // 💬 Tooltip-Inhalt aus SkillDetails generieren
   const getSkillTooltip = (skillNameEn) => {
     if (!skillNameEn || !skillDetails) return null;
 
@@ -137,6 +146,7 @@ const SearchPage = () => {
       .join("\n");
   };
 
+  // 🎨 Ausgabeformat anwenden
   const formatSkill = (skill) => {
     return displayFormat
       .replace("{name}", `<strong>${skill.name[i18n.language]}</strong>`)
@@ -147,12 +157,16 @@ const SearchPage = () => {
   return (
     <div>
       <h1>{t("searchTitle")}</h1>
+
+      {/* 🔍 Suchfeld */}
       <input
         type="text"
         placeholder={t("searchPlaceholder")}
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
+
+      {/* 📜 Ergebnisliste */}
       <ul>
         {filteredSkills.map((skill) => {
           const isSaved = savedSkills.some((s) => s.id === skill.id);
@@ -160,7 +174,7 @@ const SearchPage = () => {
 
           return (
             <li key={skill.id} className="skill-item" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              {/* Linke Seite: + Button & Text */}
+              {/* ➕ Linke Seite: Hinzufügen & Text */}
               <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                 <button
                   onClick={() => toggleSkillInBuild(skill)}
@@ -175,7 +189,7 @@ const SearchPage = () => {
                 />
               </div>
 
-              {/* Rechte Seite: Lupe & Info */}
+              {/* 🔍 Rechte Seite: Info & Suche */}
               <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                 <span
                   className="tooltip-icon"
@@ -204,6 +218,8 @@ const SearchPage = () => {
           );
         })}
       </ul>
+
+      {/* 💬 Tooltip */}
       <Tooltip position={tooltipPosition}>{tooltipContent}</Tooltip>
     </div>
   );

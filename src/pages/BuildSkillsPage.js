@@ -1,8 +1,11 @@
+// ⚛️ React Basics & Routing & i18n
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import ReactDOM from "react-dom";
 
+// 💬 Tooltip-Komponente für Skill-Details
+// Tooltip component used to show skill level info on hover
 const Tooltip = ({ children, position }) => {
   if (!position) return null;
 
@@ -28,26 +31,33 @@ const Tooltip = ({ children, position }) => {
   );
 };
 
+// 🔧 Hauptkomponente: Zeigt gespeicherte Skills & Details
+// Main component: Displays saved skills with formatting and actions
 const BuildSkillsPage = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const [skillDetails, setSkillDetails] = useState([]);
-  const [buildSkills, setBuildSkills] = useState([]);
-  const [tooltipContent, setTooltipContent] = useState("");
-  const [tooltipPosition, setTooltipPosition] = useState(null);
+
+  // 💾 States
+  const [skillDetails, setSkillDetails] = useState([]); // Detaildaten für Tooltips
+  const [buildSkills, setBuildSkills] = useState([]);   // Gespeicherte Skills
+  const [tooltipContent, setTooltipContent] = useState(""); // Text im Tooltip
+  const [tooltipPosition, setTooltipPosition] = useState(null); // Tooltip-Position
   const displayFormat = localStorage.getItem("displayFormat") || "{name} ({altName}) - {description}";
 
+  // 📦 Lade gespeicherte Skills aus localStorage
   useEffect(() => {
     const storedSkills = JSON.parse(localStorage.getItem("buildSkills")) || [];
     setBuildSkills(storedSkills);
   }, []);
 
+  // ❌ Entfernt Skill aus Build + Speicher
   const removeSkill = (skillId) => {
     const updatedSkills = buildSkills.filter(skill => skill.id !== skillId);
     setBuildSkills(updatedSkills);
     localStorage.setItem("buildSkills", JSON.stringify(updatedSkills));
   };
 
+  // 📄 Lädt Skill-Details (z. B. Level & Effekte)
   useEffect(() => {
     async function loadSkillDetails() {
       const lang = i18n.language || "en";
@@ -66,6 +76,7 @@ const BuildSkillsPage = () => {
     loadSkillDetails();
   }, [i18n.language]);
 
+  // 💬 Tooltip-Text für Skill anhand Name suchen
   const getSkillTooltip = (skillNameEn) => {
     if (!skillNameEn || !skillDetails) return null;
 
@@ -79,6 +90,7 @@ const BuildSkillsPage = () => {
       .join("\n");
   };
 
+  // 🎨 Anzeigeformat der Skill-Info zusammenbauen
   const formatSkill = (skill) => {
     if (!skill || !skill.name || !skill.description) return "❌ Fehler: Skill-Daten unvollständig!";
 
@@ -91,21 +103,24 @@ const BuildSkillsPage = () => {
   return (
     <div>
       <h1>{t("buildSkillsTitle")}</h1>
+
       <ul>
+        {/* 🔍 Zeige Hinweis, wenn keine Skills gespeichert */}
         {buildSkills.length === 0 ? (
           <p>{t("noSkillsSaved")}</p>
         ) : (
           buildSkills.map((skill) => {
-            const skillName = skill.name[i18n.language] || skill.name.en;
-
             return (
               <li key={skill.id} className="skill-item" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                  {/* 🧠 Skill-Info anzeigen (HTML-Formatiert) */}
                   <span
                     className="skill-text"
                     dangerouslySetInnerHTML={{ __html: formatSkill(skill) }}
                   />
                 </div>
+
+                {/* 🔘 Tooltip + Buttons */}
                 <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                   <span
                     className="tooltip-icon"
@@ -122,12 +137,16 @@ const BuildSkillsPage = () => {
                   >
                     ℹ️
                   </span>
+
+                  {/* 🔍 Suche Dekorationen zu Skill */}
                   <button
                     onClick={() => navigate("/deco", { state: { query: skill.name[i18n.language] } })}
                     className="search-button"
                   >
                     🔍
                   </button>
+
+                  {/* ❌ Skill entfernen */}
                   <button onClick={() => removeSkill(skill.id)} className="remove-button">X</button>
                 </div>
               </li>
@@ -135,6 +154,8 @@ const BuildSkillsPage = () => {
           })
         )}
       </ul>
+
+      {/* 💬 Tooltip-Overlay */}
       <Tooltip position={tooltipPosition}>{tooltipContent}</Tooltip>
     </div>
   );

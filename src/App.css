@@ -1,3 +1,17 @@
+/* 
+==================================================
+ HuntMate CSS – kommentierte Version (Deutsch 🇩🇪 + Englisch 🇬🇧)
+--------------------------------------------------
+ Dieses Stylesheet enthält das visuelle Styling 
+ der HuntMate Electron-React-App.
+
+ Jeder Abschnitt ist kommentiert, damit du und 
+ andere genau verstehen, was wo passiert und 
+ wie du es anpassen kannst.
+==================================================
+*/
+
+
 /* 🔹 Allgemeine Styles für die App */
 body {
   font-family: 'Cinzel', serif;

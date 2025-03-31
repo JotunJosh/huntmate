@@ -1,3 +1,5 @@
+/* 🎬 Hauptcontainer für Splashscreen mit dunklem Hintergrund */
+/* Fullscreen dark-themed splash background */
 .stylish-splash {
   background: radial-gradient(ellipse at center, #0a0a0a 0%, #000000 100%);
   color: #fff;
@@ -12,6 +14,8 @@
   font-family: "Segoe UI", sans-serif;
 }
 
+/* 🌊 Animiertes Icon (SVG oder Maskottchen) */
+/* Animated splash icon */
 .splash-icon svg {
   color: #4da3ff;
   stroke-linecap: round;
@@ -21,6 +25,8 @@
   margin-bottom: 20px;
 }
 
+/* 🖼️ Logo-Animation (Glühen + Puls) */
+/* Logo image with glowing pulse effect */
 .splash-logo-image {
   width: 120px;
   height: auto;
@@ -29,12 +35,16 @@
   filter: drop-shadow(0 0 10px #4da3ffcc);
 }
 
+/* 🔁 Puls-Animation für Logo */
+/* Logo pulsing glow */
 @keyframes pulseGlow {
   0% { transform: scale(1); opacity: 0.85; }
   50% { transform: scale(1.08); opacity: 1; }
   100% { transform: scale(1); opacity: 0.85; }
 }
 
+/* 💡 Leuchtender Effekt im Hintergrund */
+/* Ambient glow behind the content */
 .splash-glow {
   position: absolute;
   width: 400px;
@@ -46,6 +56,8 @@
   animation: pulse 3s ease-in-out infinite;
 }
 
+/* 📝 Titel-Text */
+/* Splash screen heading */
 .splash-screen h1 {
   z-index: 1;
   font-size: 28px;
@@ -54,12 +66,16 @@
   text-shadow: 0 0 10px #4da3ff88;
 }
 
+/* 📄 Beschreibung / Untertitel */
+/* Splash screen subtext */
 .splash-screen p {
   z-index: 1;
   font-size: 16px;
   opacity: 0.8;
 }
 
+/* 🔄 Lade-Indikator (Spinner) */
+/* Loading spinner animation */
 .spinner {
   margin-top: 20px;
   border: 6px solid #333;
@@ -71,22 +87,29 @@
   z-index: 1;
 }
 
-/* Animationen */
+/* ⏳ Rotier-Animation für Spinner */
+/* Spinning animation */
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
+/* 🌫️ Auf-und-ab Bewegung (z. B. für Icon) */
+/* Floating animation (for icon) */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
 }
 
+/* 💗 Leuchten für Glow-Kugel */
+/* Pulsing ambient background circle */
 @keyframes pulse {
   0%, 100% { opacity: 0.3; transform: scale(1); }
   50% { opacity: 0.6; transform: scale(1.15); }
 }
 
+/* 📜 Box für Release-Log */
+/* Changelog container */
 .release-log-box {
   white-space: pre-wrap;
   padding: 1rem;
@@ -99,11 +122,15 @@
   transition: all 0.2s ease;
 }
 
+/* ☀️ Light Mode Variante */
+/* Light-themed changelog style */
 .release-log-box.light {
   background: #f4f4f4;
   color: #222;
 }
 
+/* 🌙 Dark Mode Variante */
+/* Dark-themed changelog style */
 .release-log-box.dark {
   background: #1e1e1e;
   color: #ddd;

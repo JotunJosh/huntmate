@@ -1,6 +1,8 @@
+/* 🧱 Overlay-Hintergrund für das Update-Modal */
+/* Fullscreen backdrop with dark radial glow */
 .update-modal-overlay.monster-theme {
   position: fixed;
-  inset: 0;
+  inset: 0; /* top: 0, bottom: 0, left: 0, right: 0 */
   background: radial-gradient(ellipse at center, #1a1a1a 0%, #000 100%);
   display: flex;
   justify-content: center;
@@ -9,29 +11,37 @@
   overflow: hidden;
 }
 
+/* 🟪 Zentrales Modal-Feld mit lila Leuchteffekt */
+/* Main modal box with glowing border and theme */
 .update-modal.monster-glow {
-  background: rgba(30, 30, 30, 0.95);
-  border: 2px solid #6e00ff;
+  background: rgba(30, 30, 30, 0.95); /* leicht transparentes Schwarz */
+  border: 2px solid #6e00ff;          /* lila Umrandung */
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
-  box-shadow: 0 0 30px #6e00ffaa;
+  box-shadow: 0 0 30px #6e00ffaa;     /* Monster-artiger Glow */
   position: relative;
   z-index: 2;
 }
 
+/* 📝 Titel-Text im Modal */
+/* Modal headline text */
 .update-modal h3 {
   color: #fff;
   margin-bottom: 1rem;
   text-shadow: 0 0 8px #6e00ff;
 }
 
+/* 📄 Beschreibung / Statusanzeige */
+/* Paragraph content */
 .update-modal p {
   color: #ccc;
   margin-top: 1rem;
   font-size: 0.95rem;
 }
 
+/* 👾 Optionales Icon / Bild im Hintergrund */
+/* Faint monster-themed graphic background */
 .monster-background {
   position: absolute;
   top: -1px;
@@ -43,4 +53,3 @@
   pointer-events: none;
   filter: drop-shadow(0 0 20px #6e00ff);
 }
-

@@ -1,21 +1,24 @@
-extends: null
+extends: null  # 🚫 Kein Preset wird verwendet (komplett eigene Konfiguration)
+#/ No preset is used, full custom configuration.
 
 directories:
-  output: dist
-  buildResources: assets
+  output: dist  # 📁 Ausgabeordner für das Build-Ergebnis
+  buildResources: assets  # 📁 Ordner mit Ressourcen wie Icons, Hintergrundbildern etc.
+#/ Output folder for the build / Resource folder for assets like icons.
 
-files:
+files:  # 📦 Dateien, die in das App-Bundle aufgenommen werden sollen
   - electron.js
   - preload.js
   - data.json
   - data-decos.json
   - package.json
-  - build/**/*
-  - RELEASE_LOG.md
-  - public/**/*
-  - assets/**/*
+  - build/**/*  # ⚛️ React-Build
+  - RELEASE_LOG.md  # 📝 Changelog-Datei (optional)
+  - public/**/*  # 🌐 Statische Dateien (z. B. favicon)
+  - assets/**/*  # 🎨 Icons, Bilder etc.
+#/ Files to include in the build (frontend, logic, resources).
 
-extraResources:
+extraResources:  # 📂 Zusätzliche Ressourcen, die nach `resources/app/` kopiert werden
   - from: data-decos.json
     to: app/data-decos.json
   - from: skills_de.json
@@ -28,25 +31,32 @@ extraResources:
     to: app/data.json
   - from: preload.js  
     to: app/preload.js  
+#/ Additional files copied into resources/app folder.
 
-publish:
+publish:  # 🚀 Automatische Veröffentlichung auf GitHub Releases
   provider: github
   releaseType: release
+#/ Uploads releases to GitHub automatically (optional, only if CLI is configured).
 
-asar: false
-appId: com.huntmate.app
-productName: HuntMate
-icon: assets/icon
+asar: false  # 🔓 Keine asar-Verpackung → Dateien bleiben einzeln zugänglich
+#/ ASAR disabled to allow direct file access (e.g. via fs).
+
+appId: com.huntmate.app  # 🆔 Eindeutige App-ID
+productName: HuntMate  # 📛 Name der App im Installer und Startmenü
+icon: assets/icon  # 🖼️ Basis-Pfad zum Icon (Erweiterung wird automatisch ergänzt)
+#/ Application identity and branding.
 
 win:
-  target: msi  # ✅ Erzeugt eine MSI-Datei
+  target: msi  # 📦 Zielplattform ist MSI (Windows Installer)
+#/ Build target: MSI installer for Windows.
 
-msi:
-  oneClick: false  # ❌ Kein Auto-Installer (Nutzer muss Installation bestätigen)
-  perMachine: false  # ✅ Falls `true`, wird für alle Benutzer installiert
-  createDesktopShortcut: true  # ✅ Desktop-Shortcut erstellen
-  createStartMenuShortcut: true  # ✅ Startmenü-Eintrag erstellen
-  shortcutName: "HuntMate"  # ✅ Name der Verknüpfung
-  menuCategory: true  # ✅ Erstellt eine eigene Kategorie im Startmenü
-  upgradeCode: "12345678-90AB-CDEF-1234-567890ABCDEF"  # ✅ Eindeutige MSI-ID für Updates (muss unverändert bleiben)
-  warningsAsErrors: false  # ✅ Unterdrückt unnötige Warnungen beim Build
+msi:  # ⚙️ MSI-spezifische Einstellungen
+  oneClick: false  # ❌ Benutzer muss Installation bestätigen
+  perMachine: false  # 👤 Nur für aktuellen Benutzer (nicht systemweit)
+  createDesktopShortcut: true  # 🖥️ Verknüpfung auf Desktop
+  createStartMenuShortcut: true  # 🧭 Verknüpfung im Startmenü
+  shortcutName: "HuntMate"  # 🏷️ Name der Verknüpfung
+  menuCategory: true  # 📂 Eigene Kategorie im Startmenü
+  upgradeCode: "12345678-90AB-CDEF-1234-567890ABCDEF"  # 🆕 WICHTIG: gleichbleibende ID für Updates
+  warningsAsErrors: false  # ✅ Ignoriere (harmlose) Build-Warnungen
+#/ Fine-tuned MSI installer configuration with shortcuts and upgrade support.

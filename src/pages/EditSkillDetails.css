@@ -1,141 +1,160 @@
-/* EditSkillDetails.css */
+/* 🎨 Container für das gesamte Editiermodul */
 .edit-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  body.dark-mode .edit-container {
-    background-color: #2c2c2c;
-    color: #fff;
-    border: 1px solid #555;
-  }
-  
-  .edit-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .edit-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .edit-skill-box {
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  body.dark-mode .edit-skill-box {
-    background-color: #3a3a3a;
-    border-color: #666;
-  }
-  
-  .edit-skill-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .edit-skill-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #007bff;
-    margin: 0;
-    flex: 1;
-  }
-  
-  body.dark-mode .edit-skill-title {
-    color: #4da3ff;
-  }
-  
-  .edit-skill-description {
-    flex: 2;
-    font-style: italic;
-    color: #555;
-    margin: 0;
-  }
-  
-  body.dark-mode .edit-skill-description {
-    color: #bbb;
-  }
-  
-  .edit-levels-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .edit-level-row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .edit-level-label {
-    width: 50px;
-    font-weight: bold;
-  }
-  
-  .edit-level-input {
-    flex-grow: 1;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  body.dark-mode .edit-level-input {
-    background-color: #444;
-    color: white;
-    border: 1px solid #777;
-  }
-  
-  .edit-save-button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .edit-save-button:hover {
-    background-color: #218838;
-  }
-  
-  body.dark-mode .edit-save-button {
-    background-color: #218838;
-  }
-  
-  body.dark-mode .edit-save-button:hover {
-    background-color: #1e7e34;
-  }
-  
-  /* 🔹 Button-Container für Navigation */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Main editing wrapper with padding and soft background */
+
+body.dark-mode .edit-container {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: 1px solid #555;
+}
+/* Dark Mode Variante */
+
+.edit-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/* 🧾 Eingabefeld für z. B. Suchen oder neue Skills */
+
+.edit-list {
+  list-style-type: none;
+  padding: 0;
+}
+/* 🔸 Liste ohne Punkte – für Skill-Blöcke */
+
+.edit-skill-box {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/* 🧱 Einzelner Skill-Container */
+
+body.dark-mode .edit-skill-box {
+  background-color: #3a3a3a;
+  border-color: #666;
+}
+/* Dark Mode Variante für Skill-Box */
+
+.edit-skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+/* 📌 Header mit Skill-Titel & Beschreibung */
+
+.edit-skill-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 0;
+  flex: 1;
+}
+/* 🧠 Skill-Name hervorgehoben */
+
+body.dark-mode .edit-skill-title {
+  color: #4da3ff;
+}
+/* Blaue Variante für Dark Mode */
+
+.edit-skill-description {
+  flex: 2;
+  font-style: italic;
+  color: #555;
+  margin: 0;
+}
+/* 💬 Beschreibung (kursiv & grau) */
+
+body.dark-mode .edit-skill-description {
+  color: #bbb;
+}
+/* Heller für Dark Mode */
+
+.edit-levels-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+/* 🔽 Wrapper für Skill-Level (z. B. Level 1–7) */
+
+.edit-level-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* Zeile mit Label + Eingabefeld */
+
+.edit-level-label {
+  width: 50px;
+  font-weight: bold;
+}
+/* 🔢 Label wie "Lvl 1", "Lvl 2" */
+
+.edit-level-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* 🔧 Eingabefeld für Effekt oder Wert */
+
+body.dark-mode .edit-level-input {
+  background-color: #444;
+  color: white;
+  border: 1px solid #777;
+}
+/* Dunklere Variante */
+
+.edit-save-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* 💾 Speicher-Button */
+
+.edit-save-button:hover {
+  background-color: #218838;
+}
+/* Hover-Grün */
+
+body.dark-mode .edit-save-button {
+  background-color: #218838;
+}
+
+body.dark-mode .edit-save-button:hover {
+  background-color: #1e7e34;
+}
+/* Dark Mode Hover */
+
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 15px;  /* Fügt Abstand zwischen den Buttons ein */
-  margin-bottom: 15px;  /* Optional: Abstand unter den Buttons */
+  gap: 15px;
+  margin-bottom: 15px;
 }
+/* 🔘 Button-Leiste (z. B. "Speichern" & "Zurück") */

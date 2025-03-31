@@ -28,3 +28,7 @@
 
 - Anpassung skill seiten, neues UI im White und Dark Mode 
 
+📦 v3.1.1 – 31.3.2025
+
+- Verbesserte kommentare im code und div bug gefixed
+

@@ -1,27 +1,29 @@
+// ⚙️ Electron Core Module & Node.js-Funktionen
 const { app, Menu, BrowserWindow, ipcMain } = require("electron");
-const { autoUpdater } = require("electron-updater"); // ⬅️ hinzugefügt
+const { autoUpdater } = require("electron-updater"); // ⬅️ Automatische Updates
 const fs = require("fs");
 const path = require("path");
 
+// 🪟 Hauptfenster erstellen
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 800,
     webPreferences: {
-      preload: path.join(app.getAppPath(), "preload.js"),
+      preload: path.join(app.getAppPath(), "preload.js"), // 🔗 Zugriff auf electronAPI
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: false,
     },
   });
 
-  // 🔹 Menüleiste komplett entfernen
+  // 🍽 Menüleiste entfernen (clean UI)
   Menu.setApplicationMenu(null);
   mainWindow.setMenuBarVisibility(false);
   mainWindow.removeMenu();
 
+  // 📄 Lade React-Build
   let finalPath;
-
   if (app.isPackaged) {
     finalPath = path.join(process.resourcesPath, "app", "build", "index.html");
   } else {
@@ -33,16 +35,18 @@ function createWindow() {
   mainWindow.loadFile(finalPath).catch((err) => {
     console.error("❌ Ladefehler:", err);
   });
+
+  return mainWindow;
 }
 
-// 📦 Auto-Updater aktivieren, sobald App bereit ist
+// 🚀 App starten + Auto-Updater konfigurieren
 app.whenReady().then(() => {
-  createWindow();
+  const mainWindow = createWindow();
 
-  // 🔄 Prüfe auf Updates & lade automatisch herunter
+  // ⬇️ Update prüfen & ggf. automatisch herunterladen
   autoUpdater.checkForUpdatesAndNotify();
 
-  // 💬 Debug-Ausgaben
+  // 📝 Statusmeldungen im Terminal ausgeben
   autoUpdater.on("checking-for-update", () => {
     console.log("🔍 Suche nach Updates...");
   });
@@ -65,41 +69,39 @@ app.whenReady().then(() => {
 
   autoUpdater.on("update-downloaded", () => {
     mainWindow.webContents.send("update-status", "✅ Update fertig. App startet neu…");
-  
-    // Nur im Entwicklermodus: Modal nach ein paar Sekunden schließen
+
+    // ⏱ Nur in Entwicklung: Modal automatisch schließen
     if (!app.isPackaged) {
       setTimeout(() => {
         mainWindow.webContents.send("update-status", "");
       }, 5000);
     }
-  
+
+    // 🔁 App neustarten und Update anwenden
     setTimeout(() => {
       autoUpdater.quitAndInstall();
     }, 3000);
-  });  
+  });
 });
 
-// 📌 IPC-Handler
+// 🛠 IPC-Kommandos für Renderer-Prozess (electronAPI)
 ipcMain.handle("getDataPath", () => {
-  const dataPath = app.isPackaged
+  return app.isPackaged
     ? path.join(process.resourcesPath, "app", "data.json")
     : path.join("data.json");
-  return dataPath;
 });
 
 ipcMain.handle("getDecoDataPath", () => {
-  const decoDataPath = app.isPackaged
+  return app.isPackaged
     ? path.join(process.resourcesPath, "app", "data-decos.json")
     : path.join("data-decos.json");
-  return decoDataPath;
 });
 
 ipcMain.handle("getSkillDetailsPath", (_, lang) => {
   const fileName = `skills_${lang}.json`;
-  const filePath = app.isPackaged
+  return app.isPackaged
     ? path.join(process.resourcesPath, "app", fileName)
     : path.join(fileName);
-  return filePath;
 });
 
 ipcMain.handle("get-app-version", () => {
@@ -119,11 +121,7 @@ ipcMain.handle("writeFile", (event, filePath, data) => {
   return true;
 });
 
-// 🔻 MacOS-Standardverhalten
-app.on("window-all-closed", () => {
-  if (process.platform !== "darwin") app.quit();
-});
-
+// 📜 RELEASE_LOG.md ausliefern
 const logFilePath = app.isPackaged
   ? path.join(process.resourcesPath, "app", "RELEASE_LOG.md")
   : path.join("RELEASE_LOG.md");
@@ -143,4 +141,9 @@ ipcMain.handle("check-for-updates", () => {
 
 ipcMain.handle("is-dev", () => {
   return !app.isPackaged;
+});
+
+// 🍏 macOS-Spezialfall: App offen halten, bis explizit beendet
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") app.quit();
 });
