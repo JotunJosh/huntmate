@@ -1,25 +1,298 @@
 [
   {
-    "name": "Lähmungswiderstand",
-    "description": "Reduziert die Dauer von Lähmungen.",
+    "name": "Drachenwiderstand",
+    "description": "Erhöht den Drachenwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "70",
-        "effect": "Reduziert die Dauer von Lähmung um 30 %."
+        "value": "",
+        "effect": "Drachenwiderstand +6"
       },
       {
         "level": "Lv2",
-        "value": "40",
-        "effect": "Reduziert die Dauer von Lähmung um 60 %."
+        "value": "",
+        "effect": "Drachenwiderstand +12"
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Verhindert Lähmung."
+        "effect": "Drachenwiderstand +20 Verteidigung +10"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/lahmungswiderstand"
+    "source": "https://wilds.mhdb.io/de/skills/1"
+  },
+  {
+    "name": "Schrot/Kraftschuss",
+    "description": "Erhöht die Angriffskraft von Schrotmunition (Bogengewehr) sowie von Kraftschuss und Schneller Schuss (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen geringfügig."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/2"
+  },
+  {
+    "name": "Kritisches Auge",
+    "description": "Erhöht die Affinität.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinität +4 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinität +8 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinität +12 %"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Affinität +16 %"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Affinität +20 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/3"
+  },
+  {
+    "name": "Wächter-Schutz",
+    "description": "Verringert in den Ruinen von Wyveria Elementund besonderen Schaden, den du erleidest.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert in den Ruinen von Wyveria Elementund besonderen Schaden, den du erleidest."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/4"
+  },
+  {
+    "name": "Explosionsbeschichtung",
+    "description": "Ermöglicht das Auftragen von Explosionsbeschichtungen (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ermöglicht das Auftragen von Explosionsbeschichtungen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/5"
+  },
+  {
+    "name": "Standardboost",
+    "description": "Erhöht die Angriffskraft von Normaler Munition, Standardpfeilen sowie Schwalbenschuss.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen geringfügig."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/6"
+  },
+  {
+    "name": "Blitz-Morphen",
+    "description": "Erhöht Morph-Geschwindigkeit und Kraft von Morph-Äxten und Energieklingen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Geschwindigkeit +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Geschwindigkeit +20 % Morph-Angriffs-Schaden +10 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Geschwindigkeit +30 % Morph-Angriffs-Schaden +20 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/7"
+  },
+  {
+    "name": "Bestrafender Zug",
+    "description": "Erweitert Zug-Angriffe um Betäubung und erhöht die Angriffskraft geringfügig. (Kein Effekt beim Reiten.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Zug-Angriffe verursachen geringen Betäubungsschaden und die Angriffskraft erhöht sich um +3."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Zug-Angriffe verursachen mittleren Betäubungsschaden und die Angriffskraft erhöht sich um +5."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Zug-Angriffe verursachen großen Betäubungsschaden und die Angriffskraft erhöht sich um +7."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/8"
+  },
+  {
+    "name": "Lähmungsangriff",
+    "description": "Erhöht die Rate der Lähmung-Ansammlung. (Die Lähmung-Ansammlung hat eine Obergrenze.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Lähmung-Ansammlung +5 % Zusatzbonus: +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Lähmung-Ansammlung +10 % Zusatzbonus: +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Lähmung-Ansammlung +20 % Zusatzbonus: +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/9"
+  },
+  {
+    "name": "Gefallen für den Fürsten",
+    "description": "Erhöht vorübergehend Angriffskraft, wenn Effekte wie Melodie-Effekte sich auf Gefährten im Umkreis auswirken.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht vorübergehend Angriffskraft, wenn Effekte wie Melodie-Effekte sich auf Gefährten im Umkreis auswirken."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/10"
+  },
+  {
+    "name": "Fulgur-Anjanaths Wille",
+    "description": "Verleiht einen zweiten Ausdauerbalken.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verleiht einen zweiten Ausdauerbalken."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verleiht einen zweiten langen Ausdauerbalken."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/11"
+  },
+  {
+    "name": "Giftangriff",
+    "description": "Erhöht die Rate der Gift-Ansammlung. (Die Gift-Ansammlung hat eine Obergrenze.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Gift-Ansammlung +5 % Zusatzbonus: +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Gift-Ansammlung +10 % Zusatzbonus: +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Gift-Ansammlung +20 % Zusatzbonus: +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/12"
+  },
+  {
+    "name": "Verschmelzung",
+    "description": "Verbessert nach der Erholung von Pest und anormalem Status vorübergehend Elementangriff und Statuseffekte.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht den Elementschaden und die Status-Ansammlung geringfügig, wenn aktiv."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht den Elementschaden und die Status-Ansammlung, wenn aktiv."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht den Elementschaden und die Status-Ansammlung deutlich, wenn aktiv."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/13"
+  },
+  {
+    "name": "Konstitution",
+    "description": "Reduziert den Ausdauerverlust beim Ausweichen, Blocken und bestimmten anderen Aktionen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 10 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 20 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 30 %."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 40 %."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/14"
+  },
+  {
+    "name": "Objektverlängerung",
+    "description": "Verlängert die Dauer einiger Objekteffekte.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Objekteffektdauer +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Objekteffektdauer +25 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Objekteffektdauer +50 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/15"
   },
   {
     "name": "Blocken hoch",
@@ -27,43 +300,276 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "70",
+        "value": "",
         "effect": "Verringert den erlittenen Schaden um 30 %."
       },
       {
         "level": "Lv2",
-        "value": "50",
+        "value": "",
         "effect": "Verringert den erlittenen Schaden um 50 %."
       },
       {
         "level": "Lv3",
-        "value": "20",
+        "value": "",
         "effect": "Verringert den erlittenen Schaden um 80 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/blocken-hoch"
+    "source": "https://wilds.mhdb.io/de/skills/16"
   },
   {
-    "name": "Kritisches Element",
-    "description": "Erhöht den Elementschaden (Feuer, Wasser, Donner, Eis, Drache) durch kritische Treffer.",
+    "name": "Schuppenschichtung",
+    "description": "Reduziert die Ausdauerabnahme vorübergehend, wenn die Gesundheit bei 40 % oder weniger liegt.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Erhöht den Elementschaden geringfügig, wenn aktiv."
+        "effect": "Reduziert die Ausdauerabnahme vorübergehend, wenn die Gesundheit bei 40 % oder weniger liegt."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/17"
+  },
+  {
+    "name": "Antivirus",
+    "description": "Erleichtert die Überwindung einer Raserei-Infektion. Verbessert nach der Heilung die Affinität.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Erholungsrate bei einer Raserei-Infektion geringfügig. Nach der Heilung Affinität +3 %."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Erhöht den Elementschaden, wenn aktiv."
+        "effect": "Erhöht die Erholungsrate bei einer Raserei-Infektion. Verbessert die Affinität um 6 % nach der Heilung."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Erhöht den Elementschaden deutlich, wenn aktiv."
+        "effect": "Erhöht die Erholungsrate bei einer Raserei-Infektion deutlich. Nach der Heilung Affinität +15 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kritisches-element"
+    "source": "https://wilds.mhdb.io/de/skills/18"
+  },
+  {
+    "name": "Flexibles Lederhandwerk",
+    "description": "Erhöht die Sammelgeschwindigkeit und du kannst beim Sammeln oder Zerlegen nicht mehr zurückgestoßen werden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Sammelgeschwindigkeit und du kannst beim Sammeln oder Zerlegen nicht mehr zurückgestoßen werden."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/19"
+  },
+  {
+    "name": "Vermittelte Weisheit",
+    "description": "Erhöht die Wahrscheinlichkeit, seltene Sammelpunkte zu finden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Wahrscheinlichkeit, seltene Sammelpunkte zu finden."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/20"
+  },
+  {
+    "name": "Giftdauer hoch",
+    "description": "Verlängert die Dauer des Effekts deines Gifts auf Monster.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verlängert die Dauer des Effekts deines Gifts um 20 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/21"
+  },
+  {
+    "name": "Kritischer Boost",
+    "description": "Erhöht den Schaden durch kritische Treffer.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht den Schaden kritischer Treffer auf 128 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht den Schaden kritischer Treffer auf 131 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht den Schaden kritischer Treffer auf 134 %."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Erhöht den Schaden kritischer Treffer auf 137 %."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Erhöht den Schaden kritischer Treffer auf 140 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/22"
+  },
+  {
+    "name": "Schnellfeuer hoch",
+    "description": "Verbessert das Schnellfeuer des Leichten Bogengewehrs.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Schnellfeuer-Schaden +5 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/23"
+  },
+  {
+    "name": "Auflademeister",
+    "description": "Erhöht Elementkraft und StatusAnsammlung für aufgeladene Angriffe.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht den Elementschaden und die Status-Ansammlung für aufgeladene Angriffe geringfügig."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht den Elementschaden und die Status-Ansammlung für aufgeladene Angriffe."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht den Elementschaden und die Status-Ansammlung für aufgeladene Angriffe deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/24"
+  },
+  {
+    "name": "Xu Wus Nachdruck",
+    "description": "Vorübergehend Angriff +15 nach dem Essen von Objekten wie Gebratenem Steak.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Vorübergehend Angriff +15 nach dem Essen von Objekten wie Gebratenem Steak."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Vorübergehend Angriff +25 nach dem Essen von Objekten wie Gebratenem Steak."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/25"
+  },
+  {
+    "name": "Wächter-Arkvelds Vitalität",
+    "description": "Stellt etwas Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Stellt etwas Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Stellt Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/26"
+  },
+  {
+    "name": "Wächterpuls",
+    "description": "Beschleunigt die Erholung von Ausdauer und roter Gesundheit in der Nähe von Wiolkristallen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Beschleunigt die Erholung von Ausdauer und roter Gesundheit in der Nähe von Wiolkristallen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/27"
+  },
+  {
+    "name": "Schicksalssprung",
+    "description": "Weiche großen Monstern per langem Hechtsprung aus, indem du auf sie zuspringst. Hechtsprung-Distanz erhöht.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erlaubt die Nutzung der Fähigkeit."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/28"
+  },
+  {
+    "name": "Horn-Maestro",
+    "description": "Verlängert die Effektdauer von Jagdhornmelodien. (Der Effekt geht bei einem Waffenwechsel verloren.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verlängert den Melodie-Effekt und verbessert die Chance auf größere Heilung durch Heilmelodien."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verlängert die Effektdauer von Jagdhornmelodien deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/29"
+  },
+  {
+    "name": "Erholungsplus",
+    "description": "Erhöht die Menge der wiederhergestellten Gesundheit.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verbessert die Erholung geringfügig."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verbessert die Erholung etwas."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verbessert die Erholung deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/30"
+  },
+  {
+    "name": "Erholungstempo",
+    "description": "Erlaubt die schnellere Heilung von erholbarem Schaden (der rote Abschnitt des Gesundheitsbalkens).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verdoppelt das Tempo, mit dem du erholbaren Schaden heilst."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verdreifacht das Tempo, mit dem du erholbaren Schaden heilst."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Vervierfacht das Tempo, mit dem du erholbaren Schaden heilst."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/31"
   },
   {
     "name": "Schnelles Wegstecken",
@@ -71,390 +577,82 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "110",
+        "value": "",
         "effect": "Erhöht das Tempo des Wegsteckens der Waffe geringfügig."
       },
       {
         "level": "Lv2",
-        "value": "120",
+        "value": "",
         "effect": "Erhöht das Tempo des Wegsteckens der Waffe."
       },
       {
         "level": "Lv3",
-        "value": "140",
+        "value": "",
         "effect": "Erhöht das Tempo des Wegsteckens der Waffe deutlich."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schnelles-wegstecken"
+    "source": "https://wilds.mhdb.io/de/skills/32"
   },
   {
-    "name": "Eisenhaut",
-    "description": "Gewährt Schutz gegen Verteidigung runter.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Reduziert die Dauer von Verteidigung runter um 50 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Reduziert die Dauer von Verteidigung runter um 75 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Verhindert Verteidigung runter."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/eisenhaut"
-  },
-  {
-    "name": "Ermüdungsbeschichtung",
-    "description": "Ermöglicht das Auftragen von Ermüdungsbeschichtungen (Bogen).",
+    "name": "Arkvelds Hunger",
+    "description": "Regeneriert etwas Gesundheit, solange du kontinuierlich Monster angreifst. Erholung hängt von der Waffe ab.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Ermöglicht das Auftragen von Ermüdungsbeschichtungen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/ermudungsbeschichtung"
-  },
-  {
-    "name": "Fokus",
-    "description": "Erhöht das Fülltempo von Waffen mit Balken und die Ladegeschwindigkeit von Waffen mit aufgeladenen Angriffen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/95/1/105",
-        "effect": "Erhöht das Balkenfülltempo geringfügig und reduziert die Aufladezeiten um 5 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "110/90/2/107",
-        "effect": "Erhöht das Balkenfülltempo etwas und reduziert die Aufladezeiten um 10 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "120/85/3/110",
-        "effect": "Erhöht das Balkenfülltempo und reduziert die Aufladezeiten um 15 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/fokus"
-  },
-  {
-    "name": "Vorstoß",
-    "description": "Erhöht Angriffskraft und Affinität gegen von Gift oder Lähmung betroffene große Monster.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Angriff +6 gegen von Gift oder Lähmung betroffene große Monster."
-      },
-      {
-        "level": "Lv2",
-        "value": "8/5",
-        "effect": "Angriff +8 und Affinität +5 % gegen von Gift oder Lähmung betroffene große Monster."
-      },
-      {
-        "level": "Lv3",
-        "value": "10/10",
-        "effect": "Angriff +10 und Affinität +10 % gegen von Gift oder Lähmung betroffene große Monster."
-      },
-      {
-        "level": "Lv4",
-        "value": "12/15",
-        "effect": "Angriff +12 und Affinität +15 % gegen von Gift oder Lähmung betroffene große Monster."
-      },
-      {
-        "level": "Lv5",
-        "value": "15/20",
-        "effect": "Angriff +15 und Affinität +20 % gegen von Gift oder Lähmung betroffene große Monster."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/vorstoss"
-  },
-  {
-    "name": "Ausdauererholung",
-    "description": "Beschleunigt die Ausdauerregeneration.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Das Ausdauererholungstempo steigt um 10 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "130",
-        "effect": "Das Ausdauererholungstempo steigt um 30 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "150",
-        "effect": "Das Ausdauererholungstempo steigt um 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/ausdauererholung"
-  },
-  {
-    "name": "Spezialmunitionboost",
-    "description": "Erhöht Schaden von Spezialmunition (Bogengewehr) sowie Drachentöter, Tausend Drachen, Zielmark. (Bogen).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110/110",
-        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen etwas."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/120",
-        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/spezialmunitionboost"
-  },
-  {
-    "name": "Einschüchtern",
-    "description": "Verringert Chance, dass kleine Monster dich bei Sichtkontakt angreifen. (Kein Effekt auf bestimmte Monster.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50/100",
-        "effect": "Entmutigt Monster, dich anzugreifen, selbst wenn sie dich gesehen haben."
-      },
-      {
-        "level": "Lv2",
-        "value": "50",
-        "effect": "Entmutigt Monster sehr, dich anzugreifen, selbst wenn sie dich gesehen haben."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Verhindert, dass dich Monster angreifen, selbst wenn sie dich gesehen haben."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/einschuchtern"
-  },
-  {
-    "name": "Salve",
-    "description": "Kontinuierliche Treffer erhöhen allmählich Angriff und Elementangriff, das Ausmaß ist abhängig von der Waffe.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Bei Treffer kurzzeitig Angriff+ und Elementschaden+. Ab dem fünften Treffer wird der Effekt verstärkt."
+        "effect": "Regeneriert etwas Gesundheit, solange du kontinuierlich Monster angreifst. Erholung hängt von der Waffe ab."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Der Effekt ab dem fünften Treffer wird zusätzlich etwas verstärkt."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Der Effekt ab dem fünften Treffer wird noch weiter verstärkt."
-      },
-      {
-        "level": "Lv4",
-        "value": "",
-        "effect": "Der Effekt ab dem fünften Treffer wird zusätzlich deutlich verstärkt."
-      },
-      {
-        "level": "Lv5",
-        "value": "",
-        "effect": "Der Effekt ab dem fünften Treffer wird zusätzlich sehr deutlich verstärkt."
+        "effect": "Regeneriert Gesundheit, solange du kontinuierlich ein Monster angreifst. Erholung hängt von der Waffe ab."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/salve"
+    "source": "https://wilds.mhdb.io/de/skills/33"
   },
   {
-    "name": "Schuppenschichtung",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "90",
-        "effect": "Reduziert die Ausdauerabnahme vorübergehend, wenn die Gesundheit bei 40 % oder weniger liegt."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schuppenschichtung"
-  },
-  {
-    "name": "Schlafangriff",
-    "description": "Erhöht die Rate der Schlaf-Ansammlung. (Die Schlaf-Ansammlung hat eine Obergrenze.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/1",
-        "effect": "Schlaf-Ansammlung +5 % Zusatzbonus: +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/2",
-        "effect": "Schlaf-Ansammlung +10 % Zusatzbonus: +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Schlaf-Ansammlung +20 % Zusatzbonus: +50"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schlafangriff"
-  },
-  {
-    "name": "Eisangriff",
-    "description": "Verbessert die Kraft von EiselementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Eisangriff +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Eisangriff +10 % Zusatzbonus: +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Eisangriff +20 % Zusatzbonus: +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/eisangriff"
-  },
-  {
-    "name": "Jin-Dahaads Aufstand",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "60/25",
-        "effect": "Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff."
-      },
-      {
-        "level": "Lv4",
-        "value": "60/50",
-        "effect": "Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff deutlich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/jin-dahaads-aufstand"
-  },
-  {
-    "name": "Höchstmacht",
-    "description": "Erhöht die Affinität, wenn der Ausdauerbalken für eine bestimmte Zeit voll ist.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Erhöht die Affinität um 10 %, wenn aktiv."
-      },
-      {
-        "level": "Lv2",
-        "value": "20",
-        "effect": "Erhöht die Affinität um 20 %, wenn aktiv."
-      },
-      {
-        "level": "Lv3",
-        "value": "30",
-        "effect": "Erhöht die Affinität um 30 %, wenn aktiv."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/hochstmacht"
-  },
-  {
-    "name": "Wasserangriff",
-    "description": "Verbessert die Kraft von WasserelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Wasserangriff +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Wasserangriff +10 % Zusatzbonus: +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Wasserangriff +20 % Zusatzbonus: +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/wasserangriff"
-  },
-  {
-    "name": "Gore Magalas Tyrannei",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Löst im Kampf gegen große Monster Raserei aus."
-      },
-      {
-        "level": "Lv4",
-        "value": "10/15",
-        "effect": "Löst im Kampf gegen große Monster Raserei aus und erhöht den Angriff. Angriffskraft steigt nach Erholung."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/gore-magalas-tyrannei"
-  },
-  {
-    "name": "Ausweichdistanz",
-    "description": "Erhöht die Ausweichentfernung.",
+    "name": "Windsicher",
+    "description": "Gewährt Schutz gegen Winddruck.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Erhöht die Ausweichdistanz geringfügig."
+        "effect": "Negiert leichten Winddruck und halbiert die Wirkung von starkem Winddruck."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Erhöht die Ausweichdistanz."
+        "effect": "Negiert leichten und starken Winddruck und halbiert die Wirkung von Drachen-Winddruck."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Erhöht die Ausweichdistanz deutlich."
+        "effect": "Negiert alle Arten von Winddruck."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/ausweichdistanz"
+    "source": "https://wilds.mhdb.io/de/skills/34"
   },
   {
-    "name": "Heldentat",
-    "description": "Erhöht die Angriffskraft und die Verteidigung, wenn deine Gesundheit bei 35 % oder weniger ist.",
+    "name": "Lähmer",
+    "description": "Erleichtert das Betäuben von Monstern.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "100/50",
-        "effect": "Wenn aktiv, Verteidigung +50."
+        "value": "",
+        "effect": "Betäubung-Kraft +20 %"
       },
       {
         "level": "Lv2",
-        "value": "105/50",
-        "effect": "Wenn aktiv, Angriff +5 % und Verteidigung +50."
+        "value": "",
+        "effect": "Betäubung-Kraft +30 %"
       },
       {
         "level": "Lv3",
-        "value": "105/100",
-        "effect": "Wenn aktiv, Angriff +5 % und Verteidigung +100."
-      },
-      {
-        "level": "Lv4",
-        "value": "110/100",
-        "effect": "Wenn aktiv, Angriff +10 % und Verteidigung +100."
-      },
-      {
-        "level": "Lv5",
-        "value": "130",
-        "effect": "Wenn aktiv, Angriff +30 % und Negierung von Effekten, die die Verteidigung steigern."
+        "value": "",
+        "effect": "Betäubung-Kraft +40 %"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/heldentat"
+    "source": "https://wilds.mhdb.io/de/skills/35"
   },
   {
     "name": "Bombardier",
@@ -476,29 +674,700 @@
         "effect": "Erhöht die Sprengkraft um 30 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/bombardier"
+    "source": "https://wilds.mhdb.io/de/skills/36"
   },
   {
-    "name": "Befreiungskunst",
-    "description": "Gewährt Schutz gegen den Status „Eingenetzt“ und Frostpest.",
+    "name": "Schinder",
+    "description": "Erleichtert das Verursachen von Wunden. Verursacht bei genug Schaden zusätzlichen Nicht-Element-Schaden.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "70/70/100",
-        "effect": "Ermöglicht die schnelle Befreiung aus dem Status „Eingenetzt“ oder Frostpest."
+        "value": "",
+        "effect": "Erleichtert das Verursachen von Wunden geringfügig. Fügt zudem mehr Nicht-Element-Schaden zu."
       },
       {
         "level": "Lv2",
-        "value": "40/40/150",
-        "effect": "Ermöglicht sehr schnelle Befreiung aus dem Status „Eingenetzt“ oder Frostpest."
+        "value": "",
+        "effect": "Erleichtert das Verursachen von Wunden etwas. Fügt zudem geringfügig mehr Nicht-Element-Schaden zu."
       },
       {
         "level": "Lv3",
-        "value": "150",
-        "effect": "Verhindert den Status „Eingenetzt“ und Frostpest."
+        "value": "",
+        "effect": "Erleichtert das Verursachen von Wunden. Fügt zudem etwas mehr Nicht-Element-Schaden zu."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Erleichtert das Verursachen von Wunden deutlich. Fügt zudem mehr Nicht-Element-Schaden zu."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Erleichtert das Verursachen von Wunden enorm. Fügt viel zudem enorm viel Nicht-Element-Schaden zu."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/befreiungskunst"
+    "source": "https://wilds.mhdb.io/de/skills/37"
+  },
+  {
+    "name": "Explosionsangriff",
+    "description": "Erhöht die Rate der Explosion-Ansammlung. (Die Explosion-Ansammlung hat eine Obergrenze.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Explosion-Ansammlung +5 % Zusatzbonus: +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Explosion-Ansammlung +10 % Zusatzbonus: +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Explosion-Ansammlung +20 % Zusatzbonus: +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/38"
+  },
+  {
+    "name": "Drachenangriff",
+    "description": "Verbessert die Kraft von DrachenelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Drachenangriff +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Drachenangriff +10 % Zusatzbonus: +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Drachenangriff +20 % Zusatzbonus: +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/39"
+  },
+  {
+    "name": "Kletterer",
+    "description": "Verringert den Ausdauerverlust beim Erklimmen von Ranken.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert den Ausdauerverbrauch beim Klettern um 50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/40"
+  },
+  {
+    "name": "Marathon-Läufer",
+    "description": "Verlangsamt den Ausdauerverbrauch von Aktionen, die andauernd Ausdauer erschöpfen (etwa Sprinten).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert den kontinuierlichen Ausdauerverbrauch um 15 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Reduziert den kontinuierlichen Ausdauerverbrauch um 30 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Reduziert den kontinuierlichen Ausdauerverbrauch um 50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/41"
+  },
+  {
+    "name": "Lähmungsbeschichtung",
+    "description": "Ermöglicht das Auftragen von Lähmungsbeschichtungen (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ermöglicht das Auftragen von Lähmungsbeschichtungen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/42"
+  },
+  {
+    "name": "Schockabsorber",
+    "description": "Deaktiviert Schadensreaktionen, wenn du einen Freund triffst oder wenn ein Freund dich trifft.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Aktiviert den Fähigkeit-Effekt."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/43"
+  },
+  {
+    "name": "Bebenwiderstand",
+    "description": "Gewährt Schutz vor Erdbeben.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Negiert sehr leichte Erdbeben und halbiert die Effekte von leichten Erdbeben."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Negiert leichte Erdbeben und reduziert die Effekte von schweren Erdbeben deutlich."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Negiert alle Erdbeben."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/44"
+  },
+  {
+    "name": "Artillerie",
+    "description": "Verstärkt Explosivangriffe: Wyvernfeuer, Patronen, Detonationsmunition und Phiolenangriffe der Energieklinge.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Kraft von Angriffen und Wyvernfeuer-Feuergeschwindigkeit etwas. Beschuss-Feuerangriff +30."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht die Kraft von Angriffen und Wyvernfeuer-Feuergeschwindigkeit. Beschuss-Feuerangriff +60."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht die Kraft von Angriffen und Wyvernfeuer-Feuergeschwindigkeit deutlich. Beschuss-Feuerangriff +90."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/45"
+  },
+  {
+    "name": "Überlebensexperte",
+    "description": "Erhöht die wiederhergestellte Gesundheit bei Umgebungsinteraktionen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Stellt 50 Gesundheit wieder her."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Stellt 80 Gesundheit wieder her."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Stellt 100 Gesundheit wieder her."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/46"
+  },
+  {
+    "name": "Pestwiderstand",
+    "description": "Gewährt Schutz gegen alle elementbasierten Pestarten.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert die Dauer aller elementbasierten Pestarten um 50 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Reduziert die Dauer aller elementbasierten Pestarten um 75 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Negiert die Wirkung aller elementbasierten Pestarten."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/47"
+  },
+  {
+    "name": "Feuerangriff",
+    "description": "Verbessert die Kraft von FeuerelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Feuerangriff +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Feuerangriff +10 % Zusatzbonus: +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Feuerangriff +20 % Zusatzbonus: +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/48"
+  },
+  {
+    "name": "Mykologie",
+    "description": "Erlaubt die Verdauung von Pilzen, die sonst ungenießbar wären, wodurch du deren Bonuseffekte erhältst.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erlaubt die Verdauung von Blaupilzen und Giftpilzen."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erlaubt zusätzlich die Verdauung von Nitropilzen und Lähmpilzen."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erlaubt zusätzlich die Verdauung von Mandragoras, Teufelspest und Reizpilzen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/49"
+  },
+  {
+    "name": "Ballistik",
+    "description": "Vergrößert die Entfernung, bei der Munition und Pfeile maximale Kraft haben.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erweitert die Reichweite geringfügig."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erweitert die Reichweite."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erweitert die Reichweite erheblich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/50"
+  },
+  {
+    "name": "Gravios’ Schutz",
+    "description": "Verringert deinen erlittenen Schaden um 5 %, wenn dein Gesundheitsbalken gefüllt ist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert deinen erlittenen Schaden um 5 %, wenn dein Gesundheitsbalken gefüllt ist."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verringert deinen erlittenen Schaden um 10 %, wenn dein Gesundheitsbalken gefüllt ist."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/51"
+  },
+  {
+    "name": "Gestankswiderstand",
+    "description": "Gewährt Schutz gegen Gestank.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert Gestankdauer um 50 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verhindert Gestank."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/52"
+  },
+  {
+    "name": "Schwächevorteil",
+    "description": "Erhöht die Affinität von Angriffen, die Schwachpunkte und Wunden eines Monsters ausnutzen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 5 %, plus weitere 3 % auf Wunden."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 10 %, plus weitere 5 % auf Wunden."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 15 %, plus weitere 10 % auf Wunden."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 20 %, plus weitere 15 % auf Wunden."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 30 %, plus weitere 20 % auf Wunden."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/53"
+  },
+  {
+    "name": "Ausdauererholung",
+    "description": "Beschleunigt die Ausdauerregeneration.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Das Ausdauererholungstempo steigt um 10 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Das Ausdauererholungstempo steigt um 30 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Das Ausdauererholungstempo steigt um 50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/54"
+  },
+  {
+    "name": "Blocken",
+    "description": "Reduziert Rückwürfe und den Ausdauerverbrauch beim Blocken.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert geringfügig die Wirkung von Angriffen und reduziert den Ausdauerverbrauch um 15 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verringert die Wirkung von Angriffen und reduziert den Ausdauerverbrauch um 30 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verringert die Wirkung von Angriffen erheblich und reduziert den Ausdauerverbrauch um 50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/55"
+  },
+  {
+    "name": "Fokus",
+    "description": "Erhöht das Fülltempo von Waffen mit Balken und die Ladegeschwindigkeit von Waffen mit aufgeladenen Angriffen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht das Balkenfülltempo geringfügig und reduziert die Aufladezeiten um 5 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht das Balkenfülltempo etwas und reduziert die Aufladezeiten um 10 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht das Balkenfülltempo und reduziert die Aufladezeiten um 15 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/56"
+  },
+  {
+    "name": "Verblendung",
+    "description": "Erhöht die Effektivität von Blitzangriffen und -objekten.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Effektivität von Blitzangriffen und -objekten."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/57"
+  },
+  {
+    "name": "Jin-Dahaads Aufstand",
+    "description": "Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht nach Erholung von Eingenetzt, Frostpest, Machtkampf oder Gestelltwerden kurzzeitig den Angriff deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/58"
+  },
+  {
+    "name": "Sumpfläufer",
+    "description": "Gewährt Widerstand gegen Bewegungseinschränkungen durch Wasser, Ölschlamm oder Flüsse.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Negiert die Effekte von schlammigem Gewässer. Wasser und Ölschlamm verlangsamen nicht mehr."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Negiert zusätzlich Welleneffekte."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/59"
+  },
+  {
+    "name": "Schlafwiderstand",
+    "description": "Reduziert die Dauer von Schlaf.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert die Dauer von Schlaf um 30 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Reduziert die Dauer von Schlaf um 60 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert Schlaf."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/60"
+  },
+  {
+    "name": "Ermüdungsbeschichtung",
+    "description": "Ermöglicht das Auftragen von Ermüdungsbeschichtungen (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ermöglicht das Auftragen von Ermüdungsbeschichtungen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/61"
+  },
+  {
+    "name": "Offensive Abwehr",
+    "description": "Erhöht vorübergehend die Angriffskraft nach dem Ausführen eines Blocks zur perfekten Zeit.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +5 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +10 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +15 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/62"
+  },
+  {
+    "name": "Überfall",
+    "description": "Erhöht vorübergehend den Schaden gegen große Monster nach erfolgreichen Schleichangriffen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +5 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +10 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +15 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/63"
+  },
+  {
+    "name": "Kritischer Status",
+    "description": "Verstärkt anomale Statuseffekte (Lähmung, Gift, Schlaf, Explosion) durch kritische Treffer.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verstärkt anomale Statuseffekte durch kritische Treffer geringfügig."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verstärkt anomale Statuseffekte durch kritische Treffer."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verstärkt anomale Statuseffekte durch kritische Treffer deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/64"
+  },
+  {
+    "name": "Spezialmunitionboost",
+    "description": "Erhöht Schaden von Spezialmunition (Bogengewehr) sowie Drachentöter, Tausend Drachen, Zielmark. (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen etwas."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/65"
+  },
+  {
+    "name": "Doshaguma-Macht",
+    "description": "Vorübergehend Angriff +10 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Vorübergehend Angriff +10 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Vorübergehend Angriff +25 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/66"
+  },
+  {
+    "name": "Rathalos’ Auflodern",
+    "description": "Chance auf zusätzlichen Feuerschaden nach erfolgreichem Treffer.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Chance auf zusätzlichen Feuerschaden nach erfolgreichem Treffer."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht den zusätzlichen Feuerschaden nach erfolgreichem Treffer."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/67"
+  },
+  {
+    "name": "Angriffsbonus",
+    "description": "Erhöht die Angriffskraft.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Angriff +3"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Angriff +5"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Angriff +7"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Angriff +2 % Zusatzbonus: +8"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Angriff +4 % Zusatzbonus: +9"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/68"
+  },
+  {
+    "name": "Vorstoß",
+    "description": "Erhöht Angriffskraft und Affinität gegen von Gift oder Lähmung betroffene große Monster.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Angriff +6 gegen von Gift oder Lähmung betroffene große Monster."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Angriff +8 und Affinität +5 % gegen von Gift oder Lähmung betroffene große Monster."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Angriff +10 und Affinität +10 % gegen von Gift oder Lähmung betroffene große Monster."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Angriff +12 und Affinität +15 % gegen von Gift oder Lähmung betroffene große Monster."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Angriff +15 und Affinität +20 % gegen von Gift oder Lähmung betroffene große Monster."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/69"
+  },
+  {
+    "name": "Sprungmeister",
+    "description": "Verhindert, dass du im Sprung durch Angriffe zurückgeworfen wirst.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verhindert, dass du im Sprung zurückgeworfen wirst."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/70"
   },
   {
     "name": "Unverwundbarkeit",
@@ -530,205 +1399,207 @@
         "effect": "Erhöht den Unverwundbarkeitszeitraum enorm."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/unverwundbarkeit"
+    "source": "https://wilds.mhdb.io/de/skills/71"
   },
   {
-    "name": "Adrenalinschub",
-    "description": "Erhöht nach perfekt getimtem Ausweichen während eines Monsterangriffs vorübergehend die Angriffskraft.",
+    "name": "Schlafangriff",
+    "description": "Erhöht die Rate der Schlaf-Ansammlung. (Die Schlaf-Ansammlung hat eine Obergrenze.)",
     "levels": [
       {
         "level": "Lv1",
-        "value": "10",
+        "value": "",
+        "effect": "Schlaf-Ansammlung +5 % Zusatzbonus: +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Schlaf-Ansammlung +10 % Zusatzbonus: +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Schlaf-Ansammlung +20 % Zusatzbonus: +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/72"
+  },
+  {
+    "name": "Schlafbeschichtung",
+    "description": "Ermöglicht das Auftragen von Schlafbeschichtungen (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ermöglicht das Auftragen von Schlafbeschichtungen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/73"
+  },
+  {
+    "name": "Ohrstöpsel",
+    "description": "Gewährt Schutz gegen das Brüllen großer Monster.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert die Wirkung von schwachem Monstergebrüll."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Negiert schwaches Monstergebrüll und reduziert die Wirkung von starkem Monstergebrüll."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Negiert schwaches und starkes Monstergebrüll."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/74"
+  },
+  {
+    "name": "Gegenschlag",
+    "description": "Erhöht vorübergehend die Angriffskraft, nachdem du zurückgeworfen wurdest.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
         "effect": "Wenn aktiv, Angriff +10."
       },
       {
         "level": "Lv2",
-        "value": "15",
-        "effect": "Wenn aktiv, Angriff +15."
-      },
-      {
-        "level": "Lv3",
-        "value": "20",
-        "effect": "Wenn aktiv, Angriff +20."
-      },
-      {
-        "level": "Lv4",
-        "value": "25",
-        "effect": "Wenn aktiv, Angriff +25."
-      },
-      {
-        "level": "Lv5",
-        "value": "30",
-        "effect": "Wenn aktiv, Angriff +30."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/adrenalinschub"
-  },
-  {
-    "name": "Erholungsplus",
-    "description": "Erhöht die Menge der wiederhergestellten Gesundheit.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Verbessert die Erholung geringfügig."
-      },
-      {
-        "level": "Lv2",
-        "value": "120",
-        "effect": "Verbessert die Erholung etwas."
-      },
-      {
-        "level": "Lv3",
-        "value": "130",
-        "effect": "Verbessert die Erholung deutlich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/erholungsplus"
-  },
-  {
-    "name": "Schrot/Kraftschuss",
-    "description": "Erhöht die Angriffskraft von Schrotmunition (Bogengewehr) sowie von Kraftschuss und Schneller Schuss (Bogen).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/105",
-        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen geringfügig."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schrotkraftschuss"
-  },
-  {
-    "name": "Groll",
-    "description": "Erhöht den Angriff, wenn du erholbaren Schaden erlitten hast (der rote Abschnitt des Gesundheitsbalkens).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5",
-        "effect": "Wenn aktiv, Angriff +5."
-      },
-      {
-        "level": "Lv2",
-        "value": "10",
-        "effect": "Wenn aktiv, Angriff +10."
-      },
-      {
-        "level": "Lv3",
-        "value": "15",
-        "effect": "Wenn aktiv, Angriff +15."
-      },
-      {
-        "level": "Lv4",
-        "value": "20",
-        "effect": "Wenn aktiv, Angriff +20."
-      },
-      {
-        "level": "Lv5",
-        "value": "25",
-        "effect": "Wenn aktiv, Angriff +25."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/groll"
-  },
-  {
-    "name": "Tetradschuss",
-    "description": "Erhöht Affinität von Bogengewehrmuni/Pfeilbeschichtungen ab 4. Schuss sowie Angriff des 4. und 6. Schusses.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "8/3/105/105",
-        "effect": "Erhöht Affinität und Angriffskraft von Schüssen, die die Bedingung erfüllen, geringfügig."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/6/105/105",
-        "effect": "Erhöht Affinität und Angriffskraft von Schüssen, die die Bedingung erfüllen, etwas."
-      },
-      {
-        "level": "Lv3",
-        "value": "12/10/105/105",
-        "effect": "Erhöht Affinität und Angriffskraft von Schüssen, die die Bedingung erfüllen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/tetradschuss"
-  },
-  {
-    "name": "Buttriges Lederhandwerk",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "30/30",
-        "effect": "Erhöht kurzzeitig deine Affinität, wenn du über das Gelände schlitterst."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/buttriges-lederhandwerk"
-  },
-  {
-    "name": "Mykologie",
-    "description": "Erlaubt die Verdauung von Pilzen, die sonst ungenießbar wären, wodurch du deren Bonuseffekte erhältst.",
-    "levels": [
-      {
-        "level": "Lv1",
         "value": "",
-        "effect": "Erlaubt die Verdauung von Blaupilzen und Giftpilzen."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Erlaubt zusätzlich die Verdauung von Nitropilzen und Lähmpilzen."
+        "effect": "Wenn aktiv, Angriff +15. Verlängert die Effektzeit etwas."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Erlaubt zusätzlich die Verdauung von Mandragoras, Teufelspest und Reizpilzen."
+        "effect": "Wenn aktiv, Angriff +25. Verlängert die Effektzeit."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/mykologie"
+    "source": "https://wilds.mhdb.io/de/skills/75"
   },
   {
-    "name": "Kraftentfesselung",
-    "description": "Erhöht unter bestimmten Bedingungen vorübergehend die Affinität und verringert den Ausdauerverbrauch.",
+    "name": "Kritisches Element",
+    "description": "Erhöht den Elementschaden (Feuer, Wasser, Donner, Eis, Drache) durch kritische Treffer.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "10/70",
-        "effect": "Affinität +10 % und reduziert die Ausdauerabnahme um 30 %, wenn aktiv."
+        "value": "",
+        "effect": "Erhöht den Elementschaden geringfügig, wenn aktiv."
       },
       {
         "level": "Lv2",
-        "value": "20/70",
-        "effect": "Affinität +20 % und reduziert die Ausdauerabnahme um 30 %, wenn aktiv."
+        "value": "",
+        "effect": "Erhöht den Elementschaden, wenn aktiv."
       },
       {
         "level": "Lv3",
-        "value": "30/50",
-        "effect": "Affinität +30 % und reduziert die Ausdauerabnahme um 50 %, wenn aktiv."
-      },
-      {
-        "level": "Lv4",
-        "value": "40/50",
-        "effect": "Affinität +40 % und reduziert die Ausdauerabnahme um 50 %, wenn aktiv."
-      },
-      {
-        "level": "Lv5",
-        "value": "50/50",
-        "effect": "Affinität +50 % und reduziert die Ausdauerabnahme um 50 %, wenn aktiv."
+        "value": "",
+        "effect": "Erhöht den Elementschaden deutlich, wenn aktiv."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kraftentfesselung"
+    "source": "https://wilds.mhdb.io/de/skills/76"
   },
   {
-    "name": "Schnellfeuer hoch",
-    "description": "Verbessert das Schnellfeuer des Leichten Bogengewehrs.",
+    "name": "Aufladen",
+    "description": "Erhöht deine Fähigkeit, Betäubung auszulösen, wenn du ein Monster mit dem aufgeladenen Angriff eines Hammers triffst.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105",
-        "effect": "Schnellfeuer-Schaden +5 %"
+        "value": "",
+        "effect": "Aktiviert den Fähigkeit-Effekt."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schnellfeuer-hoch"
+    "source": "https://wilds.mhdb.io/de/skills/77"
+  },
+  {
+    "name": "Wasserwiderstand",
+    "description": "Erhöht den Wasserwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wasserwiderstand +6"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wasserwiderstand +12"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wasserwiderstand +20 Verteidigung +10"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/78"
+  },
+  {
+    "name": "Prügler",
+    "description": "Erhöht die Angriffskraft, wenn die Schärfe deiner Waffe niedrig ist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft um 5 %, wenn dein Schärfebalken im gelben Bereich oder darunter ist."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft um 10 %, wenn dein Schärfebalken im gelben Bereich oder darunter ist."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft um 10 %, wenn dein Schärfebalken im grünen Bereich oder darunter ist."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/79"
+  },
+  {
+    "name": "Luftherrschaft",
+    "description": "Erhöht den Schaden durch gesprungene Angriffe.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Sprungangriffskraft +10 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/80"
+  },
+  {
+    "name": "Heldentat",
+    "description": "Erhöht die Angriffskraft und die Verteidigung, wenn deine Gesundheit bei 35 % oder weniger ist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Verteidigung +50."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +5 % und Verteidigung +50."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +5 % und Verteidigung +100."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +10 % und Verteidigung +100."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +30 % und Negierung von Effekten, die die Verteidigung steigern."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/81"
   },
   {
     "name": "Anpassung",
@@ -745,134 +1616,212 @@
         "effect": "Negiert Umgebungsschaden."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/anpassung"
+    "source": "https://wilds.mhdb.io/de/skills/82"
   },
   {
-    "name": "Verschmelzung",
-    "description": "Verbessert nach der Erholung von Pest und anormalem Status vorübergehend Elementangriff und Statuseffekte.",
+    "name": "Buttriges Lederhandwerk",
+    "description": "Erhöht kurzzeitig deine Affinität, wenn du über das Gelände schlitterst.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "110/105/105",
-        "effect": "Erhöht den Elementschaden und die Status-Ansammlung geringfügig, wenn aktiv."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/110/110",
-        "effect": "Erhöht den Elementschaden und die Status-Ansammlung, wenn aktiv."
-      },
-      {
-        "level": "Lv3",
-        "value": "130/115/115",
-        "effect": "Erhöht den Elementschaden und die Status-Ansammlung deutlich, wenn aktiv."
+        "value": "",
+        "effect": "Erhöht kurzzeitig deine Affinität, wenn du über das Gelände schlitterst."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/verschmelzung"
+    "source": "https://wilds.mhdb.io/de/skills/83"
   },
   {
-    "name": "Palico-Versammlung",
-    "description": "Stärkt Palicos.",
+    "name": "Werkzeugmeister",
+    "description": "Reduziert die Wartezeit, bis Spezialwerkzeuge erneut benutzt werden können.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105/105",
-        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 5 %."
+        "value": "",
+        "effect": "Verkürzt die Aufladezeit um 10 %."
       },
       {
         "level": "Lv2",
-        "value": "110/110",
-        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 10 %."
+        "value": "",
+        "effect": "Verkürzt die Aufladezeit um 20 %."
       },
       {
         "level": "Lv3",
-        "value": "115/115",
-        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 15 %."
+        "value": "",
+        "effect": "Verkürzt die Aufladezeit um 30 %."
       },
       {
         "level": "Lv4",
-        "value": "120/120",
-        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 20 %."
+        "value": "",
+        "effect": "Verkürzt die Aufladezeit um 40 %."
       },
       {
         "level": "Lv5",
-        "value": "125/125",
-        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 25 %."
+        "value": "",
+        "effect": "Verkürzt die Aufladezeit um 50 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/palico-versammlung"
+    "source": "https://wilds.mhdb.io/de/skills/84"
   },
   {
-    "name": "Auflademeister",
-    "description": "Erhöht Elementkraft und StatusAnsammlung für aufgeladene Angriffe.",
+    "name": "Wasserangriff",
+    "description": "Verbessert die Kraft von WasserelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "115/105/105/105",
-        "effect": "Erhöht den Elementschaden und die Status-Ansammlung für aufgeladene Angriffe geringfügig."
+        "value": "",
+        "effect": "Wasserangriff +40"
       },
       {
         "level": "Lv2",
-        "value": "120/110/110/110",
-        "effect": "Erhöht den Elementschaden und die Status-Ansammlung für aufgeladene Angriffe."
+        "value": "",
+        "effect": "Wasserangriff +10 % Zusatzbonus: +50"
       },
       {
         "level": "Lv3",
-        "value": "125/115/115/115",
-        "effect": "Erhöht den Elementschaden und die Status-Ansammlung für aufgeladene Angriffe deutlich."
+        "value": "",
+        "effect": "Wasserangriff +20 % Zusatzbonus: +60"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/auflademeister"
+    "source": "https://wilds.mhdb.io/de/skills/85"
   },
   {
-    "name": "Skalierungstechnik",
-    "description": "",
+    "name": "Lähmungswiderstand",
+    "description": "Reduziert die Dauer von Lähmungen.",
     "levels": [
       {
-        "level": "Lv3",
-        "value": "120/150",
-        "effect": "Erleichtert das Aufsteigen auf Monster, um sie danach zu verletzen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/skalierungstechnik"
-  },
-  {
-    "name": "Fulgur-Anjanaths Wille",
-    "description": "",
-    "levels": [
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert die Dauer von Lähmung um 30 %."
+      },
       {
         "level": "Lv2",
-        "value": "25",
-        "effect": "Verleiht einen zweiten Ausdauerbalken."
+        "value": "",
+        "effect": "Reduziert die Dauer von Lähmung um 60 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert Lähmung."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/86"
+  },
+  {
+    "name": "Rey Daus Spannung",
+    "description": "Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung etwas.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung etwas."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/87"
+  },
+  {
+    "name": "Perforierschüsse",
+    "description": "Erhöht den Angriff von Perforationsmun. (Bogengewehr) sowie Drachentöter und Tausend Drachen (Bogen).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen geringfügig."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/88"
+  },
+  {
+    "name": "Salve",
+    "description": "Kontinuierliche Treffer erhöhen allmählich Angriff und Elementangriff, das Ausmaß ist abhängig von der Waffe.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Bei Treffer kurzzeitig Angriff+ und Elementschaden+. Ab dem fünften Treffer wird der Effekt verstärkt."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Der Effekt ab dem fünften Treffer wird zusätzlich etwas verstärkt."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Der Effekt ab dem fünften Treffer wird noch weiter verstärkt."
       },
       {
         "level": "Lv4",
-        "value": "50",
-        "effect": "Verleiht einen zweiten langen Ausdauerbalken."
+        "value": "",
+        "effect": "Der Effekt ab dem fünften Treffer wird zusätzlich deutlich verstärkt."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Der Effekt ab dem fünften Treffer wird zusätzlich sehr deutlich verstärkt."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/fulgur-anjanaths-wille"
+    "source": "https://wilds.mhdb.io/de/skills/89"
   },
   {
-    "name": "Offensive Abwehr",
-    "description": "Erhöht vorübergehend die Angriffskraft nach dem Ausführen eines Blocks zur perfekten Zeit.",
+    "name": "Ködernder Pelz",
+    "description": "Erhöht die beim Angreifen eines Monsters erweckte Aufmerksamkeit.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105",
-        "effect": "Wenn aktiv, Angriff +5 %."
+        "value": "",
+        "effect": "Erhöht die beim Angreifen eines Monsters erweckte Aufmerksamkeit."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/90"
+  },
+  {
+    "name": "Geologe",
+    "description": "Erhöht die Anzahl an Objekten, die an Sammelpunkten erhalten werden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ein extra Objekt beim Sammeln an Knochenhaufen."
       },
       {
         "level": "Lv2",
-        "value": "110",
-        "effect": "Wenn aktiv, Angriff +10 %."
+        "value": "",
+        "effect": "Zusätzlich ein extra Objekt beim Sammeln besonderer Objekte."
       },
       {
         "level": "Lv3",
-        "value": "115",
-        "effect": "Wenn aktiv, Angriff +15 %."
+        "value": "",
+        "effect": "Zusätzlich ein extra Objekt beim Sammeln an Förderplätzen."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/offensive-abwehr"
+    "source": "https://wilds.mhdb.io/de/skills/91"
+  },
+  {
+    "name": "Höchstmacht",
+    "description": "Erhöht die Affinität, wenn der Ausdauerbalken für eine bestimmte Zeit voll ist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Affinität um 10 %, wenn aktiv."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht die Affinität um 20 %, wenn aktiv."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht die Affinität um 30 %, wenn aktiv."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/92"
   },
   {
     "name": "Schnellessen",
@@ -894,673 +1843,7 @@
         "effect": "Erhöht das Essenstempo deutlich."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schnellessen"
-  },
-  {
-    "name": "Perforierschüsse",
-    "description": "Erhöht den Angriff von Perforationsmun. (Bogengewehr) sowie Drachentöter und Tausend Drachen (Bogen).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/105",
-        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen geringfügig."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/perforierschusse"
-  },
-  {
-    "name": "Bestrafender Zug",
-    "description": "Erweitert Zug-Angriffe um Betäubung und erhöht die Angriffskraft geringfügig. (Kein Effekt beim Reiten.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Zug-Angriffe verursachen geringen Betäubungsschaden und die Angriffskraft erhöht sich um +3."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Zug-Angriffe verursachen mittleren Betäubungsschaden und die Angriffskraft erhöht sich um +5."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Zug-Angriffe verursachen großen Betäubungsschaden und die Angriffskraft erhöht sich um +7."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/bestrafender-zug"
-  },
-  {
-    "name": "Schlafwiderstand",
-    "description": "Reduziert die Dauer von Schlaf.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "70",
-        "effect": "Reduziert die Dauer von Schlaf um 30 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "40",
-        "effect": "Reduziert die Dauer von Schlaf um 60 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Verhindert Schlaf."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schlafwiderstand"
-  },
-  {
-    "name": "Drachenangriff",
-    "description": "Verbessert die Kraft von DrachenelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Drachenangriff +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Drachenangriff +10 % Zusatzbonus: +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Drachenangriff +20 % Zusatzbonus: +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/drachenangriff"
-  },
-  {
-    "name": "Bebenwiderstand",
-    "description": "Gewährt Schutz vor Erdbeben.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50/100",
-        "effect": "Negiert sehr leichte Erdbeben und halbiert die Effekte von leichten Erdbeben."
-      },
-      {
-        "level": "Lv2",
-        "value": "20",
-        "effect": "Negiert leichte Erdbeben und reduziert die Effekte von schweren Erdbeben deutlich."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Negiert alle Erdbeben."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/bebenwiderstand"
-  },
-  {
-    "name": "Unbeeindruckt",
-    "description": "Verhindert das Zurückwerfen sowie andere Reaktionen auf geringen Schaden.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Verhindert, dass du zurückgeworfen wirst."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Verhindert, dass du zurückgeworfen wirst. Stolpern wird stattdessen zu einem Rückwurf verringert."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Verhindert sowohl dass du zurückgeworfen wirst als auch Stolpern."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/unbeeindruckt"
-  },
-  {
-    "name": "Artillerie",
-    "description": "Verstärkt Explosivangriffe: Wyvernfeuer, Patronen, Detonationsmunition und Phiolenangriffe der Energieklinge.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/120/3/110",
-        "effect": "Erhöht die Kraft von Angriffen und Wyvernfeuer-Feuergeschwindigkeit etwas. Beschuss-Feuerangriff +30."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/150/6/120",
-        "effect": "Erhöht die Kraft von Angriffen und Wyvernfeuer-Feuergeschwindigkeit. Beschuss-Feuerangriff +60."
-      },
-      {
-        "level": "Lv3",
-        "value": "15/200/9/130",
-        "effect": "Erhöht die Kraft von Angriffen und Wyvernfeuer-Feuergeschwindigkeit deutlich. Beschuss-Feuerangriff +90."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/artillerie"
-  },
-  {
-    "name": "Teilezerstörer",
-    "description": "Erleichtert Brechen von Teilen großer Monster und erhöht Schaden nach Wundenmaximierung mit Fokusangriff.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110/110",
-        "effect": "Erhöht Teileschaden und angerichteten Schaden, wenn bestimmte Bedingungen erfüllt sind, um 10 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/120",
-        "effect": "Erhöht Teileschaden und angerichteten Schaden, wenn bestimmte Bedingungen erfüllt sind, um 20 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "130/130",
-        "effect": "Erhöht Teileschaden und angerichteten Schaden, wenn bestimmte Bedingungen erfüllt sind, um 30 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/teilezerstorer"
-  },
-  {
-    "name": "Giftdauer hoch",
-    "description": "Verlängert die Dauer des Effekts deines Gifts auf Monster.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Verlängert die Dauer des Effekts deines Gifts um 20 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/giftdauer-hoch"
-  },
-  {
-    "name": "Erholungstempo",
-    "description": "Erlaubt die schnellere Heilung von erholbarem Schaden (der rote Abschnitt des Gesundheitsbalkens).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "200",
-        "effect": "Verdoppelt das Tempo, mit dem du erholbaren Schaden heilst."
-      },
-      {
-        "level": "Lv2",
-        "value": "300",
-        "effect": "Verdreifacht das Tempo, mit dem du erholbaren Schaden heilst."
-      },
-      {
-        "level": "Lv3",
-        "value": "400",
-        "effect": "Vervierfacht das Tempo, mit dem du erholbaren Schaden heilst."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/erholungstempo"
-  },
-  {
-    "name": "Giftwiderstand",
-    "description": "Verringert den Schaden bei Vergiftungen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "150",
-        "effect": "Verringert die Häufigkeit, mit der du Giftschaden nimmst."
-      },
-      {
-        "level": "Lv2",
-        "value": "300",
-        "effect": "Reduziert die Häufigkeit, mit der du Giftschaden erleidest, erheblich."
-      },
-      {
-        "level": "Lv3",
-        "value": "300",
-        "effect": "Verhindert Vergiftung."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/giftwiderstand"
-  },
-  {
-    "name": "Schockabsorber",
-    "description": "Deaktiviert Schadensreaktionen, wenn du einen Freund triffst oder wenn ein Freund dich trifft.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Aktiviert den Fähigkeit-Effekt."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schockabsorber"
-  },
-  {
-    "name": "Aufhetzer",
-    "description": "Erhöht Angriffskraft und Affinität, wenn große Monster wütend werden.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "4/3",
-        "effect": "Wenn aktiv, Angriff +4 und Affinität +3 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "8/5",
-        "effect": "Wenn aktiv, Angriff +8 und Affinität +5 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "12/7",
-        "effect": "Wenn aktiv, Angriff +12 und Affinität +7 %."
-      },
-      {
-        "level": "Lv4",
-        "value": "16/10",
-        "effect": "Wenn aktiv, Angriff +16 und Affinität +10 %."
-      },
-      {
-        "level": "Lv5",
-        "value": "20/15",
-        "effect": "Wenn aktiv, Angriff +20 und Affinität +15 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/aufhetzer"
-  },
-  {
-    "name": "Gravios’ Schutz",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "95",
-        "effect": "Verringert deinen erlittenen Schaden um 5 %, wenn dein Gesundheitsbalken gefüllt ist."
-      },
-      {
-        "level": "Lv4",
-        "value": "90",
-        "effect": "Verringert deinen erlittenen Schaden um 10 %, wenn dein Gesundheitsbalken gefüllt ist."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/gravios-schutz"
-  },
-  {
-    "name": "Patronennachlader",
-    "description": "Verbessert das Nachladen und erhöht die Munitionskapazität der Gewehrlanze sowie die Phiolenkapazität der Energieklinge.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Erhöht das Nachladetempo von Patronen und Phiolen."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/1",
-        "effect": "Erhöht Patronen-/Phiolenladegeschwindigkeit. Kapazität Gewehrlanzen +1. Energieklingen laden 5 Phiolen bei gelber Anzeige."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/patronennachlader"
-  },
-  {
-    "name": "Höchstleistung",
-    "description": "Verbessert den Angriff, wenn dein Gesundheitsbalken gefüllt ist.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "3",
-        "effect": "Wenn aktiv, Angriff +3."
-      },
-      {
-        "level": "Lv2",
-        "value": "6",
-        "effect": "Wenn aktiv, Angriff +6."
-      },
-      {
-        "level": "Lv3",
-        "value": "10",
-        "effect": "Wenn aktiv, Angriff +10."
-      },
-      {
-        "level": "Lv4",
-        "value": "15",
-        "effect": "Wenn aktiv, Angriff +15."
-      },
-      {
-        "level": "Lv5",
-        "value": "20",
-        "effect": "Wenn aktiv, Angriff +20."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/hochstleistung"
-  },
-  {
-    "name": "Elemente umwandeln",
-    "description": "Erleidest du Elementschaden, erhältst du vorübergehend Drachenelementeffekte. (Abklingzeit nach Effektende.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "8/110/150/60",
-        "effect": "Zusätzlicher Drachenschaden nach genug Elementschaden, wenn aktiv. Geringfügig erhöhter Drachenangriff."
-      },
-      {
-        "level": "Lv2",
-        "value": "12/115/200/80",
-        "effect": "Erhöht zusätzlichen Drachenschaden und erhöht Drachenangriff."
-      },
-      {
-        "level": "Lv3",
-        "value": "18/120/280/100",
-        "effect": "Erhöht zusätzlichen Drachenschaden weiter und erhöht Drachenangriff deutlich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/elemente-umwandeln"
-  },
-  {
-    "name": "Feuerangriff",
-    "description": "Verbessert die Kraft von FeuerelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Feuerangriff +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Feuerangriff +10 % Zusatzbonus: +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Feuerangriff +20 % Zusatzbonus: +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/feuerangriff"
-  },
-  {
-    "name": "Nu Udras Meuterei",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "18",
-        "effect": "Verursacht etwas zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist."
-      },
-      {
-        "level": "Lv4",
-        "value": "40",
-        "effect": "Verursacht zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/nu-udras-meuterei"
-  },
-  {
-    "name": "Explosionsbeschichtung",
-    "description": "Ermöglicht das Auftragen von Explosionsbeschichtungen (Bogen).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Ermöglicht das Auftragen von Explosionsbeschichtungen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/explosionsbeschichtung"
-  },
-  {
-    "name": "Ködernder Pelz",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "200",
-        "effect": "Erhöht die beim Angreifen eines Monsters erweckte Aufmerksamkeit."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kodernder-pelz"
-  },
-  {
-    "name": "Botaniker",
-    "description": "Erhöht die Menge an Kräutern und anderen Verbrauchsobjekten, die du sammelst.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "1",
-        "effect": "Pro Sammelvorgang ein extra Kräuter-Objekt."
-      },
-      {
-        "level": "Lv2",
-        "value": "1/1",
-        "effect": "Zusätzlich ein extra Frucht-, Nussoder Samen-Verbrauchsobjekt pro Sammelvorgang."
-      },
-      {
-        "level": "Lv3",
-        "value": "1/1/1",
-        "effect": "Zusätzlich ein extra InsektenVerbrauchsobjekt pro Sammelvorgang."
-      },
-      {
-        "level": "Lv4",
-        "value": "1/1/1/1",
-        "effect": "Zusätzlich ein extra PilzVerbrauchsobjekt pro Sammelvorgang."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/botaniker"
-  },
-  {
-    "name": "Prügler",
-    "description": "Erhöht die Angriffskraft, wenn die Schärfe deiner Waffe niedrig ist.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105",
-        "effect": "Erhöht die Angriffskraft um 5 %, wenn dein Schärfebalken im gelben Bereich oder darunter ist."
-      },
-      {
-        "level": "Lv2",
-        "value": "110",
-        "effect": "Erhöht die Angriffskraft um 10 %, wenn dein Schärfebalken im gelben Bereich oder darunter ist."
-      },
-      {
-        "level": "Lv3",
-        "value": "110",
-        "effect": "Erhöht die Angriffskraft um 10 %, wenn dein Schärfebalken im grünen Bereich oder darunter ist."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/prugler"
-  },
-  {
-    "name": "Betäubungswiderstand",
-    "description": "Reduziert die Dauer von Betäubungen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "70",
-        "effect": "Reduziert die Dauer von Betäubungen um 30 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "40",
-        "effect": "Reduziert die Dauer von Betäubungen um 60 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Verhindert Betäubung."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/betaubungswiderstand"
-  },
-  {
-    "name": "Antivirus",
-    "description": "Erleichtert die Überwindung einer Raserei-Infektion. Verbessert nach der Heilung die Affinität.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10/3",
-        "effect": "Erhöht die Erholungsrate bei einer Raserei-Infektion geringfügig. Nach der Heilung Affinität +3 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "20/6",
-        "effect": "Erhöht die Erholungsrate bei einer Raserei-Infektion. Verbessert die Affinität um 6 % nach der Heilung."
-      },
-      {
-        "level": "Lv3",
-        "value": "30/10",
-        "effect": "Erhöht die Erholungsrate bei einer Raserei-Infektion deutlich. Nach der Heilung Affinität +15 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/antivirus"
-  },
-  {
-    "name": "Kräftigender Pelz",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "110/115",
-        "effect": "Erhöht auf einer Quest nach Ohnmacht Angriff und Verteidigung. (Kann zweimal genutzt werden.)"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kraftigender-pelz"
-  },
-  {
-    "name": "Göttlicher Segen",
-    "description": "Verringert den von dir erlittenen Schaden mit einer bestimmten Wahrscheinlichkeit.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "25/85",
-        "effect": "Verringert den erlittenen Schaden um 15 %, wenn aktiv."
-      },
-      {
-        "level": "Lv2",
-        "value": "25/70",
-        "effect": "Verringert den erlittenen Schaden um 30 %, wenn aktiv."
-      },
-      {
-        "level": "Lv3",
-        "value": "25/50",
-        "effect": "Verringert den erlittenen Schaden um 50 %, wenn aktiv."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/gottlicher-segen"
-  },
-  {
-    "name": "Selbstverbesserung",
-    "description": "Angriff und Verteidigung steigen mit der Zeit während einer Quest. (Das Maximum ist nach 30 Minuten erreicht.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Aktiviert den Fähigkeit-Effekt."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/selbstverbesserung"
-  },
-  {
-    "name": "Freie Mahlzeit",
-    "description": "Nahrungsmittel können mit einer bestimmten Wahrscheinlichkeit kostenlos verzehrt werden.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Wird in 10 % der Fälle aktiviert."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Wird in 25 % der Fälle aktiviert."
-      },
-      {
-        "level": "Lv3",
-        "value": "45",
-        "effect": "Wird in 45 % der Fälle aktiviert."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/freie-mahlzeit"
-  },
-  {
-    "name": "Wächterpuls",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "400/200",
-        "effect": "Beschleunigt die Erholung von Ausdauer und roter Gesundheit in der Nähe von Wiolkristallen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/wachterpuls"
-  },
-  {
-    "name": "Superscharf",
-    "description": "Verhindert, dass deine Waffe an Schärfe verliert.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Verhindert mit einer Chance von 10 %, dass deine Waffe an Schärfe verliert."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Verhindert mit einer Chance von 25 %, dass deine Waffe an Schärfe verliert."
-      },
-      {
-        "level": "Lv3",
-        "value": "50",
-        "effect": "Verhindert mit einer Chance von 50 %, dass deine Waffe an Schärfe verliert."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/superscharf"
-  },
-  {
-    "name": "Schinder",
-    "description": "Erleichtert das Verursachen von Wunden. Verursacht bei genug Schaden zusätzlichen Nicht-Element-Schaden.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/100",
-        "effect": "Erleichtert das Verursachen von Wunden geringfügig. Fügt zudem mehr Nicht-Element-Schaden zu."
-      },
-      {
-        "level": "Lv2",
-        "value": "110/120",
-        "effect": "Erleichtert das Verursachen von Wunden etwas. Fügt zudem geringfügig mehr Nicht-Element-Schaden zu."
-      },
-      {
-        "level": "Lv3",
-        "value": "115/140",
-        "effect": "Erleichtert das Verursachen von Wunden. Fügt zudem etwas mehr Nicht-Element-Schaden zu."
-      },
-      {
-        "level": "Lv4",
-        "value": "120/170",
-        "effect": "Erleichtert das Verursachen von Wunden deutlich. Fügt zudem mehr Nicht-Element-Schaden zu."
-      },
-      {
-        "level": "Lv5",
-        "value": "130/200",
-        "effect": "Erleichtert das Verursachen von Wunden enorm. Fügt viel zudem enorm viel Nicht-Element-Schaden zu."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schinder"
-  },
-  {
-    "name": "Geologe",
-    "description": "Erhöht die Anzahl an Objekten, die an Sammelpunkten erhalten werden.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "1",
-        "effect": "Ein extra Objekt beim Sammeln an Knochenhaufen."
-      },
-      {
-        "level": "Lv2",
-        "value": "1/1",
-        "effect": "Zusätzlich ein extra Objekt beim Sammeln besonderer Objekte."
-      },
-      {
-        "level": "Lv3",
-        "value": "1/1/1",
-        "effect": "Zusätzlich ein extra Objekt beim Sammeln an Förderplätzen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/geologe"
+    "source": "https://wilds.mhdb.io/de/skills/93"
   },
   {
     "name": "Eiswiderstand",
@@ -1568,43 +1851,65 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "6",
+        "value": "",
         "effect": "Eiswiderstand +6"
       },
       {
         "level": "Lv2",
-        "value": "12",
+        "value": "",
         "effect": "Eiswiderstand +12"
       },
       {
         "level": "Lv3",
-        "value": "20/10",
+        "value": "",
         "effect": "Eiswiderstand +20 Verteidigung +10"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/eiswiderstand"
+    "source": "https://wilds.mhdb.io/de/skills/94"
   },
   {
-    "name": "Hungerwiderstand",
-    "description": "Reduziert die Abnahme der maximalen Ausdauer.",
+    "name": "Ausweichdistanz",
+    "description": "Erhöht die Ausweichentfernung.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Verlängert die Zeit, bevor deine maximale Ausdauer abnimmt, um 50 %."
+        "effect": "Erhöht die Ausweichdistanz geringfügig."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Verlängert die Zeit, bevor deine maximale Ausdauer abnimmt, um 100 %."
+        "effect": "Erhöht die Ausweichdistanz."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Verhindert, dass deine maximale Ausdauer abnimmt."
+        "effect": "Erhöht die Ausweichdistanz deutlich."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/hungerwiderstand"
+    "source": "https://wilds.mhdb.io/de/skills/95"
+  },
+  {
+    "name": "Kritisches Ziehen",
+    "description": "Erhöht die Affinität beim Ausführen von Zug-Angriffen. (Kein Effekt beim Reiten.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinität +50 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinität +75 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinität +100 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/96"
   },
   {
     "name": "Kraftverlängerung",
@@ -1626,777 +1931,173 @@
         "effect": "Erhöht die Dauer von Waffenverstärkungen deutlich."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kraftverlangerung"
+    "source": "https://wilds.mhdb.io/de/skills/97"
   },
   {
-    "name": "Pestwiderstand",
-    "description": "Gewährt Schutz gegen alle elementbasierten Pestarten.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Reduziert die Dauer aller elementbasierten Pestarten um 50 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Reduziert die Dauer aller elementbasierten Pestarten um 75 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Negiert die Wirkung aller elementbasierten Pestarten."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/pestwiderstand"
-  },
-  {
-    "name": "Angriffsbonus",
-    "description": "Erhöht die Angriffskraft.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/3",
-        "effect": "Angriff +3"
-      },
-      {
-        "level": "Lv2",
-        "value": "100/5",
-        "effect": "Angriff +5"
-      },
-      {
-        "level": "Lv3",
-        "value": "100/7",
-        "effect": "Angriff +7"
-      },
-      {
-        "level": "Lv4",
-        "value": "102/8",
-        "effect": "Angriff +2 % Zusatzbonus: +8"
-      },
-      {
-        "level": "Lv5",
-        "value": "104/9",
-        "effect": "Angriff +4 % Zusatzbonus: +9"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/angriffsbonus"
-  },
-  {
-    "name": "Wasserwiderstand",
-    "description": "Erhöht den Wasserwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Wasserwiderstand +6"
-      },
-      {
-        "level": "Lv2",
-        "value": "12",
-        "effect": "Wasserwiderstand +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Wasserwiderstand +20 Verteidigung +10"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/wasserwiderstand"
-  },
-  {
-    "name": "Sumpfläufer",
-    "description": "Gewährt Widerstand gegen Bewegungseinschränkungen durch Wasser, Ölschlamm oder Flüsse.",
+    "name": "Betäubungswiderstand",
+    "description": "Reduziert die Dauer von Betäubungen.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Negiert die Effekte von schlammigem Gewässer. Wasser und Ölschlamm verlangsamen nicht mehr."
+        "effect": "Reduziert die Dauer von Betäubungen um 30 %."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Negiert zusätzlich Welleneffekte."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/sumpflaufer"
-  },
-  {
-    "name": "Xu Wus Nachdruck",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "120/15",
-        "effect": "Vorübergehend Angriff +15 nach dem Essen von Objekten wie Gebratenem Steak."
-      },
-      {
-        "level": "Lv4",
-        "value": "120/25",
-        "effect": "Vorübergehend Angriff +25 nach dem Essen von Objekten wie Gebratenem Steak."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/xu-wus-nachdruck"
-  },
-  {
-    "name": "Lähmungsangriff",
-    "description": "Erhöht die Rate der Lähmung-Ansammlung. (Die Lähmung-Ansammlung hat eine Obergrenze.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/1",
-        "effect": "Lähmung-Ansammlung +5 % Zusatzbonus: +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/2",
-        "effect": "Lähmung-Ansammlung +10 % Zusatzbonus: +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Lähmung-Ansammlung +20 % Zusatzbonus: +50"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/lahmungsangriff"
-  },
-  {
-    "name": "Lähmer",
-    "description": "Erleichtert das Betäuben von Monstern.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Betäubung-Kraft +20 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "130",
-        "effect": "Betäubung-Kraft +30 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "140",
-        "effect": "Betäubung-Kraft +40 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/lahmer"
-  },
-  {
-    "name": "Standardboost",
-    "description": "Erhöht die Angriffskraft von Normaler Munition, Standardpfeilen sowie Schwalbenschuss.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/105",
-        "effect": "Erhöht die Kraft von bestimmten Munitionstypen und Pfeilen geringfügig."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/standardboost"
-  },
-  {
-    "name": "Naturbursche",
-    "description": "Verbessert Angel-, Grillund Transportfähigkeiten.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Aktiviert den Fähigkeit-Effekt."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/naturbursche"
-  },
-  {
-    "name": "Luftherrschaft",
-    "description": "Erhöht den Schaden durch gesprungene Angriffe.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Sprungangriffskraft +10 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/luftherrschaft"
-  },
-  {
-    "name": "Windsicher",
-    "description": "Gewährt Schutz gegen Winddruck.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50/100",
-        "effect": "Negiert leichten Winddruck und halbiert die Wirkung von starkem Winddruck."
-      },
-      {
-        "level": "Lv2",
-        "value": "50",
-        "effect": "Negiert leichten und starken Winddruck und halbiert die Wirkung von Drachen-Winddruck."
+        "effect": "Reduziert die Dauer von Betäubungen um 60 %."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Negiert alle Arten von Winddruck."
+        "effect": "Verhindert Betäubung."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/windsicher"
+    "source": "https://wilds.mhdb.io/de/skills/98"
   },
   {
-    "name": "Meisterschliff",
-    "description": "Verhindert, dass deine Waffe durch das Erzielen von kritischen Treffern an Schärfe verliert.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "80",
-        "effect": "Gewährt eine Chance von 80 % auf Immunität gegen Schärfeverlust, wenn aktiv."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/meisterschliff"
-  },
-  {
-    "name": "Aufladen",
-    "description": "Erhöht deine Fähigkeit, Betäubung auszulösen, wenn du ein Monster mit dem aufgeladenen Angriff eines Hammers triffst.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "130",
-        "effect": "Aktiviert den Fähigkeit-Effekt."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/aufladen"
-  },
-  {
-    "name": "Kritisches Ziehen",
-    "description": "Erhöht die Affinität beim Ausführen von Zug-Angriffen. (Kein Effekt beim Reiten.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Affinität +50 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "75",
-        "effect": "Affinität +75 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "100",
-        "effect": "Affinität +100 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kritisches-ziehen"
-  },
-  {
-    "name": "Flexibles Lederhandwerk",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "140",
-        "effect": "Erhöht die Sammelgeschwindigkeit und du kannst beim Sammeln oder Zerlegen nicht mehr zurückgestoßen werden."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/flexibles-lederhandwerk"
-  },
-  {
-    "name": "Schutzpolitur",
-    "description": "Die Waffenschärfe sinkt für eine bestimmte Zeit nach dem Schärfen nicht.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "30",
-        "effect": "Verhindert nach Aktivierung 30 Sekunden lang die Waffenabnutzung."
-      },
-      {
-        "level": "Lv2",
-        "value": "60",
-        "effect": "Verhindert nach Aktivierung 60 Sekunden lang die Waffenabnutzung."
-      },
-      {
-        "level": "Lv3",
-        "value": "90",
-        "effect": "Verhindert nach Aktivierung 90 Sekunden lang die Waffenabnutzung."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schutzpolitur"
-  },
-  {
-    "name": "Vermittelte Weisheit",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "25",
-        "effect": "Erhöht die Wahrscheinlichkeit, seltene Sammelpunkte zu finden."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/vermittelte-weisheit"
-  },
-  {
-    "name": "Rey Daus Spannung",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "30",
-        "effect": "Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung etwas."
-      },
-      {
-        "level": "Lv4",
-        "value": "90",
-        "effect": "Verlängert die Aktivierungszeit der Fähigkeit Kraftentfesselung."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/rey-daus-spannung"
-  },
-  {
-    "name": "Kritischer Boost",
-    "description": "Erhöht den Schaden durch kritische Treffer.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "128",
-        "effect": "Erhöht den Schaden kritischer Treffer auf 128 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "131",
-        "effect": "Erhöht den Schaden kritischer Treffer auf 131 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "134",
-        "effect": "Erhöht den Schaden kritischer Treffer auf 134 %."
-      },
-      {
-        "level": "Lv4",
-        "value": "137",
-        "effect": "Erhöht den Schaden kritischer Treffer auf 137 %."
-      },
-      {
-        "level": "Lv5",
-        "value": "140",
-        "effect": "Erhöht den Schaden kritischer Treffer auf 140 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kritischer-boost"
-  },
-  {
-    "name": "Blocken",
-    "description": "Reduziert Rückwürfe und den Ausdauerverbrauch beim Blocken.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10/85",
-        "effect": "Verringert geringfügig die Wirkung von Angriffen und reduziert den Ausdauerverbrauch um 15 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "20/70",
-        "effect": "Verringert die Wirkung von Angriffen und reduziert den Ausdauerverbrauch um 30 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "30/50",
-        "effect": "Verringert die Wirkung von Angriffen erheblich und reduziert den Ausdauerverbrauch um 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/blocken"
-  },
-  {
-    "name": "Werkzeugmeister",
-    "description": "Reduziert die Wartezeit, bis Spezialwerkzeuge erneut benutzt werden können.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "90",
-        "effect": "Verkürzt die Aufladezeit um 10 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "80",
-        "effect": "Verkürzt die Aufladezeit um 20 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "70",
-        "effect": "Verkürzt die Aufladezeit um 30 %."
-      },
-      {
-        "level": "Lv4",
-        "value": "60",
-        "effect": "Verkürzt die Aufladezeit um 40 %."
-      },
-      {
-        "level": "Lv5",
-        "value": "50",
-        "effect": "Verkürzt die Aufladezeit um 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/werkzeugmeister"
-  },
-  {
-    "name": "Neopteron-Tarnung",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "160/120",
-        "effect": "Erhöht das Bewegungstempo in der Hocke und erleichtert es, von großen Monstern nicht gesehen zu werden."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/neopteron-tarnung"
-  },
-  {
-    "name": "Handwerk",
-    "description": "Erweitert den Waffenschärfebalken, allerdings nicht über das Maximum hinaus.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Waffenschärfe +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "140",
-        "effect": "Waffenschärfe +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "160",
-        "effect": "Waffenschärfe +30"
-      },
-      {
-        "level": "Lv4",
-        "value": "180",
-        "effect": "Waffenschärfe +40"
-      },
-      {
-        "level": "Lv5",
-        "value": "200",
-        "effect": "Waffenschärfe +50"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/handwerk"
-  },
-  {
-    "name": "Lähmungsbeschichtung",
-    "description": "Ermöglicht das Auftragen von Lähmungsbeschichtungen (Bogen).",
+    "name": "Gore Magalas Tyrannei",
+    "description": "Löst im Kampf gegen große Monster Raserei aus.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Ermöglicht das Auftragen von Lähmungsbeschichtungen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/lahmungsbeschichtung"
-  },
-  {
-    "name": "Wächter-Schutz",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "90/90",
-        "effect": "Verringert in den Ruinen von Wyveria Elementund besonderen Schaden, den du erleidest."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/wachter-schutz"
-  },
-  {
-    "name": "Gegenschlag",
-    "description": "Erhöht vorübergehend die Angriffskraft, nachdem du zurückgeworfen wurdest.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Wenn aktiv, Angriff +10."
+        "effect": "Löst im Kampf gegen große Monster Raserei aus."
       },
       {
         "level": "Lv2",
-        "value": "15",
-        "effect": "Wenn aktiv, Angriff +15. Verlängert die Effektzeit etwas."
-      },
-      {
-        "level": "Lv3",
-        "value": "25",
-        "effect": "Wenn aktiv, Angriff +25. Verlängert die Effektzeit."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/gegenschlag"
-  },
-  {
-    "name": "Apex-Zorn",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "10",
-        "effect": "Erhöht den Angriff, wenn du von Statusanomalien betroffen bist."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/apex-zorn"
-  },
-  {
-    "name": "Donnerwiderstand",
-    "description": "Erhöht den Donnerwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Donnerwiderstand +6"
-      },
-      {
-        "level": "Lv2",
-        "value": "12",
-        "effect": "Donnerwiderstand +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Donnerwiderstand +20 Verteidigung +10"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/donnerwiderstand"
-  },
-  {
-    "name": "Giftangriff",
-    "description": "Erhöht die Rate der Gift-Ansammlung. (Die Gift-Ansammlung hat eine Obergrenze.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/1",
-        "effect": "Gift-Ansammlung +5 % Zusatzbonus: +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/2",
-        "effect": "Gift-Ansammlung +10 % Zusatzbonus: +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Gift-Ansammlung +20 % Zusatzbonus: +50"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/giftangriff"
-  },
-  {
-    "name": "Doshaguma-Macht",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "10/180",
-        "effect": "Vorübergehend Angriff +10 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff."
-      },
-      {
-        "level": "Lv4",
-        "value": "25/180",
-        "effect": "Vorübergehend Angriff +25 nach einem erfolgreichen Machtkampf oder Gegenstoß-Angriff."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/doshaguma-macht"
-  },
-  {
-    "name": "Giftbeschichtung",
-    "description": "Ermöglicht das Auftragen von Giftbeschichtungen (Bogen).",
-    "levels": [
-      {
-        "level": "Lv1",
         "value": "",
-        "effect": "Ermöglicht das Auftragen von Giftbeschichtungen."
+        "effect": "Löst im Kampf gegen große Monster Raserei aus und erhöht den Angriff. Angriffskraft steigt nach Erholung."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/giftbeschichtung"
-  },
-  {
-    "name": "Konstitution",
-    "description": "Reduziert den Ausdauerverlust beim Ausweichen, Blocken und bestimmten anderen Aktionen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 10 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "20",
-        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 20 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "30",
-        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 30 %."
-      },
-      {
-        "level": "Lv4",
-        "value": "40",
-        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 40 %."
-      },
-      {
-        "level": "Lv5",
-        "value": "50",
-        "effect": "Reduziert den pauschalen Ausdauerverbrauch um 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/konstitution"
-  },
-  {
-    "name": "Schwächevorteil",
-    "description": "Erhöht die Affinität von Angriffen, die Schwachpunkte und Wunden eines Monsters ausnutzen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/3",
-        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 5 %, plus weitere 3 % auf Wunden."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/5",
-        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 10 %, plus weitere 5 % auf Wunden."
-      },
-      {
-        "level": "Lv3",
-        "value": "15/10",
-        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 15 %, plus weitere 10 % auf Wunden."
-      },
-      {
-        "level": "Lv4",
-        "value": "20/15",
-        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 20 %, plus weitere 15 % auf Wunden."
-      },
-      {
-        "level": "Lv5",
-        "value": "30/20",
-        "effect": "Erhöht die Affinität für Treffer auf Schwachpunkte um 30 %, plus weitere 20 % auf Wunden."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schwachevorteil"
-  },
-  {
-    "name": "Neopteron-Alarm",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "1/3",
-        "effect": "Erhöht die an Sammelpunkten erhaltene Menge Honig."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/neopteron-alarm"
+    "source": "https://wilds.mhdb.io/de/skills/99"
   },
   {
     "name": "Blangongas Geist",
-    "description": "",
+    "description": "Die Geste „Zum Sieg!“ erhöht kurzzeitig den Angriff naher Verbündeter wie Palicos und Hilfsjägern etwas.",
     "levels": [
       {
-        "level": "Lv2",
-        "value": "180/10",
+        "level": "Lv1",
+        "value": "",
         "effect": "Die Geste „Zum Sieg!“ erhöht kurzzeitig den Angriff naher Verbündeter wie Palicos und Hilfsjägern etwas."
       },
       {
-        "level": "Lv4",
-        "value": "180/20",
+        "level": "Lv2",
+        "value": "",
         "effect": "Die Geste „Zum Sieg!“ erhöht kurzzeitig den Angriff naher Verbündeter wie Palicos und Hilfsjägern."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/blangongas-geist"
+    "source": "https://wilds.mhdb.io/de/skills/100"
   },
   {
-    "name": "Überlebensexperte",
-    "description": "Erhöht die wiederhergestellte Gesundheit bei Umgebungsinteraktionen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Stellt 50 Gesundheit wieder her."
-      },
-      {
-        "level": "Lv2",
-        "value": "80",
-        "effect": "Stellt 80 Gesundheit wieder her."
-      },
-      {
-        "level": "Lv3",
-        "value": "100",
-        "effect": "Stellt 100 Gesundheit wieder her."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/uberlebensexperte"
-  },
-  {
-    "name": "Blitz-Morphen",
-    "description": "Erhöht Morph-Geschwindigkeit und Kraft von Morph-Äxten und Energieklingen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110/100",
-        "effect": "Geschwindigkeit +10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "120/110",
-        "effect": "Geschwindigkeit +20 % Morph-Angriffs-Schaden +10 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "130/120",
-        "effect": "Geschwindigkeit +30 % Morph-Angriffs-Schaden +20 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/blitz-morphen"
-  },
-  {
-    "name": "Sprungmeister",
-    "description": "Verhindert, dass du im Sprung durch Angriffe zurückgeworfen wirst.",
+    "name": "Unbeeindruckt",
+    "description": "Verhindert das Zurückwerfen sowie andere Reaktionen auf geringen Schaden.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Verhindert, dass du im Sprung zurückgeworfen wirst."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/sprungmeister"
-  },
-  {
-    "name": "Schnelles Schärfen",
-    "description": "Beschleunigt das Schärfen von Waffen bei der Verwendung eines Wetzsteins.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "1",
-        "effect": "Entfernt einen Zyklus vom Schärfungsvorgang."
+        "effect": "Verhindert, dass du zurückgeworfen wirst."
       },
       {
         "level": "Lv2",
-        "value": "2",
-        "effect": "Entfernt zwei Zyklen vom Schärfungsvorgang."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schnelles-scharfen"
-  },
-  {
-    "name": "Blutungswiderstand",
-    "description": "Gewährt Schutz gegen Blutungen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Verringert den durch Blutung erlittenen Schaden."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Verringert den durch Blutung erlittenen Schaden deutlich."
+        "value": "",
+        "effect": "Verhindert, dass du zurückgeworfen wirst. Stolpern wird stattdessen zu einem Rückwurf verringert."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Verhindert Blutungen."
+        "effect": "Verhindert sowohl dass du zurückgeworfen wirst als auch Stolpern."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/blutungswiderstand"
+    "source": "https://wilds.mhdb.io/de/skills/101"
+  },
+  {
+    "name": "Patronennachlader",
+    "description": "Verbessert das Nachladen und erhöht die Munitionskapazität der Gewehrlanze sowie die Phiolenkapazität der Energieklinge.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht das Nachladetempo von Patronen und Phiolen."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht Patronen-/Phiolenladegeschwindigkeit. Kapazität Gewehrlanzen +1. Energieklingen laden 5 Phiolen bei gelber Anzeige."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/102"
+  },
+  {
+    "name": "Explosionswiderstand",
+    "description": "Gewährt Schutz gegen Explosionspest.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verzögert die Explosionspest und reduziert den Explosionsschaden."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verzögert die Explosionspest erheblich und reduziert den Explosionsschaden erheblich."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert Explosionspest."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/103"
+  },
+  {
+    "name": "Freie Mahlzeit",
+    "description": "Nahrungsmittel können mit einer bestimmten Wahrscheinlichkeit kostenlos verzehrt werden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wird in 10 % der Fälle aktiviert."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wird in 25 % der Fälle aktiviert."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wird in 45 % der Fälle aktiviert."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/104"
+  },
+  {
+    "name": "Botaniker",
+    "description": "Erhöht die Menge an Kräutern und anderen Verbrauchsobjekten, die du sammelst.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Pro Sammelvorgang ein extra Kräuter-Objekt."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Zusätzlich ein extra Frucht-, Nussoder Samen-Verbrauchsobjekt pro Sammelvorgang."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Zusätzlich ein extra InsektenVerbrauchsobjekt pro Sammelvorgang."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Zusätzlich ein extra PilzVerbrauchsobjekt pro Sammelvorgang."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/105"
   },
   {
     "name": "Wirkbereich",
@@ -2428,524 +2129,7 @@
         "effect": "Objekte beeinflussen Verbündete in einem sehr weiten Radius mit ihrer vollen Stärke."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/wirkbereich"
-  },
-  {
-    "name": "Kletterer",
-    "description": "Verringert den Ausdauerverlust beim Erklimmen von Ranken.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Reduziert den Ausdauerverbrauch beim Klettern um 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kletterer"
-  },
-  {
-    "name": "Schicksalssprung",
-    "description": "Weiche großen Monstern per langem Hechtsprung aus, indem du auf sie zuspringst. Hechtsprung-Distanz erhöht.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Erlaubt die Nutzung der Fähigkeit."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schicksalssprung"
-  },
-  {
-    "name": "Wächter-Arkvelds Vitalität",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Stellt etwas Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird."
-      },
-      {
-        "level": "Lv4",
-        "value": "50",
-        "effect": "Stellt Gesundheit wieder her, wenn die Wunde eines großen Monsters maximiert wird."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/wachter-arkvelds-vitalitat"
-  },
-  {
-    "name": "Elementare Absorption",
-    "description": "Erleidest du Elementschaden, erhältst du vorübergehend Elementeffekte. (Abklingzeit nach Effektende.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/5",
-        "effect": "Erhöht Elementangriff geringfügig und Widerstand gegen das Element bei Aktivierung um 4, wenn aktiv."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/8",
-        "effect": "Erhöht Elementangriff etwas und den Widerstand gegen das Element bei Aktivierung um 6, wenn aktiv."
-      },
-      {
-        "level": "Lv3",
-        "value": "15/12",
-        "effect": "Erhöht Elementangriff und den Widerstand gegen das Element bei Aktivierung um 8, wenn aktiv."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/elementare-absorption"
-  },
-  {
-    "name": "Geistiges Auge",
-    "description": "Deine Angriffe prallen weniger ab und fügen harten Monsterteilen größeren Schaden zu.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50/110",
-        "effect": "Chance von 50 %, dass deine Angriffe nicht abgelenkt werden. +10 % Schaden gegen harte Teile."
-      },
-      {
-        "level": "Lv2",
-        "value": "100/115",
-        "effect": "Chance von 100 %, dass deine Angriffe nicht abgelenkt werden. +15 % Schaden gegen harte Teile."
-      },
-      {
-        "level": "Lv3",
-        "value": "100/130",
-        "effect": "Chance von 100 %, dass deine Angriffe nicht abgelenkt werden. +30 % Schaden gegen harte Teile."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/geistiges-auge"
-  },
-  {
-    "name": "Kritisches Auge",
-    "description": "Erhöht die Affinität.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "4",
-        "effect": "Affinität +4 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "8",
-        "effect": "Affinität +8 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "12",
-        "effect": "Affinität +12 %"
-      },
-      {
-        "level": "Lv4",
-        "value": "16",
-        "effect": "Affinität +16 %"
-      },
-      {
-        "level": "Lv5",
-        "value": "20",
-        "effect": "Affinität +20 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kritisches-auge"
-  },
-  {
-    "name": "Donnerangriff",
-    "description": "Verbessert die Kraft von DonnerelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Donnerangriff +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Donnerangriff +10 % Zusatzbonus: +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Donnerangriff +20 % Zusatzbonus: +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/donnerangriff"
-  },
-  {
-    "name": "Ballistik",
-    "description": "Vergrößert die Entfernung, bei der Munition und Pfeile maximale Kraft haben.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Erweitert die Reichweite geringfügig."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Erweitert die Reichweite."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Erweitert die Reichweite erheblich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/ballistik"
-  },
-  {
-    "name": "Uth Dunas Deckung",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Erhöht vorübergehend Verteidigung bei der Verwendung von Spezialwerkzeugen."
-      },
-      {
-        "level": "Lv4",
-        "value": "50/12",
-        "effect": "Erhöht vorübergehend die Verteidigung und Widerstände bei der Verwendung eines Spezialwerkzeugs deutlich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/uth-dunas-deckung"
-  },
-  {
-    "name": "Ausdauerdieb",
-    "description": "Erhöht die Fähigkeit bestimmter Angriffe, Monster zu ermüden.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Ermüdung-Kraft +20 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "130",
-        "effect": "Ermüdung-Kraft +30 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "140",
-        "effect": "Ermüdung-Kraft +40 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/ausdauerdieb"
-  },
-  {
-    "name": "Rathalos’ Auflodern",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "33/24",
-        "effect": "Chance auf zusätzlichen Feuerschaden nach erfolgreichem Treffer."
-      },
-      {
-        "level": "Lv4",
-        "value": "33/60",
-        "effect": "Erhöht den zusätzlichen Feuerschaden nach erfolgreichem Treffer."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/rathalos-auflodern"
-  },
-  {
-    "name": "Schlafbeschichtung",
-    "description": "Ermöglicht das Auftragen von Schlafbeschichtungen (Bogen).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Ermöglicht das Auftragen von Schlafbeschichtungen."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/schlafbeschichtung"
-  },
-  {
-    "name": "Vulkan-Odogarons Macht",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "1/3",
-        "effect": "Verlängert die Dauer der SalveFähigkeit; und Angriff +3, wenn Salve aktiv ist."
-      },
-      {
-        "level": "Lv4",
-        "value": "2/10",
-        "effect": "Verlängert die Dauer der SalveFähigkeit in hohem Maße; und Angriff +10, wenn Salve aktiv ist."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/vulkan-odogarons-macht"
-  },
-  {
-    "name": "Verteidigungsboost",
-    "description": "Erhöht die Verteidigung. Auf höheren Stufen werden auch die Widerstände verbessert.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/5",
-        "effect": "Verteidigung +5"
-      },
-      {
-        "level": "Lv2",
-        "value": "100/10",
-        "effect": "Verteidigung +10"
-      },
-      {
-        "level": "Lv3",
-        "value": "105/10",
-        "effect": "Verteidigung +5 % Zusatzbonus +10"
-      },
-      {
-        "level": "Lv4",
-        "value": "105/20/3",
-        "effect": "Verteidigung +5 % Zusatzbonus +20 Alle Elementwiderstände +3"
-      },
-      {
-        "level": "Lv5",
-        "value": "108/20/3",
-        "effect": "Verteidigung +8 % Zusatzbonus +20 Alle Elementwiderstände +3"
-      },
-      {
-        "level": "Lv6",
-        "value": "108/35/5",
-        "effect": "Verteidigung +8 % Zusatzbonus +35 Alle Elementwiderstände +5"
-      },
-      {
-        "level": "Lv7",
-        "value": "110/35/5",
-        "effect": "Verteidigung +10 % Zusatzbonus: +35 Alle Elementwiderstände: +5"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/verteidigungsboost"
-  },
-  {
-    "name": "Feuerwiderstand",
-    "description": "Erhöht den Feuerwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Feuerwiderstand +6"
-      },
-      {
-        "level": "Lv2",
-        "value": "12",
-        "effect": "Feuerwiderstand +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Feuerwiderstand +20 Verteidigung +10"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/feuerwiderstand"
-  },
-  {
-    "name": "Verblendung",
-    "description": "Erhöht die Effektivität von Blitzangriffen und -objekten.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "200",
-        "effect": "Erhöht die Effektivität von Blitzangriffen und -objekten."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/verblendung"
-  },
-  {
-    "name": "Kritischer Status",
-    "description": "Verstärkt anomale Statuseffekte (Lähmung, Gift, Schlaf, Explosion) durch kritische Treffer.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110/105",
-        "effect": "Verstärkt anomale Statuseffekte durch kritische Treffer geringfügig."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/110",
-        "effect": "Verstärkt anomale Statuseffekte durch kritische Treffer."
-      },
-      {
-        "level": "Lv3",
-        "value": "140/120",
-        "effect": "Verstärkt anomale Statuseffekte durch kritische Treffer deutlich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/kritischer-status"
-  },
-  {
-    "name": "Gestankswiderstand",
-    "description": "Gewährt Schutz gegen Gestank.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Verringert Gestankdauer um 50 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Verhindert Gestank."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/gestankswiderstand"
-  },
-  {
-    "name": "Arkvelds Hunger",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "3/6/14",
-        "effect": "Regeneriert etwas Gesundheit, solange du kontinuierlich Monster angreifst. Erholung hängt von der Waffe ab."
-      },
-      {
-        "level": "Lv4",
-        "value": "5/10/20",
-        "effect": "Regeneriert Gesundheit, solange du kontinuierlich ein Monster angreifst. Erholung hängt von der Waffe ab."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/arkvelds-hunger"
-  },
-  {
-    "name": "Überfall",
-    "description": "Erhöht vorübergehend den Schaden gegen große Monster nach erfolgreichen Schleichangriffen.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/30",
-        "effect": "Wenn aktiv, Angriff +5 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "110/30",
-        "effect": "Wenn aktiv, Angriff +10 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "115/30",
-        "effect": "Wenn aktiv, Angriff +15 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/uberfall"
-  },
-  {
-    "name": "Explosionswiderstand",
-    "description": "Gewährt Schutz gegen Explosionspest.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "25/66",
-        "effect": "Verzögert die Explosionspest und reduziert den Explosionsschaden."
-      },
-      {
-        "level": "Lv2",
-        "value": "50/50",
-        "effect": "Verzögert die Explosionspest erheblich und reduziert den Explosionsschaden erheblich."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Verhindert Explosionspest."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/explosionswiderstand"
-  },
-  {
-    "name": "Horn-Maestro",
-    "description": "Verlängert die Effektdauer von Jagdhornmelodien. (Der Effekt geht bei einem Waffenwechsel verloren.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Verlängert den Melodie-Effekt und verbessert die Chance auf größere Heilung durch Heilmelodien."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Verlängert die Effektdauer von Jagdhornmelodien deutlich."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/horn-maestro"
-  },
-  {
-    "name": "Explosionsangriff",
-    "description": "Erhöht die Rate der Explosion-Ansammlung. (Die Explosion-Ansammlung hat eine Obergrenze.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/1",
-        "effect": "Explosion-Ansammlung +5 % Zusatzbonus: +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/2",
-        "effect": "Explosion-Ansammlung +10 % Zusatzbonus: +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Explosion-Ansammlung +20 % Zusatzbonus: +50"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/explosionsangriff"
-  },
-  {
-    "name": "Marathon-Läufer",
-    "description": "Verlangsamt den Ausdauerverbrauch von Aktionen, die andauernd Ausdauer erschöpfen (etwa Sprinten).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "85",
-        "effect": "Reduziert den kontinuierlichen Ausdauerverbrauch um 15 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "70",
-        "effect": "Reduziert den kontinuierlichen Ausdauerverbrauch um 30 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "50",
-        "effect": "Reduziert den kontinuierlichen Ausdauerverbrauch um 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/marathon-laufer"
-  },
-  {
-    "name": "Gefallen für den Fürsten",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Erhöht vorübergehend Angriffskraft, wenn Effekte wie Melodie-Effekte sich auf Gefährten im Umkreis auswirken."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/gefallen-fur-den-fursten"
-  },
-  {
-    "name": "Objektverlängerung",
-    "description": "Verlängert die Dauer einiger Objekteffekte.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Objekteffektdauer +10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "125",
-        "effect": "Objekteffektdauer +25 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "150",
-        "effect": "Objekteffektdauer +50 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/objektverlangerung"
+    "source": "https://wilds.mhdb.io/de/skills/106"
   },
   {
     "name": "Entomologe",
@@ -2953,55 +2137,529 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "100",
+        "value": "",
         "effect": "Aktiviert den Fähigkeit-Effekt."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/entomologe"
+    "source": "https://wilds.mhdb.io/de/skills/107"
   },
   {
-    "name": "Drachenwiderstand",
-    "description": "Erhöht den Drachenwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+    "name": "Vulkan-Odogarons Macht",
+    "description": "Verlängert die Dauer der SalveFähigkeit; und Angriff +3, wenn Salve aktiv ist.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "6",
-        "effect": "Drachenwiderstand +6"
+        "value": "",
+        "effect": "Verlängert die Dauer der SalveFähigkeit; und Angriff +3, wenn Salve aktiv ist."
       },
       {
         "level": "Lv2",
-        "value": "12",
-        "effect": "Drachenwiderstand +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Drachenwiderstand +20 Verteidigung +10"
+        "value": "",
+        "effect": "Verlängert die Dauer der SalveFähigkeit in hohem Maße; und Angriff +10, wenn Salve aktiv ist."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/drachenwiderstand"
+    "source": "https://wilds.mhdb.io/de/skills/108"
   },
   {
-    "name": "Ohrstöpsel",
-    "description": "Gewährt Schutz gegen das Brüllen großer Monster.",
+    "name": "Giftbeschichtung",
+    "description": "Ermöglicht das Auftragen von Giftbeschichtungen (Bogen).",
     "levels": [
       {
         "level": "Lv1",
-        "value": "20/100",
-        "effect": "Reduziert die Wirkung von schwachem Monstergebrüll."
+        "value": "",
+        "effect": "Ermöglicht das Auftragen von Giftbeschichtungen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/109"
+  },
+  {
+    "name": "Superscharf",
+    "description": "Verhindert, dass deine Waffe an Schärfe verliert.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verhindert mit einer Chance von 10 %, dass deine Waffe an Schärfe verliert."
       },
       {
         "level": "Lv2",
-        "value": "10",
-        "effect": "Negiert schwaches Monstergebrüll und reduziert die Wirkung von starkem Monstergebrüll."
+        "value": "",
+        "effect": "Verhindert mit einer Chance von 25 %, dass deine Waffe an Schärfe verliert."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Negiert schwaches und starkes Monstergebrüll."
+        "effect": "Verhindert mit einer Chance von 50 %, dass deine Waffe an Schärfe verliert."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/ohrstopsel"
+    "source": "https://wilds.mhdb.io/de/skills/110"
+  },
+  {
+    "name": "Verteidigungsboost",
+    "description": "Erhöht die Verteidigung. Auf höheren Stufen werden auch die Widerstände verbessert.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verteidigung +5"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verteidigung +10"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verteidigung +5 % Zusatzbonus +10"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Verteidigung +5 % Zusatzbonus +20 Alle Elementwiderstände +3"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Verteidigung +8 % Zusatzbonus +20 Alle Elementwiderstände +3"
+      },
+      {
+        "level": "Lv6",
+        "value": "",
+        "effect": "Verteidigung +8 % Zusatzbonus +35 Alle Elementwiderstände +5"
+      },
+      {
+        "level": "Lv7",
+        "value": "",
+        "effect": "Verteidigung +10 % Zusatzbonus: +35 Alle Elementwiderstände: +5"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/111"
+  },
+  {
+    "name": "Handwerk",
+    "description": "Erweitert den Waffenschärfebalken, allerdings nicht über das Maximum hinaus.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Waffenschärfe +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Waffenschärfe +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Waffenschärfe +30"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Waffenschärfe +40"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Waffenschärfe +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/112"
+  },
+  {
+    "name": "Adrenalinschub",
+    "description": "Erhöht nach perfekt getimtem Ausweichen während eines Monsterangriffs vorübergehend die Angriffskraft.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +10."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +15."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +20."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +25."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +30."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/113"
+  },
+  {
+    "name": "Eisangriff",
+    "description": "Verbessert die Kraft von EiselementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Eisangriff +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Eisangriff +10 % Zusatzbonus: +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Eisangriff +20 % Zusatzbonus: +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/114"
+  },
+  {
+    "name": "Göttlicher Segen",
+    "description": "Verringert den von dir erlittenen Schaden mit einer bestimmten Wahrscheinlichkeit.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert den erlittenen Schaden um 15 %, wenn aktiv."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verringert den erlittenen Schaden um 30 %, wenn aktiv."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verringert den erlittenen Schaden um 50 %, wenn aktiv."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/115"
+  },
+  {
+    "name": "Groll",
+    "description": "Erhöht den Angriff, wenn du erholbaren Schaden erlitten hast (der rote Abschnitt des Gesundheitsbalkens).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +5."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +10."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +15."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +20."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +25."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/116"
+  },
+  {
+    "name": "Meisterschliff",
+    "description": "Verhindert, dass deine Waffe durch das Erzielen von kritischen Treffern an Schärfe verliert.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Gewährt eine Chance von 80 % auf Immunität gegen Schärfeverlust, wenn aktiv."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/117"
+  },
+  {
+    "name": "Feuerwiderstand",
+    "description": "Erhöht den Feuerwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Feuerwiderstand +6"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Feuerwiderstand +12"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Feuerwiderstand +20 Verteidigung +10"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/118"
+  },
+  {
+    "name": "Schnelles Schärfen",
+    "description": "Beschleunigt das Schärfen von Waffen bei der Verwendung eines Wetzsteins.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Entfernt einen Zyklus vom Schärfungsvorgang."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Entfernt zwei Zyklen vom Schärfungsvorgang."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/119"
+  },
+  {
+    "name": "Donnerangriff",
+    "description": "Verbessert die Kraft von DonnerelementAngriffen. Die Elementangriffskraft hat eine Obergrenze.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Donnerangriff +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Donnerangriff +10 % Zusatzbonus: +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Donnerangriff +20 % Zusatzbonus: +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/120"
+  },
+  {
+    "name": "Giftwiderstand",
+    "description": "Verringert den Schaden bei Vergiftungen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert die Häufigkeit, mit der du Giftschaden nimmst."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Reduziert die Häufigkeit, mit der du Giftschaden erleidest, erheblich."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert Vergiftung."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/121"
+  },
+  {
+    "name": "Teilezerstörer",
+    "description": "Erleichtert Brechen von Teilen großer Monster und erhöht Schaden nach Wundenmaximierung mit Fokusangriff.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht Teileschaden und angerichteten Schaden, wenn bestimmte Bedingungen erfüllt sind, um 10 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht Teileschaden und angerichteten Schaden, wenn bestimmte Bedingungen erfüllt sind, um 20 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht Teileschaden und angerichteten Schaden, wenn bestimmte Bedingungen erfüllt sind, um 30 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/122"
+  },
+  {
+    "name": "Einschüchtern",
+    "description": "Verringert Chance, dass kleine Monster dich bei Sichtkontakt angreifen. (Kein Effekt auf bestimmte Monster.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Entmutigt Monster, dich anzugreifen, selbst wenn sie dich gesehen haben."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Entmutigt Monster sehr, dich anzugreifen, selbst wenn sie dich gesehen haben."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert, dass dich Monster angreifen, selbst wenn sie dich gesehen haben."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/123"
+  },
+  {
+    "name": "Skalierungstechnik",
+    "description": "Erleichtert das Aufsteigen auf Monster, um sie danach zu verletzen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erleichtert das Aufsteigen auf Monster, um sie danach zu verletzen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/124"
+  },
+  {
+    "name": "Elementare Absorption",
+    "description": "Erleidest du Elementschaden, erhältst du vorübergehend Elementeffekte. (Abklingzeit nach Effektende.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht Elementangriff geringfügig und Widerstand gegen das Element bei Aktivierung um 4, wenn aktiv."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht Elementangriff etwas und den Widerstand gegen das Element bei Aktivierung um 6, wenn aktiv."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht Elementangriff und den Widerstand gegen das Element bei Aktivierung um 8, wenn aktiv."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/125"
+  },
+  {
+    "name": "Schutzpolitur",
+    "description": "Die Waffenschärfe sinkt für eine bestimmte Zeit nach dem Schärfen nicht.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verhindert nach Aktivierung 30 Sekunden lang die Waffenabnutzung."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verhindert nach Aktivierung 60 Sekunden lang die Waffenabnutzung."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert nach Aktivierung 90 Sekunden lang die Waffenabnutzung."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/126"
+  },
+  {
+    "name": "Eisenhaut",
+    "description": "Gewährt Schutz gegen Verteidigung runter.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Reduziert die Dauer von Verteidigung runter um 50 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Reduziert die Dauer von Verteidigung runter um 75 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert Verteidigung runter."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/127"
+  },
+  {
+    "name": "Geistiges Auge",
+    "description": "Deine Angriffe prallen weniger ab und fügen harten Monsterteilen größeren Schaden zu.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Chance von 50 %, dass deine Angriffe nicht abgelenkt werden. +10 % Schaden gegen harte Teile."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Chance von 100 %, dass deine Angriffe nicht abgelenkt werden. +15 % Schaden gegen harte Teile."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Chance von 100 %, dass deine Angriffe nicht abgelenkt werden. +30 % Schaden gegen harte Teile."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/128"
+  },
+  {
+    "name": "Tetradschuss",
+    "description": "Erhöht Affinität von Bogengewehrmuni/Pfeilbeschichtungen ab 4. Schuss sowie Angriff des 4. und 6. Schusses.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht Affinität und Angriffskraft von Schüssen, die die Bedingung erfüllen, geringfügig."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht Affinität und Angriffskraft von Schüssen, die die Bedingung erfüllen, etwas."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht Affinität und Angriffskraft von Schüssen, die die Bedingung erfüllen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/129"
+  },
+  {
+    "name": "Selbstverbesserung",
+    "description": "Angriff und Verteidigung steigen mit der Zeit während einer Quest. (Das Maximum ist nach 30 Minuten erreicht.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Aktiviert den Fähigkeit-Effekt."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/130"
+  },
+  {
+    "name": "Neopteron-Tarnung",
+    "description": "Erhöht das Bewegungstempo in der Hocke und erleichtert es, von großen Monstern nicht gesehen zu werden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht das Bewegungstempo in der Hocke und erleichtert es, von großen Monstern nicht gesehen zu werden."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/131"
   },
   {
     "name": "Eröffnungsschuss",
@@ -3009,20 +2667,362 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "5/5/110/110",
+        "value": "",
         "effect": "Erhöht das Nachladetempo und bei vollem Magazin die Angriffskraft von Schüssen etwas."
       },
       {
         "level": "Lv2",
-        "value": "10/10/110/110",
+        "value": "",
         "effect": "Erhöht das Nachladetempo und bei vollem Magazin die Angriffskraft von Schüssen."
       },
       {
         "level": "Lv3",
-        "value": "15/15/110/110",
+        "value": "",
         "effect": "Erhöht das Nachladetempo und bei vollem Magazin die Angriffskraft von Schüssen deutlich."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/de/data/skills/eroffnungsschuss"
+    "source": "https://wilds.mhdb.io/de/skills/132"
+  },
+  {
+    "name": "Ausdauerdieb",
+    "description": "Erhöht die Fähigkeit bestimmter Angriffe, Monster zu ermüden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ermüdung-Kraft +20 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Ermüdung-Kraft +30 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Ermüdung-Kraft +40 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/133"
+  },
+  {
+    "name": "Kraftentfesselung",
+    "description": "Erhöht unter bestimmten Bedingungen vorübergehend die Affinität und verringert den Ausdauerverbrauch.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinität +10 % und reduziert die Ausdauerabnahme um 30 %, wenn aktiv."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinität +20 % und reduziert die Ausdauerabnahme um 30 %, wenn aktiv."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinität +30 % und reduziert die Ausdauerabnahme um 50 %, wenn aktiv."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Affinität +40 % und reduziert die Ausdauerabnahme um 50 %, wenn aktiv."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Affinität +50 % und reduziert die Ausdauerabnahme um 50 %, wenn aktiv."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/134"
+  },
+  {
+    "name": "Naturbursche",
+    "description": "Verbessert Angel-, Grillund Transportfähigkeiten.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Aktiviert den Fähigkeit-Effekt."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/135"
+  },
+  {
+    "name": "Aufhetzer",
+    "description": "Erhöht Angriffskraft und Affinität, wenn große Monster wütend werden.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +4 und Affinität +3 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +8 und Affinität +5 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +12 und Affinität +7 %."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +16 und Affinität +10 %."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +20 und Affinität +15 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/136"
+  },
+  {
+    "name": "Palico-Versammlung",
+    "description": "Stärkt Palicos.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 5 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 10 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 15 %."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 20 %."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Erhöht die Angriffskraft und die Verteidigung deines Palicos um 25 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/137"
+  },
+  {
+    "name": "Blutungswiderstand",
+    "description": "Gewährt Schutz gegen Blutungen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verringert den durch Blutung erlittenen Schaden."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verringert den durch Blutung erlittenen Schaden deutlich."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert Blutungen."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/138"
+  },
+  {
+    "name": "Befreiungskunst",
+    "description": "Gewährt Schutz gegen den Status „Eingenetzt“ und Frostpest.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Ermöglicht die schnelle Befreiung aus dem Status „Eingenetzt“ oder Frostpest."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Ermöglicht sehr schnelle Befreiung aus dem Status „Eingenetzt“ oder Frostpest."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert den Status „Eingenetzt“ und Frostpest."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/139"
+  },
+  {
+    "name": "Neopteron-Alarm",
+    "description": "Erhöht die an Sammelpunkten erhaltene Menge Honig.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht die an Sammelpunkten erhaltene Menge Honig."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/140"
+  },
+  {
+    "name": "Nu Udras Meuterei",
+    "description": "Verursacht etwas zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verursacht etwas zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verursacht zusätzlichen Schaden, wenn die Groll-Fähigkeit aktiv ist."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/141"
+  },
+  {
+    "name": "Kräftigender Pelz",
+    "description": "Erhöht auf einer Quest nach Ohnmacht Angriff und Verteidigung. (Kann zweimal genutzt werden.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht auf einer Quest nach Ohnmacht Angriff und Verteidigung. (Kann zweimal genutzt werden.)"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/142"
+  },
+  {
+    "name": "Hungerwiderstand",
+    "description": "Reduziert die Abnahme der maximalen Ausdauer.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Verlängert die Zeit, bevor deine maximale Ausdauer abnimmt, um 50 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Verlängert die Zeit, bevor deine maximale Ausdauer abnimmt, um 100 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Verhindert, dass deine maximale Ausdauer abnimmt."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/143"
+  },
+  {
+    "name": "Elemente umwandeln",
+    "description": "Erleidest du Elementschaden, erhältst du vorübergehend Drachenelementeffekte. (Abklingzeit nach Effektende.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Zusätzlicher Drachenschaden nach genug Elementschaden, wenn aktiv. Geringfügig erhöhter Drachenangriff."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht zusätzlichen Drachenschaden und erhöht Drachenangriff."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Erhöht zusätzlichen Drachenschaden weiter und erhöht Drachenangriff deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/144"
+  },
+  {
+    "name": "Uth Dunas Deckung",
+    "description": "Erhöht vorübergehend Verteidigung bei der Verwendung von Spezialwerkzeugen.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht vorübergehend Verteidigung bei der Verwendung von Spezialwerkzeugen."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Erhöht vorübergehend die Verteidigung und Widerstände bei der Verwendung eines Spezialwerkzeugs deutlich."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/145"
+  },
+  {
+    "name": "Höchstleistung",
+    "description": "Verbessert den Angriff, wenn dein Gesundheitsbalken gefüllt ist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +3."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +6."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +10."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +15."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Wenn aktiv, Angriff +20."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/146"
+  },
+  {
+    "name": "Apex-Zorn",
+    "description": "Erhöht den Angriff, wenn du von Statusanomalien betroffen bist.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Erhöht den Angriff, wenn du von Statusanomalien betroffen bist."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/147"
+  },
+  {
+    "name": "Donnerwiderstand",
+    "description": "Erhöht den Donnerwiderstand. Auf höheren Stufen wird auch die Verteidigung verbessert.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Donnerwiderstand +6"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Donnerwiderstand +12"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Donnerwiderstand +20 Verteidigung +10"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/de/skills/148"
   }
 ]

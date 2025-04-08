@@ -1,184 +1,390 @@
 [
   {
-    "name": "Cuir souple",
-    "description": "",
+    "name": "Aura draconique",
+    "description": "Augmente la protection contre les attaques élémentaires dragon puis les attaques physiques.",
     "levels": [
       {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Résistance Dragon +6"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Résistance Dragon +12"
+      },
+      {
         "level": "Lv3",
-        "value": "140",
+        "value": "",
+        "effect": "Résistance Dragon +20 Défense +10"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/1"
+  },
+  {
+    "name": "Désigné pour mourir",
+    "description": "Augmente l'attaque des munitions à grenaille (fusarbalète) et Tir de guerre/Tir rapide (arc).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement la puissance des munitions et flèches indiquées."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/2"
+  },
+  {
+    "name": "Maître d'armes",
+    "description": "Augmente l'affinité.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinité +4 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinité +8 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinité +12 %"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Affinité +16 %"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Affinité +20 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/3"
+  },
+  {
+    "name": "Protection du Gardien",
+    "description": "Réduit les dégâts uniques et élémentaires dans les Ruines de Wyveria.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Réduit les dégâts uniques et élémentaires dans les Ruines de Wyveria."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/4"
+  },
+  {
+    "name": "Maître bombardier",
+    "description": "Permet d'utiliser des fioles explosives.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Permet d'utiliser des fioles explosives."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/5"
+  },
+  {
+    "name": "Tir maximum",
+    "description": "Augmente la puissance des munitions et des flèches normales, et de Tir d'hirondelle volante.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement la puissance des munitions et flèches indiquées."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/6"
+  },
+  {
+    "name": "Morphose rapide",
+    "description": "Augmente la vitesse de la morphose et la puissance des morpho-haches et des volto-haches.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Vitesse +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Vitesse +20 % Dégâts morphose +10 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Vitesse +30 % Dégâts morphose +20 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/7"
+  },
+  {
+    "name": "Batto-jutsu",
+    "description": "Ajoute un étourdissement aux attaques dégainées. Augmente un peu l'attaque (sans effet en chevauchant).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +3 et légers dégâts d'étourdissement infligés par les attaques dégainées."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +5 et dégâts moyens d'étourdissement infligés par les attaques dégainées."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +7 et dégâts importants d'étourdissement infligés par les attaques dégainées."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/8"
+  },
+  {
+    "name": "Neutralisation",
+    "description": "Augmente la puissance des afflictions de type paralysie. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Accumulation paralysie +5 % Accumulation paralysie +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Accumulation paralysie +10 % Accumulation paralysie +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Accumulation paralysie +20 % Accumulation paralysie +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/9"
+  },
+  {
+    "name": "Faveur du seigneur",
+    "description": "Augmente temporairement la puissance d'attaque avec les effets qui affectent les compagnons (comme les Mélodies).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente temporairement la puissance d'attaque avec les effets qui affectent les compagnons (comme les Mélodies)."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/10"
+  },
+  {
+    "name": "Volonté de l'Anjanath tonnerre",
+    "description": "Confère une jauge d'endurance supplémentaire.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Confère une jauge d'endurance supplémentaire."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Confère une grande jauge d'endurance supplémentaire."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/11"
+  },
+  {
+    "name": "Mort-aux-rats",
+    "description": "Augmente la puissance des afflictions de type poison. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Accumulation poison +5 % Accumulation poison +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Accumulation poison +10 % Accumulation poison +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Accumulation poison +20 % Accumulation poison +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/12"
+  },
+  {
+    "name": "Union",
+    "description": "Augmente temporairement l'attaque élémentaire et les afflictions après la fin d'un fléau ou d'un statut anormal.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Lorsqu'il est actif, les dégâts élémentaires et les afflictions augmentent légèrement."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Lorsqu'il est actif, les dégâts élémentaires et les afflictions augmentent."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Lorsqu'il est actif, les dégâts élémentaires et les afflictions augmentent grandement."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/13"
+  },
+  {
+    "name": "Athlète",
+    "description": "Ralentit la perte d'endurance en cas d'esquive, de blocage, etc.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Coût d'endurance fixe -10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Coût d'endurance fixe -20 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Coût d'endurance fixe -30 %"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Coût d'endurance fixe -40 %"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Coût d'endurance fixe -50 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/14"
+  },
+  {
+    "name": "Chimiste",
+    "description": "Augmente la durée des effets pour certains objets.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Durée +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Durée +25 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Durée +50 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/15"
+  },
+  {
+    "name": "Ultra garde",
+    "description": "Permet de parer des attaques normalement imparables.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Dégâts subis -30 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Dégâts subis -50 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Dégâts subis -80 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/16"
+  },
+  {
+    "name": "Écailles superposées",
+    "description": "Réduit temporairement la perte d'endurance lorsque la vie est inférieure ou égale à 40 %.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Réduit temporairement la perte d'endurance lorsque la vie est inférieure ou égale à 40 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/17"
+  },
+  {
+    "name": "Antivirus",
+    "description": "En cas d'infection, permet de surmonter plus facilement la Furie et augmente l'affinité en guérissant.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Accélère légèrement la guérison après avoir contracté la Furie. Augmente ensuite l'affinité de 3 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Accélère la guérison après avoir contracté la Furie. Augmente ensuite l'affinité de 6 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Accélère grandement la guérison après avoir contracté la Furie. Augmente ensuite l'affinité de 15 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/18"
+  },
+  {
+    "name": "Cuir souple",
+    "description": "Augmente la vitesse de collecte et empêche les attaques de vous repousser pendant la collecte ou le dépeçage.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
         "effect": "Augmente la vitesse de collecte et empêche les attaques de vous repousser pendant la collecte ou le dépeçage."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/cuir-souple"
+    "source": "https://wilds.mhdb.io/fr/skills/19"
   },
   {
-    "name": "Savoir-faire",
-    "description": "Augmente la jauge de tranchant de l'arme. Ne peut dépasser la limite maximum.",
+    "name": "Sagesse transmise",
+    "description": "Augmente les chances de trouver des points de collecte rare.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "120",
-        "effect": "Tranchant +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "140",
-        "effect": "Tranchant +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "160",
-        "effect": "Tranchant +30"
-      },
-      {
-        "level": "Lv4",
-        "value": "180",
-        "effect": "Tranchant +40"
-      },
-      {
-        "level": "Lv5",
-        "value": "200",
-        "effect": "Tranchant +50"
+        "value": "",
+        "effect": "Augmente les chances de trouver des points de collecte rare."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/savoir-faire"
+    "source": "https://wilds.mhdb.io/fr/skills/20"
   },
   {
-    "name": "Étanchéité",
-    "description": "Augmente la protection contre les attaques élémentaires eau puis les attaques physiques.",
+    "name": "Poison +",
+    "description": "Prolonge la durée de l'effet de votre poison sur les monstres.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "6",
-        "effect": "Résistance Eau +6"
-      },
-      {
-        "level": "Lv2",
-        "value": "12",
-        "effect": "Résistance Eau +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Résistance Eau +20 Défense +10"
+        "value": "",
+        "effect": "Prolonge la durée de l'effet de votre poison de 20 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/etancheite"
-  },
-  {
-    "name": "Paratonnerre",
-    "description": "Augmente la protection contre les attaques élémentaires foudre puis les attaques physiques.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Résistance Foudre +6"
-      },
-      {
-        "level": "Lv2",
-        "value": "12",
-        "effect": "Résistance Foudre +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Résistance Foudre +20 Défense +10"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/paratonnerre"
-  },
-  {
-    "name": "Toxicologie",
-    "description": "Réduit les dégâts subis en cas d'empoisonnement.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "150",
-        "effect": "Réduit le nombre de fois que vous subissez des dégâts de poison."
-      },
-      {
-        "level": "Lv2",
-        "value": "300",
-        "effect": "Réduit grandement le nombre de fois que vous subissez des dégâts de poison."
-      },
-      {
-        "level": "Lv3",
-        "value": "300",
-        "effect": "Protège du poison."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/toxicologie"
-  },
-  {
-    "name": "Éclat du Rathalos",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "33/24",
-        "effect": "Chances d'infliger des dégâts de feu supplémentaires après une attaque réussie."
-      },
-      {
-        "level": "Lv4",
-        "value": "33/60",
-        "effect": "Augmente les dégâts de feu supplémentaires après une attaque réussie."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/eclat-du-rathalos"
-  },
-  {
-    "name": "Acier trempé",
-    "description": "Le tranchant de l'arme ne diminue pas pendant un certain temps après l'affûtage.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "30",
-        "effect": "Annule la perte de tranchant pendant 30 s après activation."
-      },
-      {
-        "level": "Lv2",
-        "value": "60",
-        "effect": "Annule la perte de tranchant pendant 60 s après activation."
-      },
-      {
-        "level": "Lv3",
-        "value": "90",
-        "effect": "Annule la perte de tranchant pendant 90 s après activation."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/acier-trempe"
-  },
-  {
-    "name": "Mise à mort",
-    "description": "Augmente l'affinité lorsque vous attaquez le point faible d'un monstre et ses blessures.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/3",
-        "effect": "Affinité +5 % pour les attaques qui touchent un point faible et bonus parties blessées de +3 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/5",
-        "effect": "Affinité +10 % pour les attaques qui touchent un point faible et bonus parties blessées de +5 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "15/10",
-        "effect": "Affinité +15 % pour les attaques qui touchent un point faible et bonus parties blessées de +10 %."
-      },
-      {
-        "level": "Lv4",
-        "value": "20/15",
-        "effect": "Affinité +20 % pour les attaques qui touchent un point faible et bonus parties blessées de +15 %."
-      },
-      {
-        "level": "Lv5",
-        "value": "30/20",
-        "effect": "Affinité +30 % pour les attaques qui touchent un point faible et bonus parties blessées de +20 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/mise-a-mort"
+    "source": "https://wilds.mhdb.io/fr/skills/21"
   },
   {
     "name": "Berserker",
@@ -186,217 +392,184 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "128",
+        "value": "",
         "effect": "Dégâts des coups critiques +28 %."
       },
       {
         "level": "Lv2",
-        "value": "131",
+        "value": "",
         "effect": "Dégâts des coups critiques +31 %."
       },
       {
         "level": "Lv3",
-        "value": "134",
+        "value": "",
         "effect": "Dégâts des coups critiques +34 %."
       },
       {
         "level": "Lv4",
-        "value": "137",
+        "value": "",
         "effect": "Dégâts des coups critiques +37 %."
       },
       {
         "level": "Lv5",
-        "value": "140",
+        "value": "",
         "effect": "Dégâts des coups critiques +40 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/berserker"
+    "source": "https://wilds.mhdb.io/fr/skills/22"
   },
   {
-    "name": "Sismologie",
-    "description": "Confère une résistance aux secousses.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50/100",
-        "effect": "Annule les très petites secousses et réduit de moitié les effets des petites secousses."
-      },
-      {
-        "level": "Lv2",
-        "value": "20",
-        "effect": "Annule jusqu'aux petites secousses et réduit grandement les effets des grandes secousses."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Annule toutes les secousses."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/sismologie"
-  },
-  {
-    "name": "Vengeance",
-    "description": "Augmente l'attaque lorsque vous avez subi des dégâts temporaires (zone rouge de la jauge de vie).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5",
-        "effect": "Attaque +5 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "10",
-        "effect": "Attaque +10 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "15",
-        "effect": "Attaque +15 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv4",
-        "value": "20",
-        "effect": "Attaque +20 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv5",
-        "value": "25",
-        "effect": "Attaque +25 lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/vengeance"
-  },
-  {
-    "name": "Quatrième tir",
-    "description": "Augmente l'affinité des munitions (fusarbalète) et fioles (arc) dès le 4e tir et l'attaque pour les 4e et 6e tirs.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "8/3/105/105",
-        "effect": "Augmente légèrement la puissance d'attaque et l'affinité des munitions sous certaines conditions."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/6/105/105",
-        "effect": "Augmente modérément la puissance d'attaque et l'affinité des munitions sous certaines conditions."
-      },
-      {
-        "level": "Lv3",
-        "value": "12/10/105/105",
-        "effect": "Augmente la puissance d'attaque et l'affinité des munitions sous certaines conditions."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/quatrieme-tir"
-  },
-  {
-    "name": "Géologiste",
-    "description": "Augmente le nombre d'objets récupérés aux points de collecte.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "1",
-        "effect": "Un objet supplémentaire obtenu depuis les carcasses."
-      },
-      {
-        "level": "Lv2",
-        "value": "1/1",
-        "effect": "Ajoute en plus un objet supplémentaire en collectant des objets spéciaux."
-      },
-      {
-        "level": "Lv3",
-        "value": "1/1/1",
-        "effect": "Ajoute en plus un objet supplémentaire depuis les gisements miniers."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/geologiste"
-  },
-  {
-    "name": "Pelage attrayant",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "200",
-        "effect": "Attire davantage l'attention d'un monstre quand vous l'attaquez."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pelage-attrayant"
-  },
-  {
-    "name": "Vendetta",
-    "description": "Attaquez sans arrêt pour augmenter progressivement l'attaque et l'attaque élémentaire. (L'augmentation dépend de l'arme.)",
+    "name": "Tir super rapide",
+    "description": "Tir rapide fusarbalète léger amélioré.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "L'attaque et les attaques élémentaires augmentent légèrement au premier coup, et encore plus après le cinquième coup."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Réussir 5 attaques d'affilée renforce modérément l'effet."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Réussir 5 attaques d'affilée renforce un peu plus l'effet."
-      },
-      {
-        "level": "Lv4",
-        "value": "",
-        "effect": "Réussir 5 attaques d'affilée renforce encore plus l'effet."
-      },
-      {
-        "level": "Lv5",
-        "value": "",
-        "effect": "Réussir 5 attaques d'affilée renforce énormément l'effet."
+        "effect": "Dégâts tir rapide +5 %"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/vendetta"
+    "source": "https://wilds.mhdb.io/fr/skills/23"
   },
   {
-    "name": "Destructeur",
-    "description": "Facilite la destruction des parties des monstres et augmente les dégâts quand vous détruisez une blessure avec une Attaque Focus.",
+    "name": "Maître de la charge",
+    "description": "Augmente la puissance élémentaire et les afflictions des attaques chargées.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "110/110",
-        "effect": "Augmente les dégâts contre les parties et les dégâts infligés de 10 % si les conditions sont remplies."
+        "value": "",
+        "effect": "Augmente légèrement les dégâts élémentaires et les afflictions des attaques chargées."
       },
       {
         "level": "Lv2",
-        "value": "120/120",
-        "effect": "Augmente les dégâts contre les parties et les dégâts infligés de 20 % si les conditions sont remplies."
+        "value": "",
+        "effect": "Augmente les dégâts élémentaires et les afflictions des attaques chargées."
       },
       {
         "level": "Lv3",
-        "value": "130/130",
-        "effect": "Augmente les dégâts contre les parties et les dégâts infligés de 30 % si les conditions sont remplies."
+        "value": "",
+        "effect": "Augmente grandement les dégâts élémentaires et les afflictions des attaques chargées."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/destructeur"
+    "source": "https://wilds.mhdb.io/fr/skills/24"
   },
   {
-    "name": "Aura draconique",
-    "description": "Augmente la protection contre les attaques élémentaires dragon puis les attaques physiques.",
+    "name": "Vigueur du Xu Wu",
+    "description": "Confère temporairement +15 d'attaque après avoir consommé des objets tels que des steaks à point.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "6",
-        "effect": "Résistance Dragon +6"
+        "value": "",
+        "effect": "Confère temporairement +15 d'attaque après avoir consommé des objets tels que des steaks à point."
       },
       {
         "level": "Lv2",
-        "value": "12",
-        "effect": "Résistance Dragon +12"
+        "value": "",
+        "effect": "Confère temporairement +25 d'attaque après avoir consommé des objets tels que des steaks à point."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/25"
+  },
+  {
+    "name": "Vitalité de l'Arkveld Gardien",
+    "description": "Restaure une quantité modérée de vie quand vous détruisez une blessure sur un grand monstre.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Restaure une quantité modérée de vie quand vous détruisez une blessure sur un grand monstre."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Restaure de la vie quand vous détruisez une blessure sur un grand monstre."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/26"
+  },
+  {
+    "name": "Pouls du Gardien",
+    "description": "Accélère la récupération d'endurance et de la jauge rouge près des cristaux de wylait.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Accélère la récupération d'endurance et de la jauge rouge près des cristaux de wylait."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/27"
+  },
+  {
+    "name": "Saut de la foi",
+    "description": "Permet d'esquiver de grands monstres en sautant vers eux et d'étendre la distance d'esquive.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "L'utilisation du talent devient possible."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/28"
+  },
+  {
+    "name": "Maestro",
+    "description": "Prolonge la durée des mélodies des cornes de chasse (effet perdu lorsque vous changez d'arme).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente la durée des effets des mélodies et les chances de récupérer plus de vie avec les mélodies de soin."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente encore plus la durée des effets des mélodies."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/29"
+  },
+  {
+    "name": "Cercle de vie",
+    "description": "Augmente la quantité de vie restaurée.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement la récupération."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente modérément la récupération."
       },
       {
         "level": "Lv3",
-        "value": "20/10",
-        "effect": "Résistance Dragon +20 Défense +10"
+        "value": "",
+        "effect": "Augmente grandement la récupération."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/aura-draconique"
+    "source": "https://wilds.mhdb.io/fr/skills/30"
+  },
+  {
+    "name": "Halo de guérison",
+    "description": "Augmente la vitesse de guérison des dégâts temporaires (zone rouge de la jauge de vie).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Double la vitesse de récupération des dégâts temporaires."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Triple la vitesse de récupération des dégâts temporaires."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Quadruple la vitesse de récupération des dégâts temporaires."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/31"
   },
   {
     "name": "Rengainage éclair",
@@ -404,240 +577,38 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "110",
+        "value": "",
         "effect": "Augmente légèrement la vitesse de rengainage."
       },
       {
         "level": "Lv2",
-        "value": "120",
+        "value": "",
         "effect": "Augmente la vitesse de rengainage."
       },
       {
         "level": "Lv3",
-        "value": "140",
+        "value": "",
         "effect": "Augmente grandement la vitesse de rengainage."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/rengainage-eclair"
+    "source": "https://wilds.mhdb.io/fr/skills/32"
   },
   {
-    "name": "Samouraï",
-    "description": "Empêche votre arme de perdre son tranchant.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "10 % de chances d'annuler la perte de tranchant."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "25 % de chances d'annuler la perte de tranchant."
-      },
-      {
-        "level": "Lv3",
-        "value": "50",
-        "effect": "50 % de chances d'annuler la perte de tranchant."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/samourai"
-  },
-  {
-    "name": "Métabolisme",
-    "description": "Accélère la récupération d'endurance.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Vitesse de récupération d'endurance +10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "130",
-        "effect": "Vitesse de récupération d'endurance +30 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "150",
-        "effect": "Vitesse de récupération d'endurance +50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/metabolisme"
-  },
-  {
-    "name": "Incursion",
-    "description": "Augmente l'attaque et l'affinité contre les grands monstres empoisonnés ou paralysés.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Attaque +6 contre les grands monstres empoisonnés ou paralysés."
-      },
-      {
-        "level": "Lv2",
-        "value": "8/5",
-        "effect": "Attaque +8 et affinité +5 % contre les grands monstres empoisonnés ou paralysés."
-      },
-      {
-        "level": "Lv3",
-        "value": "10/10",
-        "effect": "Attaque +10 et affinité +10 % contre les grands monstres empoisonnés ou paralysés."
-      },
-      {
-        "level": "Lv4",
-        "value": "12/15",
-        "effect": "Attaque +12 et affinité +15 % contre les grands monstres empoisonnés ou paralysés."
-      },
-      {
-        "level": "Lv5",
-        "value": "15/20",
-        "effect": "Attaque +15 et affinité +20 % contre les grands monstres empoisonnés ou paralysés."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/incursion"
-  },
-  {
-    "name": "Marchand de sable",
-    "description": "Permet d'utiliser des fioles de sommeil.",
+    "name": "Appétit de l'Arkveld",
+    "description": "Restaure une quantité modérée de vie tant que vous attaquez. La régénération varie selon l'arme.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Permet d'utiliser des fioles de sommeil."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/marchand-de-sable"
-  },
-  {
-    "name": "Maelstrom",
-    "description": "Augmente la puissance des attaques élémentaires eau. Il y a une limite aux augmentations.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Attaque Eau +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Attaque Eau +10 % Attaque Eau +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Attaque Eau +20 % Attaque Eau +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/maelstrom"
-  },
-  {
-    "name": "Monte-en-l'air",
-    "description": "Réduit la perte d'endurance lorsque vous grimpez sur des lianes.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Réduit de 50 % la consommation d'endurance lorsque vous grimpez."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/monte-en-lair"
-  },
-  {
-    "name": "Antipuanteur",
-    "description": "Confère une résistance à la puanteur.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Réduit la durée de la puanteur de 50 %."
+        "effect": "Restaure une quantité modérée de vie tant que vous attaquez. La régénération varie selon l'arme."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Protège de la puanteur."
+        "effect": "Restaure de la vie tant que vous attaquez. La régénération varie selon l'arme."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antipuanteur"
-  },
-  {
-    "name": "Pelage de renforcement",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "110/115",
-        "effect": "Augmente l'attaque et la défense après un évanouissement pendant une quête. *Deux fois max."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pelage-de-renforcement"
-  },
-  {
-    "name": "Alerte Neopteron",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "1/3",
-        "effect": "Augmente la quantité de miel obtenu aux points de collecte."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/alerte-neopteron"
-  },
-  {
-    "name": "Traque sans merci",
-    "description": "Augmente l'attaque des munitions perforantes (fusarbalète) et de Perce-dragon/Mille dragons (arc).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/105",
-        "effect": "Augmente légèrement la puissance des munitions et flèches indiquées."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/traque-sans-merci"
-  },
-  {
-    "name": "Bouchon d'oreilles",
-    "description": "Confère une résistance aux rugissements des grands monstres.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "20/100",
-        "effect": "Réduit les effets des petits rugissements."
-      },
-      {
-        "level": "Lv2",
-        "value": "10",
-        "effect": "Annule les petits rugissements et réduit les effets des grands rugissements."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Annule les petits et grands rugissements."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/bouchon-doreilles"
-  },
-  {
-    "name": "Cogneur",
-    "description": "Permet d'étourdir plus facilement les monstres.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Étourdissement +20 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "130",
-        "effect": "Étourdissement +30 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "140",
-        "effect": "Étourdissement +40 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/cogneur"
+    "source": "https://wilds.mhdb.io/fr/skills/33"
   },
   {
     "name": "Pare-vent",
@@ -645,12 +616,12 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "50/100",
+        "value": "",
         "effect": "Annule les petites bourrasques et réduit de moitié les effets des grandes bourrasques."
       },
       {
         "level": "Lv2",
-        "value": "50",
+        "value": "",
         "effect": "Annule les petites et grandes bourrasques et réduit de moitié les effets des bourrasques draconiques."
       },
       {
@@ -659,7 +630,317 @@
         "effect": "Annule toutes les bourrasques."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pare-vent"
+    "source": "https://wilds.mhdb.io/fr/skills/34"
+  },
+  {
+    "name": "Cogneur",
+    "description": "Permet d'étourdir plus facilement les monstres.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Étourdissement +20 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Étourdissement +30 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Étourdissement +40 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/35"
+  },
+  {
+    "name": "Bombardier",
+    "description": "Augmente les dégâts occasionnés par les objets explosifs.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Puissance explosive +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Puissance explosive +20 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Puissance explosive +30 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/36"
+  },
+  {
+    "name": "Écorcheur",
+    "description": "Facilite la création d'une blessure. Infligez assez de dégâts pour un bonus de dégâts non élémentaires.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Facilite légèrement la création d'une blessure. Inflige aussi des dégâts non élémentaires."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Facilite modérément la création d'une blessure. Inflige aussi légèrement plus de dégâts non élémentaires."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Facilite la création d'une blessure. Inflige aussi un peu plus de dégâts non élémentaires."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Facilite grandement la création d'une blessure. Inflige aussi plus de dégâts non élémentaires."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Facilite énormément la création d'une blessure. Inflige beaucoup plus de dégâts non élémentaires."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/37"
+  },
+  {
+    "name": "Destruction massive",
+    "description": "Augmente la puissance des afflictions de type explosion. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Accumulation explosion +5 % Accumulation explosion +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Accumulation explosion +10 % Accumulation explosion +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Accumulation explosion +20 % Accumulation explosion +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/38"
+  },
+  {
+    "name": "Pourfendeur de dragon",
+    "description": "Augmente la puissance des attaques élémentaires draconiques. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque Dragon +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque Dragon +10 % Attaque Dragon +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque Dragon +20 % Attaque Dragon +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/39"
+  },
+  {
+    "name": "Monte-en-l'air",
+    "description": "Réduit la perte d'endurance lorsque vous grimpez sur des lianes.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Réduit de 50 % la consommation d'endurance lorsque vous grimpez."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/40"
+  },
+  {
+    "name": "Marathonien",
+    "description": "Réduit la consommation d'endurance des actions qui en utilisent en continu (exemple : courir).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Coût d'endurance -15 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Coût d'endurance -30 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Coût d'endurance -50 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/41"
+  },
+  {
+    "name": "Gibier de potence",
+    "description": "Permet d'utiliser des fioles de paralysie.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Permet d'utiliser des fioles de paralysie."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/42"
+  },
+  {
+    "name": "Antichocs",
+    "description": "Désactive les réactions aux dégâts lorsque vous touchez un allié ou inversement.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Active l'effet."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/43"
+  },
+  {
+    "name": "Sismologie",
+    "description": "Confère une résistance aux secousses.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Annule les très petites secousses et réduit de moitié les effets des petites secousses."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Annule jusqu'aux petites secousses et réduit grandement les effets des grandes secousses."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Annule toutes les secousses."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/44"
+  },
+  {
+    "name": "BOUM !",
+    "description": "Augmente la puissance des attaques explosives : lancecanon, Feu de wyverne, fioles de choc et munitions antiblindage.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente modérément la puissance des attaques et la vitesse du Feu de wyverne. Attaque feu du Bombardement +30."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente la puissance des attaques et la vitesse du Feu de wyverne. Attaque feu du Bombardement +60."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente grandement la puissance des attaques et la vitesse du Feu de wyverne. Attaque feu du Bombardement +90."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/45"
+  },
+  {
+    "name": "Ami de la nature",
+    "description": "Vous récupérez plus de vie en interagissant avec des éléments de l'environnement.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Restaure 50 points de vie."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Restaure 80 points de vie."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Restaure 100 points de vie."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/46"
+  },
+  {
+    "name": "Totem élémentaire",
+    "description": "Confère une résistance à tous les fléaux élémentaires.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Durée fléaux élémentaires -50 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Durée fléaux élémentaires -75 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Annule les fléaux élémentaires."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/47"
+  },
+  {
+    "name": "Pyromane",
+    "description": "Augmente la puissance des attaques élémentaires feu. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque Feu +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque Feu +10 % Attaque Feu +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque Feu +20 % Attaque Feu +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/48"
+  },
+  {
+    "name": "Mycologue extrême",
+    "description": "Permet de digérer des champignons non comestibles pour bénéficier de leurs effets positifs.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Permet de digérer les champignons bleus et les champignons vénéneux."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Permet également de digérer les champinitros et les champaralysies."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Permet également de digérer les mandragores, les fléaux du diable et les champexciteurs."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/49"
   },
   {
     "name": "Balistique",
@@ -681,41 +962,285 @@
         "effect": "Augmente grandement la portée."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/balistique"
+    "source": "https://wilds.mhdb.io/fr/skills/50"
   },
   {
-    "name": "Œil de l'esprit",
-    "description": "Les cibles dures ont du mal à parer vos attaques et reçoivent plus de dégâts.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50/110",
-        "effect": "50 % de chances d'empêcher vos attaques d'être parées, +10 % de dégâts sur les cibles dures."
-      },
-      {
-        "level": "Lv2",
-        "value": "100/115",
-        "effect": "100 % de chances d'empêcher vos attaques d'être parées, +15 % de dégâts sur les cibles dures."
-      },
-      {
-        "level": "Lv3",
-        "value": "100/130",
-        "effect": "100 % de chances d'empêcher vos attaques d'être parées, +30 % de dégâts sur les cibles dures."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/oeil-de-lesprit"
-  },
-  {
-    "name": "Saut de la foi",
-    "description": "Permet d'esquiver de grands monstres en sautant vers eux et d'étendre la distance d'esquive.",
+    "name": "Protection du Gravios",
+    "description": "Réduit les dégâts subis de 5 % quand votre vie est pleine.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "L'utilisation du talent devient possible."
+        "effect": "Réduit les dégâts subis de 5 % quand votre vie est pleine."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Réduit les dégâts subis de 10 % quand votre vie est pleine."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/saut-de-la-foi"
+    "source": "https://wilds.mhdb.io/fr/skills/51"
+  },
+  {
+    "name": "Antipuanteur",
+    "description": "Confère une résistance à la puanteur.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Réduit la durée de la puanteur de 50 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Protège de la puanteur."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/52"
+  },
+  {
+    "name": "Mise à mort",
+    "description": "Augmente l'affinité lorsque vous attaquez le point faible d'un monstre et ses blessures.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinité +5 % pour les attaques qui touchent un point faible et bonus parties blessées de +3 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinité +10 % pour les attaques qui touchent un point faible et bonus parties blessées de +5 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinité +15 % pour les attaques qui touchent un point faible et bonus parties blessées de +10 %."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Affinité +20 % pour les attaques qui touchent un point faible et bonus parties blessées de +15 %."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Affinité +30 % pour les attaques qui touchent un point faible et bonus parties blessées de +20 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/53"
+  },
+  {
+    "name": "Métabolisme",
+    "description": "Accélère la récupération d'endurance.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Vitesse de récupération d'endurance +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Vitesse de récupération d'endurance +30 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Vitesse de récupération d'endurance +50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/54"
+  },
+  {
+    "name": "Paladin",
+    "description": "Réduit les repoussements et la perte d'endurance lorsque vous bloquez.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Diminue légèrement l'impact des attaques et réduit la perte d'endurance de 15 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Diminue l'impact des attaques et réduit la perte d'endurance de 30 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Diminue grandement l'impact des attaques et réduit la perte d'endurance de 50 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/55"
+  },
+  {
+    "name": "Concentration",
+    "description": "Améliore la vitesse de remplissage des armes à jauges et la vitesse de chargement des armes à charges.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement le taux de remplissage de la jauge et réduit le temps de charge de 5 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente modérément le taux de remplissage de la jauge et réduit le temps de charge de 10 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente le taux de remplissage de la jauge et réduit le temps de charge de 15 %."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/56"
+  },
+  {
+    "name": "Aveuglement",
+    "description": "Améliore l'efficacité des attaques et objets flash.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Améliore l'efficacité des attaques et objets flash."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/57"
+  },
+  {
+    "name": "Révolte du Jin Dahaad",
+    "description": "Augmente l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente grandement l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/58"
+  },
+  {
+    "name": "Mobilité eau/boue huileuse",
+    "description": "Augmente la résistance contre les entraves à la mobilité dans l'eau, la boue huileuse ou les ruisseaux.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Annule les effets des ruisseaux boueux et empêche le ralentissement dans l'eau ou la boue huileuse."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Annule aussi les effets des vagues."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/59"
+  },
+  {
+    "name": "Insomnie",
+    "description": "Réduit la durée de sommeil.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Durée sommeil -30 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Durée sommeil -60 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Protège du sommeil."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/60"
+  },
+  {
+    "name": "Pattes engourdies",
+    "description": "Permet d'utiliser des fioles de léthargie.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Permet d'utiliser des fioles de léthargie."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/61"
+  },
+  {
+    "name": "Garde offensive",
+    "description": "Accroît temporairement la puissance d'attaque après une garde parfaitement synchronisée.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +5 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +10 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +15 % lorsqu'il est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/62"
+  },
+  {
+    "name": "Embuscade",
+    "description": "Augmente temporairement les dégâts infligés aux grands monstres par les attaques furtives.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +5 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +10 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +15 % lorsqu'il est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/63"
+  },
+  {
+    "name": "Attaque perfide",
+    "description": "Augmente les afflictions (paralysie, poison, sommeil, explosion) infligées par des coups critiques.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement les afflictions infligées par des coups critiques."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente les afflictions infligées par des coups critiques."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente grandement les afflictions infligées par des coups critiques."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/64"
   },
   {
     "name": "Salve mortelle",
@@ -723,201 +1248,126 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "110/110",
+        "value": "",
         "effect": "Augmente modérément la puissance des munitions et flèches indiquées."
       },
       {
         "level": "Lv2",
-        "value": "120/120",
+        "value": "",
         "effect": "Augmente la puissance des munitions et flèches indiquées."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/salve-mortelle"
+    "source": "https://wilds.mhdb.io/fr/skills/65"
   },
   {
-    "name": "Apothicaire",
-    "description": "Permet d'utiliser des fioles de poison.",
+    "name": "Puissance du Doshaguma",
+    "description": "Octroie temporairement Attaque +10 après une Neutralisation ou un Duel de force réussi.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Permet d'utiliser des fioles de poison."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/apothicaire"
-  },
-  {
-    "name": "Peau de fer",
-    "description": "Confère une résistance aux effets de Défense réduite.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Réduit la durée des effets de Défense réduite de 50 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Réduit la durée des effets de Défense réduite de 75 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Protège des effets de Défense réduite."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/peau-de-fer"
-  },
-  {
-    "name": "Matraquage",
-    "description": "Augmente l'attaque lorsque votre arme est émoussée.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105",
-        "effect": "Attaque +5 % lorsque la jauge de tranchant est dans le jaune ou moins."
-      },
-      {
-        "level": "Lv2",
-        "value": "110",
-        "effect": "Attaque +10 % lorsque la jauge de tranchant est dans le jaune ou moins."
-      },
-      {
-        "level": "Lv3",
-        "value": "110",
-        "effect": "Attaque +10 % lorsque la jauge de tranchant est dans le vert ou moins."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/matraquage"
-  },
-  {
-    "name": "Maîtrise des écailles",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "120/150",
-        "effect": "Permet de monter et de blesser les monstres plus facilement."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/maitrise-des-ecailles"
-  },
-  {
-    "name": "Vol d'endurance",
-    "description": "Augmente la capacité de certaines attaques à infliger l'affliction léthargie aux monstres.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Drain d'endurance +20 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "130",
-        "effect": "Drain d'endurance +30 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "140",
-        "effect": "Drain d'endurance +40 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/vol-dendurance"
-  },
-  {
-    "name": "Corps et âme",
-    "description": "Augmente l'affinité si l'endurance est à son maximum pendant un certain temps.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Affinité +10 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "20",
-        "effect": "Affinité +20 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "30",
-        "effect": "Affinité +30 % lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/corps-et-ame"
-  },
-  {
-    "name": "Rage supérieure",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "10",
-        "effect": "Augmente l'attaque quand vous êtes victime d'une affliction."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/rage-superieure"
-  },
-  {
-    "name": "Carnassier",
-    "description": "Augmente la vitesse de consommation de viande et d'objets.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Augmente modérément la vitesse des repas."
+        "effect": "Octroie temporairement Attaque +10 après une Neutralisation ou un Duel de force réussi."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Augmente la vitesse des repas."
+        "effect": "Octroie temporairement Attaque +25 après une Neutralisation ou un Duel de force réussi."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/66"
+  },
+  {
+    "name": "Éclat du Rathalos",
+    "description": "Chances d'infliger des dégâts de feu supplémentaires après une attaque réussie.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Chances d'infliger des dégâts de feu supplémentaires après une attaque réussie."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente les dégâts de feu supplémentaires après une attaque réussie."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/67"
+  },
+  {
+    "name": "Machine de guerre",
+    "description": "Augmente l'attaque.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +3"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +5"
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Augmente grandement la vitesse des repas."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/carnassier"
-  },
-  {
-    "name": "Vitalité de l'Arkveld Gardien",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Restaure une quantité modérée de vie quand vous détruisez une blessure sur un grand monstre."
+        "effect": "Attaque +7"
       },
       {
         "level": "Lv4",
-        "value": "50",
-        "effect": "Restaure de la vie quand vous détruisez une blessure sur un grand monstre."
+        "value": "",
+        "effect": "Attaque +2 % Attaque +8"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Attaque +4 % Attaque +9"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/vitalite-de-larkveld-gardien"
+    "source": "https://wilds.mhdb.io/fr/skills/68"
   },
   {
-    "name": "La nuit porte conseil",
-    "description": "Augmente la puissance des afflictions de type sommeil. Il y a une limite aux augmentations.",
+    "name": "Incursion",
+    "description": "Augmente l'attaque et l'affinité contre les grands monstres empoisonnés ou paralysés.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105/1",
-        "effect": "Accumulation sommeil +5 % Accumulation sommeil +10"
+        "value": "",
+        "effect": "Attaque +6 contre les grands monstres empoisonnés ou paralysés."
       },
       {
         "level": "Lv2",
-        "value": "110/2",
-        "effect": "Accumulation sommeil +10 % Accumulation sommeil +20"
+        "value": "",
+        "effect": "Attaque +8 et affinité +5 % contre les grands monstres empoisonnés ou paralysés."
       },
       {
         "level": "Lv3",
-        "value": "120/5",
-        "effect": "Accumulation sommeil +20 % Accumulation sommeil +50"
+        "value": "",
+        "effect": "Attaque +10 et affinité +10 % contre les grands monstres empoisonnés ou paralysés."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Attaque +12 et affinité +15 % contre les grands monstres empoisonnés ou paralysés."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Attaque +15 et affinité +20 % contre les grands monstres empoisonnés ou paralysés."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/la-nuit-porte-conseil"
+    "source": "https://wilds.mhdb.io/fr/skills/69"
+  },
+  {
+    "name": "Acrobate",
+    "description": "Empêche les attaques de vous repousser pendant un saut.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Annule les repoussements durant les sauts."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/70"
   },
   {
     "name": "Fenêtre d'invulnérabilité",
@@ -949,382 +1399,63 @@
         "effect": "Augmente énormément la fenêtre d'invulnérabilité."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/fenetre-dinvulnerabilite"
+    "source": "https://wilds.mhdb.io/fr/skills/71"
   },
   {
-    "name": "Mort venue d'en haut",
-    "description": "Augmente la puissance des attaques sautées.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Attaques sautées +10 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/mort-venue-den-haut"
-  },
-  {
-    "name": "Marathonien",
-    "description": "Réduit la consommation d'endurance des actions qui en utilisent en continu (exemple : courir).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "85",
-        "effect": "Coût d'endurance -15 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "70",
-        "effect": "Coût d'endurance -30 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "50",
-        "effect": "Coût d'endurance -50 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/marathonien"
-  },
-  {
-    "name": "Affûtage rapide",
-    "description": "Accélère l'affûtage d'une arme avec un aiguisoir.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "1",
-        "effect": "Réduit l'affûtage d'un cycle."
-      },
-      {
-        "level": "Lv2",
-        "value": "2",
-        "effect": "Réduit l'affûtage de deux cycles."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/affutage-rapide"
-  },
-  {
-    "name": "Maestro",
-    "description": "Prolonge la durée des mélodies des cornes de chasse (effet perdu lorsque vous changez d'arme).",
+    "name": "La nuit porte conseil",
+    "description": "Augmente la puissance des afflictions de type sommeil. Il y a une limite aux augmentations.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Augmente la durée des effets des mélodies et les chances de récupérer plus de vie avec les mélodies de soin."
+        "effect": "Accumulation sommeil +5 % Accumulation sommeil +10"
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Augmente encore plus la durée des effets des mélodies."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/maestro"
-  },
-  {
-    "name": "Absorption élémentaire",
-    "description": "En subissant des dégâts élémentaires, confère temporairement des effets élémentaires. (Temps de rechargement après activation.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/5",
-        "effect": "Lorsqu'il est actif, augmente légèrement l'attaque élémentaire. Résistance à l'élément subi à l'activation : +4."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/8",
-        "effect": "Lorsqu'il est actif, augmente modérément l'attaque élémentaire. Résistance à l'élément subi à l'activation : +6"
-      },
-      {
-        "level": "Lv3",
-        "value": "15/12",
-        "effect": "Lorsqu'il est actif, augmente l'attaque élémentaire. Résistance à l'élément subi à l'activation : +8"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/absorption-elementaire"
-  },
-  {
-    "name": "Mutinerie du Nu Udra",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "18",
-        "effect": "Inflige une quantité modérée de dégâts supplémentaires quand le talent Vengeance est actif."
-      },
-      {
-        "level": "Lv4",
-        "value": "40",
-        "effect": "Inflige des dégâts supplémentaires quand le talent Vengeance est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/mutinerie-du-nu-udra"
-  },
-  {
-    "name": "Antiexplosion",
-    "description": "Confère une résistance au fléau-explosion.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "25/66",
-        "effect": "Retarde et réduit les dégâts des fléaux-explosion."
-      },
-      {
-        "level": "Lv2",
-        "value": "50/50",
-        "effect": "Retarde et réduit grandement les dégâts des fléaux-explosion."
+        "effect": "Accumulation sommeil +10 % Accumulation sommeil +20"
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Protège du fléau-explosion."
+        "effect": "Accumulation sommeil +20 % Accumulation sommeil +50"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antiexplosion"
+    "source": "https://wilds.mhdb.io/fr/skills/72"
   },
   {
-    "name": "Camouflage Neopteron",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "160/120",
-        "effect": "Augmente la vitesse de déplacement en position accroupie. Les monstres vous repèrent moins facilement."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/camouflage-neopteron"
-  },
-  {
-    "name": "Anti-immobilisation",
-    "description": "Confère une résistance à l'état Toile et au fléau-givre.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "70/70/100",
-        "effect": "Permet de vous débarrasser rapidement de l'état Toile et du fléau-givre."
-      },
-      {
-        "level": "Lv2",
-        "value": "40/40/150",
-        "effect": "Permet de vous débarrasser très rapidement de l'état Toile et du fléau-givre."
-      },
-      {
-        "level": "Lv3",
-        "value": "150",
-        "effect": "Protège de l'état Toile et du fléau-givre."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/anti-immobilisation"
-  },
-  {
-    "name": "Appétit de l'Arkveld",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "3/6/14",
-        "effect": "Restaure une quantité modérée de vie tant que vous attaquez. La régénération varie selon l'arme."
-      },
-      {
-        "level": "Lv4",
-        "value": "5/10/20",
-        "effect": "Restaure de la vie tant que vous attaquez. La régénération varie selon l'arme."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/appetit-de-larkveld"
-  },
-  {
-    "name": "Coupe-faim",
-    "description": "Réduit la perte d'endurance maximum au fil du temps.",
+    "name": "Marchand de sable",
+    "description": "Permet d'utiliser des fioles de sommeil.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Augmente de 50 % le délai jusqu'à la réduction de votre endurance maximum."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Augmente de 100 % le délai jusqu'à la réduction de votre endurance maximum."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Empêche la réduction de l'endurance maximum."
+        "effect": "Permet d'utiliser des fioles de sommeil."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/coupe-faim"
+    "source": "https://wilds.mhdb.io/fr/skills/73"
   },
   {
-    "name": "Tir maximum",
-    "description": "Augmente la puissance des munitions et des flèches normales, et de Tir d'hirondelle volante.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/105",
-        "effect": "Augmente légèrement la puissance des munitions et flèches indiquées."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/tir-maximum"
-  },
-  {
-    "name": "Expert en survie",
-    "description": "Réduit le délai de réutilisation des outils de survie.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "90",
-        "effect": "Délai de réutilisation -10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "80",
-        "effect": "Délai de réutilisation -20 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "70",
-        "effect": "Délai de réutilisation -30 %"
-      },
-      {
-        "level": "Lv4",
-        "value": "60",
-        "effect": "Délai de réutilisation -40 %"
-      },
-      {
-        "level": "Lv5",
-        "value": "50",
-        "effect": "Délai de réutilisation -50 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/expert-en-survie"
-  },
-  {
-    "name": "Esprit du Blangonga",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "180/10",
-        "effect": "Augmente l'attaque modérément et temporairement dans la zone après Victoire ! (accru pour Palicos/Chasseurs de soutien)."
-      },
-      {
-        "level": "Lv4",
-        "value": "180/20",
-        "effect": "Augmente l'attaque temporairement dans la zone après Victoire ! (accru pour Palicos/Chasseurs de soutien)."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/esprit-du-blangonga"
-  },
-  {
-    "name": "Antivirus",
-    "description": "En cas d'infection, permet de surmonter plus facilement la Furie et augmente l'affinité en guérissant.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10/3",
-        "effect": "Accélère légèrement la guérison après avoir contracté la Furie. Augmente ensuite l'affinité de 3 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "20/6",
-        "effect": "Accélère la guérison après avoir contracté la Furie. Augmente ensuite l'affinité de 6 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "30/10",
-        "effect": "Accélère grandement la guérison après avoir contracté la Furie. Augmente ensuite l'affinité de 15 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antivirus"
-  },
-  {
-    "name": "Premier tir",
-    "description": "Augmente la vitesse de rechargement du fusarbalète et la puissance des balles quand il est chargé.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/5/110/110",
-        "effect": "Augmente modérément la vitesse de rech. du fusarbalète et la puissance du tir si les conditions sont remplies."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/10/110/110",
-        "effect": "Augmente la vitesse de rechargement du fusarbalète et la puissance du tir si les conditions sont remplies."
-      },
-      {
-        "level": "Lv3",
-        "value": "15/15/110/110",
-        "effect": "Augmente grandement la vitesse de rech. du fusarbalète et la puissance du tir si les conditions sont remplies."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/premier-tir"
-  },
-  {
-    "name": "Art de la chasse",
-    "description": "Améliore la pêche, le gril et les capacités de déplacement.",
+    "name": "Bouchon d'oreilles",
+    "description": "Confère une résistance aux rugissements des grands monstres.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Améliore la pêche, la cuisson au gril et les capacités de transport."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/art-de-la-chasse"
-  },
-  {
-    "name": "Entomologiste",
-    "description": "Les corps des petits insectes ne sont pas détruits, ce qui vous permet de les dépecer.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100",
-        "effect": "Active l'effet."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/entomologiste"
-  },
-  {
-    "name": "Poison +",
-    "description": "Prolonge la durée de l'effet de votre poison sur les monstres.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "120",
-        "effect": "Prolonge la durée de l'effet de votre poison de 20 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/poison-plus"
-  },
-  {
-    "name": "Performance optimale",
-    "description": "Augmente l'attaque quand votre vie est à son maximum.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "3",
-        "effect": "Attaque +3 lorsqu'il est actif."
+        "effect": "Réduit les effets des petits rugissements."
       },
       {
         "level": "Lv2",
-        "value": "6",
-        "effect": "Attaque +6 lorsqu'il est actif."
+        "value": "",
+        "effect": "Annule les petits rugissements et réduit les effets des grands rugissements."
       },
       {
         "level": "Lv3",
-        "value": "10",
-        "effect": "Attaque +10 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv4",
-        "value": "15",
-        "effect": "Attaque +15 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv5",
-        "value": "20",
-        "effect": "Attaque +20 lorsqu'il est actif."
+        "value": "",
+        "effect": "Annule les petits et grands rugissements."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/performance-optimale"
+    "source": "https://wilds.mhdb.io/fr/skills/74"
   },
   {
     "name": "Contre-attaque",
@@ -1332,116 +1463,143 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "10",
+        "value": "",
         "effect": "Attaque +10 lorsqu'il est actif."
       },
       {
         "level": "Lv2",
-        "value": "15",
+        "value": "",
         "effect": "Attaque +15 lorsqu'il est actif. Augmente modérément la durée de l'effet."
       },
       {
         "level": "Lv3",
-        "value": "25",
+        "value": "",
         "effect": "Attaque +25 lorsqu'il est actif. Augmente la durée de l'effet."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/contre-attaque"
+    "source": "https://wilds.mhdb.io/fr/skills/75"
   },
   {
-    "name": "Intimidation",
-    "description": "Réduit les chances de vous faire attaquer par de petits monstres s'ils vous repèrent. Sans effet sur certains monstres.",
+    "name": "Rage élémentaire",
+    "description": "Augmente les dégâts élémentaires (feu, eau, foudre, glace, dragon) infligés par des coups critiques.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "50/100",
-        "effect": "Décourage les monstres de vous attaquer même s'ils vous repèrent."
+        "value": "",
+        "effect": "Augmente légèrement les dégâts élémentaires lorsqu'il est actif."
       },
       {
         "level": "Lv2",
-        "value": "50",
-        "effect": "Décourage grandement les monstres de vous attaquer même s'ils vous repèrent."
+        "value": "",
+        "effect": "Augmente les dégâts élémentaires lorsqu'il est actif."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Empêche les monstres de vous attaquer même s'ils vous repèrent."
+        "effect": "Augmente grandement les dégâts élémentaires lorsqu'il est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/intimidation"
+    "source": "https://wilds.mhdb.io/fr/skills/76"
   },
   {
-    "name": "Protection du Gravios",
-    "description": "",
+    "name": "Surcharge",
+    "description": "Augmente votre capacité à étourdir lorsque vous frappez un monstre avec une attaque de marteau chargée.",
     "levels": [
       {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Active l'effet."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/77"
+  },
+  {
+    "name": "Étanchéité",
+    "description": "Augmente la protection contre les attaques élémentaires eau puis les attaques physiques.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Résistance Eau +6"
+      },
+      {
         "level": "Lv2",
-        "value": "95",
-        "effect": "Réduit les dégâts subis de 5 % quand votre vie est pleine."
+        "value": "",
+        "effect": "Résistance Eau +12"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Résistance Eau +20 Défense +10"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/78"
+  },
+  {
+    "name": "Matraquage",
+    "description": "Augmente l'attaque lorsque votre arme est émoussée.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +5 % lorsque la jauge de tranchant est dans le jaune ou moins."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +10 % lorsque la jauge de tranchant est dans le jaune ou moins."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +10 % lorsque la jauge de tranchant est dans le vert ou moins."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/79"
+  },
+  {
+    "name": "Mort venue d'en haut",
+    "description": "Augmente la puissance des attaques sautées.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaques sautées +10 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/80"
+  },
+  {
+    "name": "Héroïsme",
+    "description": "Augmente l'attaque et la défense lorsque la vie est inférieure ou égale à 35 %.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Défense +50 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +5 % et défense physique +50 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +5 % et défense physique +100 lorsqu'il est actif."
       },
       {
         "level": "Lv4",
-        "value": "90",
-        "effect": "Réduit les dégâts subis de 10 % quand votre vie est pleine."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/protection-du-gravios"
-  },
-  {
-    "name": "Crâne d'acier",
-    "description": "Réduit la durée d'étourdissement.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "70",
-        "effect": "Durée étourdissement -30 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "40",
-        "effect": "Durée étourdissement -60 %."
-      },
-      {
-        "level": "Lv3",
         "value": "",
-        "effect": "Protège des étourdissements."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/crane-dacier"
-  },
-  {
-    "name": "Sagesse transmise",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "25",
-        "effect": "Augmente les chances de trouver des points de collecte rare."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/sagesse-transmise"
-  },
-  {
-    "name": "Embuscade",
-    "description": "Augmente temporairement les dégâts infligés aux grands monstres par les attaques furtives.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/30",
-        "effect": "Attaque +5 % lorsqu'il est actif."
+        "effect": "Attaque +10 % et défense physique +100 lorsqu'il est actif."
       },
       {
-        "level": "Lv2",
-        "value": "110/30",
-        "effect": "Attaque +10 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "115/30",
-        "effect": "Attaque +15 % lorsqu'il est actif."
+        "level": "Lv5",
+        "value": "",
+        "effect": "Attaque +30 % et bonus de défense annulés lorsqu'il est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/embuscade"
+    "source": "https://wilds.mhdb.io/fr/skills/81"
   },
   {
     "name": "Adaptabilité",
@@ -1458,39 +1616,378 @@
         "effect": "Annule les dégâts environnementaux."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/adaptabilite"
+    "source": "https://wilds.mhdb.io/fr/skills/82"
   },
   {
-    "name": "Poussée d'adrénaline",
-    "description": "Esquivez juste avant une attaque pour un bonus d'attaque temporaire.",
+    "name": "Douceur du cuir",
+    "description": "Augmente temporairement votre affinité pendant les glissades.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "10",
-        "effect": "Attaque +10 lorsqu'il est actif."
+        "value": "",
+        "effect": "Augmente temporairement votre affinité pendant les glissades."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/83"
+  },
+  {
+    "name": "Expert en survie",
+    "description": "Réduit le délai de réutilisation des outils de survie.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Délai de réutilisation -10 %"
       },
       {
         "level": "Lv2",
-        "value": "15",
-        "effect": "Attaque +15 lorsqu'il est actif."
+        "value": "",
+        "effect": "Délai de réutilisation -20 %"
       },
       {
         "level": "Lv3",
-        "value": "20",
-        "effect": "Attaque +20 lorsqu'il est actif."
+        "value": "",
+        "effect": "Délai de réutilisation -30 %"
       },
       {
         "level": "Lv4",
-        "value": "25",
-        "effect": "Attaque +25 lorsqu'il est actif."
+        "value": "",
+        "effect": "Délai de réutilisation -40 %"
       },
       {
         "level": "Lv5",
-        "value": "30",
-        "effect": "Attaque +30 lorsqu'il est actif."
+        "value": "",
+        "effect": "Délai de réutilisation -50 %"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/poussee-dadrenaline"
+    "source": "https://wilds.mhdb.io/fr/skills/84"
+  },
+  {
+    "name": "Maelstrom",
+    "description": "Augmente la puissance des attaques élémentaires eau. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque Eau +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque Eau +10 % Attaque Eau +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque Eau +20 % Attaque Eau +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/85"
+  },
+  {
+    "name": "Antiparalysie",
+    "description": "Réduit la durée de paralysie.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Durée paralysie -30 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Durée paralysie -60 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Protège de la paralysie."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/86"
+  },
+  {
+    "name": "Tension du Rey Dau",
+    "description": "Augmente modérément la durée de Force latente.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente modérément la durée de Force latente."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente la durée de Force latente."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/87"
+  },
+  {
+    "name": "Traque sans merci",
+    "description": "Augmente l'attaque des munitions perforantes (fusarbalète) et de Perce-dragon/Mille dragons (arc).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement la puissance des munitions et flèches indiquées."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/88"
+  },
+  {
+    "name": "Vendetta",
+    "description": "Attaquez sans arrêt pour augmenter progressivement l'attaque et l'attaque élémentaire. (L'augmentation dépend de l'arme.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "L'attaque et les attaques élémentaires augmentent légèrement au premier coup, et encore plus après le cinquième coup."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Réussir 5 attaques d'affilée renforce modérément l'effet."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Réussir 5 attaques d'affilée renforce un peu plus l'effet."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Réussir 5 attaques d'affilée renforce encore plus l'effet."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Réussir 5 attaques d'affilée renforce énormément l'effet."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/89"
+  },
+  {
+    "name": "Pelage attrayant",
+    "description": "Attire davantage l'attention d'un monstre quand vous l'attaquez.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attire davantage l'attention d'un monstre quand vous l'attaquez."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/90"
+  },
+  {
+    "name": "Géologiste",
+    "description": "Augmente le nombre d'objets récupérés aux points de collecte.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Un objet supplémentaire obtenu depuis les carcasses."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Ajoute en plus un objet supplémentaire en collectant des objets spéciaux."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Ajoute en plus un objet supplémentaire depuis les gisements miniers."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/91"
+  },
+  {
+    "name": "Corps et âme",
+    "description": "Augmente l'affinité si l'endurance est à son maximum pendant un certain temps.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinité +10 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinité +20 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinité +30 % lorsqu'il est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/92"
+  },
+  {
+    "name": "Carnassier",
+    "description": "Augmente la vitesse de consommation de viande et d'objets.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente modérément la vitesse des repas."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente la vitesse des repas."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente grandement la vitesse des repas."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/93"
+  },
+  {
+    "name": "Antigel",
+    "description": "Augmente la protection contre les attaques élémentaires glace puis les attaques physiques.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Résistance Glace +6"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Résistance Glace +12"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Résistance Glace +20 Défense +10"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/94"
+  },
+  {
+    "name": "Trompe-la-mort",
+    "description": "Augmente la distance d'esquive.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement la distance d'esquive."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente la distance d'esquive."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente grandement la distance d'esquive."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/95"
+  },
+  {
+    "name": "Dégainage éclair",
+    "description": "Augmente l'affinité lorsque vous exécutez des attaques dégainées (sans effet en chevauchant).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinité +50 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinité +75 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinité +100 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/96"
+  },
+  {
+    "name": "Puissance absolue",
+    "description": "Les épées longues, insectoglaives, lames doubles, morpho-haches, et volto-haches restent chargés plus longtemps.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente modérément la durée pendant laquelle les armes sont chargées."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente la durée pendant laquelle les armes sont chargées."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente grandement la durée pendant laquelle les armes sont chargés."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/97"
+  },
+  {
+    "name": "Crâne d'acier",
+    "description": "Réduit la durée d'étourdissement.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Durée étourdissement -30 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Durée étourdissement -60 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Protège des étourdissements."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/98"
+  },
+  {
+    "name": "Tyrannie du Gore Magala",
+    "description": "Vous inflige la Furie face aux grands monstres.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Vous inflige la Furie face aux grands monstres."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Vous inflige la Furie et augmente votre attaque face aux grands monstres. Après guérison, l'attaque est encore accrue."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/99"
+  },
+  {
+    "name": "Esprit du Blangonga",
+    "description": "Augmente l'attaque modérément et temporairement dans la zone après <BOLD>Victoire !</BOLD> (accru pour Palicos/Chasseurs de soutien).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente l'attaque modérément et temporairement dans la zone après <BOLD>Victoire !</BOLD> (accru pour Palicos/Chasseurs de soutien)."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente l'attaque temporairement dans la zone après <BOLD>Victoire !</BOLD> (accru pour Palicos/Chasseurs de soutien)."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/100"
   },
   {
     "name": "Nerfs d'acier",
@@ -1512,7 +2009,68 @@
         "effect": "Évite les chutes et les repoussements."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/nerfs-dacier"
+    "source": "https://wilds.mhdb.io/fr/skills/101"
+  },
+  {
+    "name": "Recharge chargée",
+    "description": "Améliore le rechargement et augmente le nombre de munitions du lancecanon et de fioles de volto-hache.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Accélère le rechargement des obus et des fioles."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Accélère le rechargement (obus/fioles). Capacité lancecanon +1. Volto-hache : 5 fioles (jauge jaune)."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/102"
+  },
+  {
+    "name": "Antiexplosion",
+    "description": "Confère une résistance au fléau-explosion.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Retarde et réduit les dégâts des fléaux-explosion."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Retarde et réduit grandement les dégâts des fléaux-explosion."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Protège du fléau-explosion."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/103"
+  },
+  {
+    "name": "Pique-assiette",
+    "description": "Octroie une chance prédéfinie de consommer une nourriture ou un breuvage gratuitement.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Chances d'activation +10 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Chances d'activation +25 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Chances d'activation +45 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/104"
   },
   {
     "name": "Botaniste",
@@ -1520,158 +2078,26 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "1",
+        "value": "",
         "effect": "Une herbe supplémentaire par collecte."
       },
       {
         "level": "Lv2",
-        "value": "1/1",
+        "value": "",
         "effect": "Ajoute en plus un fruit, une noix ou une graine supplémentaire par collecte."
       },
       {
         "level": "Lv3",
-        "value": "1/1/1",
+        "value": "",
         "effect": "Ajoute en plus un insecte par collecte."
       },
       {
         "level": "Lv4",
-        "value": "1/1/1/1",
+        "value": "",
         "effect": "Ajoute en plus un champignon par collecte."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/botaniste"
-  },
-  {
-    "name": "Surcharge",
-    "description": "Augmente votre capacité à étourdir lorsque vous frappez un monstre avec une attaque de marteau chargée.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "130",
-        "effect": "Active l'effet."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/surcharge"
-  },
-  {
-    "name": "Auto-amélioration",
-    "description": "Augmente progressivement l'attaque et la défense pendant une quête. (N'augmente plus après 30 minutes.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Active l'effet."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/auto-amelioration"
-  },
-  {
-    "name": "Écorcheur",
-    "description": "Facilite la création d'une blessure. Infligez assez de dégâts pour un bonus de dégâts non élémentaires.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/100",
-        "effect": "Facilite légèrement la création d'une blessure. Inflige aussi des dégâts non élémentaires."
-      },
-      {
-        "level": "Lv2",
-        "value": "110/120",
-        "effect": "Facilite modérément la création d'une blessure. Inflige aussi légèrement plus de dégâts non élémentaires."
-      },
-      {
-        "level": "Lv3",
-        "value": "115/140",
-        "effect": "Facilite la création d'une blessure. Inflige aussi un peu plus de dégâts non élémentaires."
-      },
-      {
-        "level": "Lv4",
-        "value": "120/170",
-        "effect": "Facilite grandement la création d'une blessure. Inflige aussi plus de dégâts non élémentaires."
-      },
-      {
-        "level": "Lv5",
-        "value": "130/200",
-        "effect": "Facilite énormément la création d'une blessure. Inflige beaucoup plus de dégâts non élémentaires."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/ecorcheur"
-  },
-  {
-    "name": "Héroïsme",
-    "description": "Augmente l'attaque et la défense lorsque la vie est inférieure ou égale à 35 %.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/50",
-        "effect": "Défense +50 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "105/50",
-        "effect": "Attaque +5 % et défense physique +50 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "105/100",
-        "effect": "Attaque +5 % et défense physique +100 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv4",
-        "value": "110/100",
-        "effect": "Attaque +10 % et défense physique +100 lorsqu'il est actif."
-      },
-      {
-        "level": "Lv5",
-        "value": "130",
-        "effect": "Attaque +30 % et bonus de défense annulés lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/heroisme"
-  },
-  {
-    "name": "Bénédiction",
-    "description": "A une chance prédéfinie de réduire les dégâts que vous subissez.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "25/85",
-        "effect": "Dégâts subis -15 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "25/70",
-        "effect": "Dégâts subis -30 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "25/50",
-        "effect": "Dégâts subis -50 % lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/benediction"
-  },
-  {
-    "name": "Paladin",
-    "description": "Réduit les repoussements et la perte d'endurance lorsque vous bloquez.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10/85",
-        "effect": "Diminue légèrement l'impact des attaques et réduit la perte d'endurance de 15 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "20/70",
-        "effect": "Diminue l'impact des attaques et réduit la perte d'endurance de 30 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "30/50",
-        "effect": "Diminue grandement l'impact des attaques et réduit la perte d'endurance de 50 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/paladin"
+    "source": "https://wilds.mhdb.io/fr/skills/105"
   },
   {
     "name": "Un pour tous",
@@ -1703,45 +2129,11 @@
         "effect": "Permet de partager tous les effets des objets avec les alliés même à très grande distance."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/un-pour-tous"
+    "source": "https://wilds.mhdb.io/fr/skills/106"
   },
   {
-    "name": "Concentration",
-    "description": "Améliore la vitesse de remplissage des armes à jauges et la vitesse de chargement des armes à charges.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/95/1/105",
-        "effect": "Augmente légèrement le taux de remplissage de la jauge et réduit le temps de charge de 5 %."
-      },
-      {
-        "level": "Lv2",
-        "value": "110/90/2/107",
-        "effect": "Augmente modérément le taux de remplissage de la jauge et réduit le temps de charge de 10 %."
-      },
-      {
-        "level": "Lv3",
-        "value": "120/85/3/110",
-        "effect": "Augmente le taux de remplissage de la jauge et réduit le temps de charge de 15 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/concentration"
-  },
-  {
-    "name": "Tir super rapide",
-    "description": "Tir rapide fusarbalète léger amélioré.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105",
-        "effect": "Dégâts tir rapide +5 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/tir-super-rapide"
-  },
-  {
-    "name": "Antichocs",
-    "description": "Désactive les réactions aux dégâts lorsque vous touchez un allié ou inversement.",
+    "name": "Entomologiste",
+    "description": "Les corps des petits insectes ne sont pas détruits, ce qui vous permet de les dépecer.",
     "levels": [
       {
         "level": "Lv1",
@@ -1749,29 +2141,240 @@
         "effect": "Active l'effet."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antichocs"
+    "source": "https://wilds.mhdb.io/fr/skills/107"
   },
   {
-    "name": "Dégainage éclair",
-    "description": "Augmente l'affinité lorsque vous exécutez des attaques dégainées (sans effet en chevauchant).",
+    "name": "Pouvoir de l'Odogaron désastre",
+    "description": "Augmente la durée du talent Vendetta et confère Attaque +3 quand Vendetta est actif. ",
     "levels": [
       {
         "level": "Lv1",
-        "value": "50",
-        "effect": "Affinité +50 %"
+        "value": "",
+        "effect": "Augmente la durée du talent Vendetta et confère Attaque +3 quand Vendetta est actif. "
       },
       {
         "level": "Lv2",
-        "value": "75",
-        "effect": "Affinité +75 %"
+        "value": "",
+        "effect": "Augmente encore la durée du talent Vendetta et confère Attaque +10 quand Vendetta est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/108"
+  },
+  {
+    "name": "Apothicaire",
+    "description": "Permet d'utiliser des fioles de poison.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Permet d'utiliser des fioles de poison."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/109"
+  },
+  {
+    "name": "Samouraï",
+    "description": "Empêche votre arme de perdre son tranchant.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "10 % de chances d'annuler la perte de tranchant."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "25 % de chances d'annuler la perte de tranchant."
       },
       {
         "level": "Lv3",
-        "value": "100",
-        "effect": "Affinité +100 %"
+        "value": "",
+        "effect": "50 % de chances d'annuler la perte de tranchant."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/degainage-eclair"
+    "source": "https://wilds.mhdb.io/fr/skills/110"
+  },
+  {
+    "name": "Bastion",
+    "description": "Augmente la défense, ainsi que les résistances élémentaires aux niveaux supérieurs.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Défense +5"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Défense +10"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Défense +5 % Défense +10"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Défense +5 % Défense +20 Résistances élémentaires +3"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Défense +8 % Défense +20 Résistances élémentaires +3"
+      },
+      {
+        "level": "Lv6",
+        "value": "",
+        "effect": "Défense +8 % Défense +35 Résistances élémentaires +5"
+      },
+      {
+        "level": "Lv7",
+        "value": "",
+        "effect": "Défense +10 % Défense +35 Résistances élémentaires +5"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/111"
+  },
+  {
+    "name": "Savoir-faire",
+    "description": "Augmente la jauge de tranchant de l'arme. Ne peut dépasser la limite maximum.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Tranchant +10"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Tranchant +20"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Tranchant +30"
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Tranchant +40"
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Tranchant +50"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/112"
+  },
+  {
+    "name": "Poussée d'adrénaline",
+    "description": "Esquivez juste avant une attaque pour un bonus d'attaque temporaire.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +10 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +15 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +20 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Attaque +25 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Attaque +30 lorsqu'il est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/113"
+  },
+  {
+    "name": "Blizzard",
+    "description": "Augmente la puissance des attaques élémentaires glace. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque Glace +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque Glace +10 % Attaque Glace +50"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque Glace +20 % Attaque Glace +60"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/114"
+  },
+  {
+    "name": "Bénédiction",
+    "description": "A une chance prédéfinie de réduire les dégâts que vous subissez.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Dégâts subis -15 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Dégâts subis -30 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Dégâts subis -50 % lorsqu'il est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/115"
+  },
+  {
+    "name": "Vengeance",
+    "description": "Augmente l'attaque lorsque vous avez subi des dégâts temporaires (zone rouge de la jauge de vie).",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque +5 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque +10 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Attaque +15 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Attaque +20 lorsqu'il est actif."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Attaque +25 lorsqu'il est actif."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/116"
   },
   {
     "name": "Main de maître",
@@ -1779,72 +2382,11 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "80",
+        "value": "",
         "effect": "80 % de chances d'annuler la perte de tranchant lorsqu'il est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/main-de-maitre"
-  },
-  {
-    "name": "Ultra garde",
-    "description": "Permet de parer des attaques normalement imparables.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "70",
-        "effect": "Dégâts subis -30 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "50",
-        "effect": "Dégâts subis -50 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "20",
-        "effect": "Dégâts subis -80 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/ultra-garde"
-  },
-  {
-    "name": "Puissance du Doshaguma",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "10/180",
-        "effect": "Octroie temporairement Attaque +10 après une Neutralisation ou un Duel de force réussi."
-      },
-      {
-        "level": "Lv4",
-        "value": "25/180",
-        "effect": "Octroie temporairement Attaque +25 après une Neutralisation ou un Duel de force réussi."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/puissance-du-doshaguma"
-  },
-  {
-    "name": "Conversion élémentaire",
-    "description": "En subissant des dégâts élémentaires, confère temporairement des effets de l'élément dragon. (Temps de rechargement après activation.)",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "8/110/150/60",
-        "effect": "Inflige des dégâts dragon additionnels en accumulant les dégâts élémentaires. Augmente légèrement l'attaque dragon."
-      },
-      {
-        "level": "Lv2",
-        "value": "12/115/200/80",
-        "effect": "Augmente les dégâts draconiques additionnels et l'attaque dragon."
-      },
-      {
-        "level": "Lv3",
-        "value": "18/120/280/100",
-        "effect": "Augmente encore plus les dégâts draconiques additionnels et augmente grandement l'attaque dragon."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/conversion-elementaire"
+    "source": "https://wilds.mhdb.io/fr/skills/117"
   },
   {
     "name": "Ignifuge",
@@ -1852,160 +2394,424 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "6",
+        "value": "",
         "effect": "Résistance Feu +6"
       },
       {
         "level": "Lv2",
-        "value": "12",
+        "value": "",
         "effect": "Résistance Feu +12"
       },
       {
         "level": "Lv3",
-        "value": "20/10",
+        "value": "",
         "effect": "Résistance Feu +20 Défense +10"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/ignifuge"
+    "source": "https://wilds.mhdb.io/fr/skills/118"
   },
   {
-    "name": "Insomnie",
-    "description": "Réduit la durée de sommeil.",
+    "name": "Affûtage rapide",
+    "description": "Accélère l'affûtage d'une arme avec un aiguisoir.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "70",
-        "effect": "Durée sommeil -30 %"
+        "value": "",
+        "effect": "Réduit l'affûtage d'un cycle."
       },
       {
         "level": "Lv2",
-        "value": "40",
-        "effect": "Durée sommeil -60 %"
+        "value": "",
+        "effect": "Réduit l'affûtage de deux cycles."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/119"
+  },
+  {
+    "name": "Feu du ciel",
+    "description": "Augmente la puissance des attaques élémentaires foudre. Il y a une limite aux augmentations.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Attaque Foudre +40"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Attaque Foudre +10 % Attaque Foudre +50"
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Protège du sommeil."
+        "effect": "Attaque Foudre +20 % Attaque Foudre +60"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/insomnie"
+    "source": "https://wilds.mhdb.io/fr/skills/120"
   },
   {
-    "name": "Recharge chargée",
-    "description": "Améliore le rechargement et augmente le nombre de munitions du lancecanon et de fioles de volto-hache.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Accélère le rechargement des obus et des fioles."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/1",
-        "effect": "Accélère le rechargement (obus/fioles). Capacité lancecanon +1. Volto-hache : 5 fioles (jauge jaune)."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/recharge-chargee"
-  },
-  {
-    "name": "Mobilité eau/boue huileuse",
-    "description": "Augmente la résistance contre les entraves à la mobilité dans l'eau, la boue huileuse ou les ruisseaux.",
+    "name": "Toxicologie",
+    "description": "Réduit les dégâts subis en cas d'empoisonnement.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Annule les effets des ruisseaux boueux et empêche le ralentissement dans l'eau ou la boue huileuse."
+        "effect": "Réduit le nombre de fois que vous subissez des dégâts de poison."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Annule aussi les effets des vagues."
+        "effect": "Réduit grandement le nombre de fois que vous subissez des dégâts de poison."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Protège du poison."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/mobilite-eauboue-huileuse"
+    "source": "https://wilds.mhdb.io/fr/skills/121"
   },
   {
-    "name": "Pouvoir de l'Odogaron désastre",
-    "description": "",
+    "name": "Destructeur",
+    "description": "Facilite la destruction des parties des monstres et augmente les dégâts quand vous détruisez une blessure avec une Attaque Focus.",
     "levels": [
       {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente les dégâts contre les parties et les dégâts infligés de 10 % si les conditions sont remplies."
+      },
+      {
         "level": "Lv2",
-        "value": "1/3",
-        "effect": "Augmente la durée du talent Vendetta et confère Attaque +3 quand Vendetta est actif."
+        "value": "",
+        "effect": "Augmente les dégâts contre les parties et les dégâts infligés de 20 % si les conditions sont remplies."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente les dégâts contre les parties et les dégâts infligés de 30 % si les conditions sont remplies."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/122"
+  },
+  {
+    "name": "Intimidation",
+    "description": "Réduit les chances de vous faire attaquer par de petits monstres s'ils vous repèrent. Sans effet sur certains monstres.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Décourage les monstres de vous attaquer même s'ils vous repèrent."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Décourage grandement les monstres de vous attaquer même s'ils vous repèrent."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Empêche les monstres de vous attaquer même s'ils vous repèrent."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/123"
+  },
+  {
+    "name": "Maîtrise des écailles",
+    "description": "Permet de monter et de blesser les monstres plus facilement.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Permet de monter et de blesser les monstres plus facilement."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/124"
+  },
+  {
+    "name": "Absorption élémentaire",
+    "description": "En subissant des dégâts élémentaires, confère temporairement des effets élémentaires. (Temps de rechargement après activation.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Lorsqu'il est actif, augmente légèrement l'attaque élémentaire. Résistance à l'élément subi à l'activation : +4."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Lorsqu'il est actif, augmente modérément l'attaque élémentaire. Résistance à l'élément subi à l'activation : +6"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Lorsqu'il est actif, augmente l'attaque élémentaire. Résistance à l'élément subi à l'activation : +8"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/125"
+  },
+  {
+    "name": "Acier trempé",
+    "description": "Le tranchant de l'arme ne diminue pas pendant un certain temps après l'affûtage.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Annule la perte de tranchant pendant 30 s après activation."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Annule la perte de tranchant pendant 60 s après activation."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Annule la perte de tranchant pendant 90 s après activation."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/126"
+  },
+  {
+    "name": "Peau de fer",
+    "description": "Confère une résistance aux effets de Défense réduite.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Réduit la durée des effets de Défense réduite de 50 %."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Réduit la durée des effets de Défense réduite de 75 %."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Protège des effets de Défense réduite."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/127"
+  },
+  {
+    "name": "Œil de l'esprit",
+    "description": "Les cibles dures ont du mal à parer vos attaques et reçoivent plus de dégâts.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "50 % de chances d'empêcher vos attaques d'être parées, +10 % de dégâts sur les cibles dures."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "100 % de chances d'empêcher vos attaques d'être parées, +15 % de dégâts sur les cibles dures."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "100 % de chances d'empêcher vos attaques d'être parées, +30 % de dégâts sur les cibles dures."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/128"
+  },
+  {
+    "name": "Quatrième tir",
+    "description": "Augmente l'affinité des munitions (fusarbalète) et fioles (arc) dès le 4e tir et l'attaque pour les 4e et 6e tirs.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente légèrement la puissance d'attaque et l'affinité des munitions sous certaines conditions."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente modérément la puissance d'attaque et l'affinité des munitions sous certaines conditions."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente la puissance d'attaque et l'affinité des munitions sous certaines conditions."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/129"
+  },
+  {
+    "name": "Auto-amélioration",
+    "description": "Augmente progressivement l'attaque et la défense pendant une quête. (N'augmente plus après 30 minutes.)",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Active l'effet."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/130"
+  },
+  {
+    "name": "Camouflage Neopteron",
+    "description": "Augmente la vitesse de déplacement en position accroupie. Les monstres vous repèrent moins facilement.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente la vitesse de déplacement en position accroupie. Les monstres vous repèrent moins facilement."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/131"
+  },
+  {
+    "name": "Premier tir",
+    "description": "Augmente la vitesse de rechargement du fusarbalète et la puissance des balles quand il est chargé.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Augmente modérément la vitesse de rech. du fusarbalète et la puissance du tir si les conditions sont remplies."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Augmente la vitesse de rechargement du fusarbalète et la puissance du tir si les conditions sont remplies."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Augmente grandement la vitesse de rech. du fusarbalète et la puissance du tir si les conditions sont remplies."
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/132"
+  },
+  {
+    "name": "Vol d'endurance",
+    "description": "Augmente la capacité de certaines attaques à infliger l'affliction léthargie aux monstres.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Drain d'endurance +20 %"
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Drain d'endurance +30 %"
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Drain d'endurance +40 %"
+      }
+    ],
+    "source": "https://wilds.mhdb.io/fr/skills/133"
+  },
+  {
+    "name": "Force latente",
+    "description": "Augmente temporairement l'affinité et réduit la perte d'endurance dans certaines conditions.",
+    "levels": [
+      {
+        "level": "Lv1",
+        "value": "",
+        "effect": "Affinité +10 % Perte d'endurance -30 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv2",
+        "value": "",
+        "effect": "Affinité +20 % Perte d'endurance -30 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv3",
+        "value": "",
+        "effect": "Affinité +30 % Perte d'endurance -50 % lorsqu'il est actif."
       },
       {
         "level": "Lv4",
-        "value": "2/10",
-        "effect": "Augmente encore la durée du talent Vendetta et confère Attaque +10 quand Vendetta est actif."
+        "value": "",
+        "effect": "Affinité +40 % Perte d'endurance -50 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Affinité +50 % Perte d'endurance -50 % lorsqu'il est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pouvoir-de-lodogaron-desastre"
+    "source": "https://wilds.mhdb.io/fr/skills/134"
   },
   {
-    "name": "Neutralisation",
-    "description": "Augmente la puissance des afflictions de type paralysie. Il y a une limite aux augmentations.",
+    "name": "Art de la chasse",
+    "description": "Améliore la pêche, le gril et les capacités de déplacement.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105/1",
-        "effect": "Accumulation paralysie +5 % Accumulation paralysie +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/2",
-        "effect": "Accumulation paralysie +10 % Accumulation paralysie +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Accumulation paralysie +20 % Accumulation paralysie +50"
+        "value": "",
+        "effect": "Améliore la pêche, la cuisson au gril et les capacités de transport."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/neutralisation"
+    "source": "https://wilds.mhdb.io/fr/skills/135"
   },
   {
-    "name": "Pique-assiette",
-    "description": "Octroie une chance prédéfinie de consommer une nourriture ou un breuvage gratuitement.",
+    "name": "Témérité",
+    "description": "Augmente l'attaque et l'affinité lorsque les grands monstres sont enragés.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "10",
-        "effect": "Chances d'activation +10 %"
+        "value": "",
+        "effect": "Attaque +4 et affinité +3 % lorsqu'il est actif."
       },
       {
         "level": "Lv2",
-        "value": "25",
-        "effect": "Chances d'activation +25 %"
+        "value": "",
+        "effect": "Attaque +8 et affinité +5 % lorsqu'il est actif."
       },
       {
         "level": "Lv3",
-        "value": "45",
-        "effect": "Chances d'activation +45 %"
+        "value": "",
+        "effect": "Attaque +12 et affinité +7 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Attaque +16 et affinité +10 % lorsqu'il est actif."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Attaque +20 et affinité +15 % lorsqu'il est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pique-assiette"
+    "source": "https://wilds.mhdb.io/fr/skills/136"
   },
   {
-    "name": "Pourfendeur de dragon",
-    "description": "Augmente la puissance des attaques élémentaires draconiques. Il y a une limite aux augmentations.",
+    "name": "Esprit Palico",
+    "description": "Augmente l'attaque et la défense du Palico.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "100/4",
-        "effect": "Attaque Dragon +40"
+        "value": "",
+        "effect": "Augmente l'attaque et la défense du Palico de 5 %."
       },
       {
         "level": "Lv2",
-        "value": "110/5",
-        "effect": "Attaque Dragon +10 % Attaque Dragon +50"
+        "value": "",
+        "effect": "Augmente l'attaque et la défense du Palico de 10 %."
       },
       {
         "level": "Lv3",
-        "value": "120/6",
-        "effect": "Attaque Dragon +20 % Attaque Dragon +60"
+        "value": "",
+        "effect": "Augmente l'attaque et la défense du Palico de 15 %."
+      },
+      {
+        "level": "Lv4",
+        "value": "",
+        "effect": "Augmente l'attaque et la défense du Palico de 20 %."
+      },
+      {
+        "level": "Lv5",
+        "value": "",
+        "effect": "Augmente l'attaque et la défense du Palico de 25 %."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pourfendeur-de-dragon"
+    "source": "https://wilds.mhdb.io/fr/skills/137"
   },
   {
     "name": "Antihémorragie",
@@ -2013,12 +2819,12 @@
     "levels": [
       {
         "level": "Lv1",
-        "value": "50",
+        "value": "",
         "effect": "Réduit les dégâts subis en cas d'hémorragie."
       },
       {
         "level": "Lv2",
-        "value": "25",
+        "value": "",
         "effect": "Réduit grandement les dégâts subis en cas d'hémorragie."
       },
       {
@@ -2027,1002 +2833,196 @@
         "effect": "Protège des hémorragies."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antihemorragie"
+    "source": "https://wilds.mhdb.io/fr/skills/138"
   },
   {
-    "name": "Chimiste",
-    "description": "Augmente la durée des effets pour certains objets.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110",
-        "effect": "Durée +10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "125",
-        "effect": "Durée +25 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "150",
-        "effect": "Durée +50 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/chimiste"
-  },
-  {
-    "name": "Gibier de potence",
-    "description": "Permet d'utiliser des fioles de paralysie.",
+    "name": "Anti-immobilisation",
+    "description": "Confère une résistance à l'état Toile et au fléau-givre.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Permet d'utiliser des fioles de paralysie."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/gibier-de-potence"
-  },
-  {
-    "name": "Force latente",
-    "description": "Augmente temporairement l'affinité et réduit la perte d'endurance dans certaines conditions.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10/70",
-        "effect": "Affinité +10 % Perte d'endurance -30 % lorsqu'il est actif."
+        "effect": "Permet de vous débarrasser rapidement de l'état Toile et du fléau-givre."
       },
       {
         "level": "Lv2",
-        "value": "20/70",
-        "effect": "Affinité +20 % Perte d'endurance -30 % lorsqu'il est actif."
+        "value": "",
+        "effect": "Permet de vous débarrasser très rapidement de l'état Toile et du fléau-givre."
       },
       {
         "level": "Lv3",
-        "value": "30/50",
-        "effect": "Affinité +30 % Perte d'endurance -50 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv4",
-        "value": "40/50",
-        "effect": "Affinité +40 % Perte d'endurance -50 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv5",
-        "value": "50/50",
-        "effect": "Affinité +50 % Perte d'endurance -50 % lorsqu'il est actif."
+        "value": "",
+        "effect": "Protège de l'état Toile et du fléau-givre."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/force-latente"
+    "source": "https://wilds.mhdb.io/fr/skills/139"
   },
   {
-    "name": "Cercle de vie",
-    "description": "Augmente la quantité de vie restaurée.",
+    "name": "Alerte Neopteron",
+    "description": "Augmente la quantité de miel obtenu aux points de collecte.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "110",
-        "effect": "Augmente légèrement la récupération."
-      },
-      {
-        "level": "Lv2",
-        "value": "120",
-        "effect": "Augmente modérément la récupération."
-      },
-      {
-        "level": "Lv3",
-        "value": "130",
-        "effect": "Augmente grandement la récupération."
+        "value": "",
+        "effect": "Augmente la quantité de miel obtenu aux points de collecte."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/cercle-de-vie"
+    "source": "https://wilds.mhdb.io/fr/skills/140"
   },
   {
-    "name": "Destruction massive",
-    "description": "Augmente la puissance des afflictions de type explosion. Il y a une limite aux augmentations.",
+    "name": "Mutinerie du Nu Udra",
+    "description": "Inflige une quantité modérée de dégâts supplémentaires quand le talent Vengeance est actif.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105/1",
-        "effect": "Accumulation explosion +5 % Accumulation explosion +10"
+        "value": "",
+        "effect": "Inflige une quantité modérée de dégâts supplémentaires quand le talent Vengeance est actif."
       },
       {
         "level": "Lv2",
-        "value": "110/2",
-        "effect": "Accumulation explosion +10 % Accumulation explosion +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Accumulation explosion +20 % Accumulation explosion +50"
+        "value": "",
+        "effect": "Inflige des dégâts supplémentaires quand le talent Vengeance est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/destruction-massive"
+    "source": "https://wilds.mhdb.io/fr/skills/141"
   },
   {
-    "name": "Morphose rapide",
-    "description": "Augmente la vitesse de la morphose et la puissance des morpho-haches et des volto-haches.",
+    "name": "Pelage de renforcement",
+    "description": "Augmente l'attaque et la défense après un évanouissement pendant une quête. *Deux fois max.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "110/100",
-        "effect": "Vitesse +10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "120/110",
-        "effect": "Vitesse +20 % Dégâts morphose +10 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "130/120",
-        "effect": "Vitesse +30 % Dégâts morphose +20 %"
+        "value": "",
+        "effect": "Augmente l'attaque et la défense après un évanouissement pendant une quête. *Deux fois max."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/morphose-rapide"
+    "source": "https://wilds.mhdb.io/fr/skills/142"
   },
   {
-    "name": "Esprit Palico",
-    "description": "Augmente l'attaque et la défense du Palico.",
+    "name": "Coupe-faim",
+    "description": "Réduit la perte d'endurance maximum au fil du temps.",
     "levels": [
       {
         "level": "Lv1",
-        "value": "105/105",
-        "effect": "Augmente l'attaque et la défense du Palico de 5 %."
+        "value": "",
+        "effect": "Augmente de 50 % le délai jusqu'à la réduction de votre endurance maximum."
       },
       {
         "level": "Lv2",
-        "value": "110/110",
-        "effect": "Augmente l'attaque et la défense du Palico de 10 %."
+        "value": "",
+        "effect": "Augmente de 100 % le délai jusqu'à la réduction de votre endurance maximum."
       },
       {
         "level": "Lv3",
-        "value": "115/115",
-        "effect": "Augmente l'attaque et la défense du Palico de 15 %."
-      },
-      {
-        "level": "Lv4",
-        "value": "120/120",
-        "effect": "Augmente l'attaque et la défense du Palico de 20 %."
-      },
-      {
-        "level": "Lv5",
-        "value": "125/125",
-        "effect": "Augmente l'attaque et la défense du Palico de 25 %."
+        "value": "",
+        "effect": "Empêche la réduction de l'endurance maximum."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/esprit-palico"
+    "source": "https://wilds.mhdb.io/fr/skills/143"
   },
   {
-    "name": "Maître de la charge",
-    "description": "Augmente la puissance élémentaire et les afflictions des attaques chargées.",
+    "name": "Conversion élémentaire",
+    "description": "En subissant des dégâts élémentaires, confère temporairement des effets de l'élément dragon. (Temps de rechargement après activation.)",
     "levels": [
       {
         "level": "Lv1",
-        "value": "115/105/105/105",
-        "effect": "Augmente légèrement les dégâts élémentaires et les afflictions des attaques chargées."
+        "value": "",
+        "effect": "Inflige des dégâts dragon additionnels en accumulant les dégâts élémentaires. Augmente légèrement l'attaque dragon."
       },
       {
         "level": "Lv2",
-        "value": "120/110/110/110",
-        "effect": "Augmente les dégâts élémentaires et les afflictions des attaques chargées."
+        "value": "",
+        "effect": "Augmente les dégâts draconiques additionnels et l'attaque dragon."
       },
       {
         "level": "Lv3",
-        "value": "125/115/115/115",
-        "effect": "Augmente grandement les dégâts élémentaires et les afflictions des attaques chargées."
+        "value": "",
+        "effect": "Augmente encore plus les dégâts draconiques additionnels et augmente grandement l'attaque dragon."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/maitre-de-la-charge"
+    "source": "https://wilds.mhdb.io/fr/skills/144"
   },
   {
     "name": "Couverture de l'Uth Duna",
-    "description": "",
+    "description": "Augmente temporairement la défense quand vous utilisez un outil de survie.",
     "levels": [
       {
-        "level": "Lv2",
-        "value": "25",
+        "level": "Lv1",
+        "value": "",
         "effect": "Augmente temporairement la défense quand vous utilisez un outil de survie."
       },
       {
-        "level": "Lv4",
-        "value": "50/12",
+        "level": "Lv2",
+        "value": "",
         "effect": "Augmente grandement la défense et la résistance temporairement quand vous utilisez un outil de survie."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/couverture-de-luth-duna"
+    "source": "https://wilds.mhdb.io/fr/skills/145"
   },
   {
-    "name": "Protection du Gardien",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "90/90",
-        "effect": "Réduit les dégâts uniques et élémentaires dans les Ruines de Wyveria."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/protection-du-gardien"
-  },
-  {
-    "name": "Pouls du Gardien",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "400/200",
-        "effect": "Accélère la récupération d'endurance et de la jauge rouge près des cristaux de wylait."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pouls-du-gardien"
-  },
-  {
-    "name": "Batto-jutsu",
-    "description": "Ajoute un étourdissement aux attaques dégainées. Augmente un peu l'attaque (sans effet en chevauchant).",
+    "name": "Performance optimale",
+    "description": "Augmente l'attaque quand votre vie est à son maximum.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Attaque +3 et légers dégâts d'étourdissement infligés par les attaques dégainées."
+        "effect": "Attaque +3 lorsqu'il est actif."
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Attaque +5 et dégâts moyens d'étourdissement infligés par les attaques dégainées."
+        "effect": "Attaque +6 lorsqu'il est actif."
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Attaque +7 et dégâts importants d'étourdissement infligés par les attaques dégainées."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/batto-jutsu"
-  },
-  {
-    "name": "Maître d'armes",
-    "description": "Augmente l'affinité.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "4",
-        "effect": "Affinité +4 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "8",
-        "effect": "Affinité +8 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "12",
-        "effect": "Affinité +12 %"
+        "effect": "Attaque +10 lorsqu'il est actif."
       },
       {
         "level": "Lv4",
-        "value": "16",
-        "effect": "Affinité +16 %"
+        "value": "",
+        "effect": "Attaque +15 lorsqu'il est actif."
       },
       {
         "level": "Lv5",
-        "value": "20",
-        "effect": "Affinité +20 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/maitre-darmes"
-  },
-  {
-    "name": "Désigné pour mourir",
-    "description": "Augmente l'attaque des munitions à grenaille (fusarbalète) et Tir de guerre/Tir rapide (arc).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/105",
-        "effect": "Augmente légèrement la puissance des munitions et flèches indiquées."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/designe-pour-mourir"
-  },
-  {
-    "name": "Antigel",
-    "description": "Augmente la protection contre les attaques élémentaires glace puis les attaques physiques.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "6",
-        "effect": "Résistance Glace +6"
-      },
-      {
-        "level": "Lv2",
-        "value": "12",
-        "effect": "Résistance Glace +12"
-      },
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Résistance Glace +20 Défense +10"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antigel"
-  },
-  {
-    "name": "Bastion",
-    "description": "Augmente la défense, ainsi que les résistances élémentaires aux niveaux supérieurs.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/5",
-        "effect": "Défense +5"
-      },
-      {
-        "level": "Lv2",
-        "value": "100/10",
-        "effect": "Défense +10"
-      },
-      {
-        "level": "Lv3",
-        "value": "105/10",
-        "effect": "Défense +5 % Défense +10"
-      },
-      {
-        "level": "Lv4",
-        "value": "105/20/3",
-        "effect": "Défense +5 % Défense +20 Résistances élémentaires +3"
-      },
-      {
-        "level": "Lv5",
-        "value": "108/20/3",
-        "effect": "Défense +8 % Défense +20 Résistances élémentaires +3"
-      },
-      {
-        "level": "Lv6",
-        "value": "108/35/5",
-        "effect": "Défense +8 % Défense +35 Résistances élémentaires +5"
-      },
-      {
-        "level": "Lv7",
-        "value": "110/35/5",
-        "effect": "Défense +10 % Défense +35 Résistances élémentaires +5"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/bastion"
-  },
-  {
-    "name": "Tension du Rey Dau",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "30",
-        "effect": "Augmente modérément la durée de Force latente."
-      },
-      {
-        "level": "Lv4",
-        "value": "90",
-        "effect": "Augmente la durée de Force latente."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/tension-du-rey-dau"
-  },
-  {
-    "name": "Totem élémentaire",
-    "description": "Confère une résistance à tous les fléaux élémentaires.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Durée fléaux élémentaires -50 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Durée fléaux élémentaires -75 %"
-      },
-      {
-        "level": "Lv3",
         "value": "",
-        "effect": "Annule les fléaux élémentaires."
+        "effect": "Attaque +20 lorsqu'il est actif."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/totem-elementaire"
+    "source": "https://wilds.mhdb.io/fr/skills/146"
   },
   {
-    "name": "Trompe-la-mort",
-    "description": "Augmente la distance d'esquive.",
+    "name": "Rage supérieure",
+    "description": "Augmente l'attaque quand vous êtes victime d'une affliction.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Augmente légèrement la distance d'esquive."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Augmente la distance d'esquive."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Augmente grandement la distance d'esquive."
+        "effect": "Augmente l'attaque quand vous êtes victime d'une affliction."
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/trompe-la-mort"
+    "source": "https://wilds.mhdb.io/fr/skills/147"
   },
   {
-    "name": "Aveuglement",
-    "description": "Améliore l'efficacité des attaques et objets flash.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "200",
-        "effect": "Améliore l'efficacité des attaques et objets flash."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/aveuglement"
-  },
-  {
-    "name": "Révolte du Jin Dahaad",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "60/25",
-        "effect": "Augmente l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force."
-      },
-      {
-        "level": "Lv4",
-        "value": "60/50",
-        "effect": "Augmente grandement l'attaque à la fin de l'état Toile, du fléau-givre, d'une immobilisation ou d'un Duel de force."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/revolte-du-jin-dahaad"
-  },
-  {
-    "name": "Bombardier",
-    "description": "Augmente les dégâts occasionnés par les objets explosifs.",
+    "name": "Paratonnerre",
+    "description": "Augmente la protection contre les attaques élémentaires foudre puis les attaques physiques.",
     "levels": [
       {
         "level": "Lv1",
         "value": "",
-        "effect": "Puissance explosive +10 %"
+        "effect": "Résistance Foudre +6"
       },
       {
         "level": "Lv2",
         "value": "",
-        "effect": "Puissance explosive +20 %"
+        "effect": "Résistance Foudre +12"
       },
       {
         "level": "Lv3",
         "value": "",
-        "effect": "Puissance explosive +30 %"
+        "effect": "Résistance Foudre +20 Défense +10"
       }
     ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/bombardier"
-  },
-  {
-    "name": "Attaque perfide",
-    "description": "Augmente les afflictions (paralysie, poison, sommeil, explosion) infligées par des coups critiques.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110/105",
-        "effect": "Augmente légèrement les afflictions infligées par des coups critiques."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/110",
-        "effect": "Augmente les afflictions infligées par des coups critiques."
-      },
-      {
-        "level": "Lv3",
-        "value": "140/120",
-        "effect": "Augmente grandement les afflictions infligées par des coups critiques."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/attaque-perfide"
-  },
-  {
-    "name": "Machine de guerre",
-    "description": "Augmente l'attaque.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/3",
-        "effect": "Attaque +3"
-      },
-      {
-        "level": "Lv2",
-        "value": "100/5",
-        "effect": "Attaque +5"
-      },
-      {
-        "level": "Lv3",
-        "value": "100/7",
-        "effect": "Attaque +7"
-      },
-      {
-        "level": "Lv4",
-        "value": "102/8",
-        "effect": "Attaque +2 % Attaque +8"
-      },
-      {
-        "level": "Lv5",
-        "value": "104/9",
-        "effect": "Attaque +4 % Attaque +9"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/machine-de-guerre"
-  },
-  {
-    "name": "Rage élémentaire",
-    "description": "Augmente les dégâts élémentaires (feu, eau, foudre, glace, dragon) infligés par des coups critiques.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Augmente légèrement les dégâts élémentaires lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Augmente les dégâts élémentaires lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Augmente grandement les dégâts élémentaires lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/rage-elementaire"
-  },
-  {
-    "name": "Maître bombardier",
-    "description": "Permet d'utiliser des fioles explosives.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Permet d'utiliser des fioles explosives."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/maitre-bombardier"
-  },
-  {
-    "name": "Témérité",
-    "description": "Augmente l'attaque et l'affinité lorsque les grands monstres sont enragés.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "4/3",
-        "effect": "Attaque +4 et affinité +3 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "8/5",
-        "effect": "Attaque +8 et affinité +5 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "12/7",
-        "effect": "Attaque +12 et affinité +7 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv4",
-        "value": "16/10",
-        "effect": "Attaque +16 et affinité +10 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv5",
-        "value": "20/15",
-        "effect": "Attaque +20 et affinité +15 % lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/temerite"
-  },
-  {
-    "name": "Feu du ciel",
-    "description": "Augmente la puissance des attaques élémentaires foudre. Il y a une limite aux augmentations.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Attaque Foudre +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Attaque Foudre +10 % Attaque Foudre +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Attaque Foudre +20 % Attaque Foudre +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/feu-du-ciel"
-  },
-  {
-    "name": "Union",
-    "description": "Augmente temporairement l'attaque élémentaire et les afflictions après la fin d'un fléau ou d'un statut anormal.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "110/105/105",
-        "effect": "Lorsqu'il est actif, les dégâts élémentaires et les afflictions augmentent légèrement."
-      },
-      {
-        "level": "Lv2",
-        "value": "120/110/110",
-        "effect": "Lorsqu'il est actif, les dégâts élémentaires et les afflictions augmentent."
-      },
-      {
-        "level": "Lv3",
-        "value": "130/115/115",
-        "effect": "Lorsqu'il est actif, les dégâts élémentaires et les afflictions augmentent grandement."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/union"
-  },
-  {
-    "name": "Mycologue extrême",
-    "description": "Permet de digérer des champignons non comestibles pour bénéficier de leurs effets positifs.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Permet de digérer les champignons bleus et les champignons vénéneux."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Permet également de digérer les champinitros et les champaralysies."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Permet également de digérer les mandragores, les fléaux du diable et les champexciteurs."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/mycologue-extreme"
-  },
-  {
-    "name": "Athlète",
-    "description": "Ralentit la perte d'endurance en cas d'esquive, de blocage, etc.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "10",
-        "effect": "Coût d'endurance fixe -10 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "20",
-        "effect": "Coût d'endurance fixe -20 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "30",
-        "effect": "Coût d'endurance fixe -30 %"
-      },
-      {
-        "level": "Lv4",
-        "value": "40",
-        "effect": "Coût d'endurance fixe -40 %"
-      },
-      {
-        "level": "Lv5",
-        "value": "50",
-        "effect": "Coût d'endurance fixe -50 %"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/athlete"
-  },
-  {
-    "name": "Tyrannie du Gore Magala",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Vous inflige la Furie face aux grands monstres."
-      },
-      {
-        "level": "Lv4",
-        "value": "10/15",
-        "effect": "Vous inflige la Furie et augmente votre attaque face aux grands monstres. Après guérison, l'attaque est encore accrue."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/tyrannie-du-gore-magala"
-  },
-  {
-    "name": "Ami de la nature",
-    "description": "Vous récupérez plus de vie en interagissant avec des éléments de l'environnement.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "50",
-        "effect": "Restaure 50 points de vie."
-      },
-      {
-        "level": "Lv2",
-        "value": "80",
-        "effect": "Restaure 80 points de vie."
-      },
-      {
-        "level": "Lv3",
-        "value": "100",
-        "effect": "Restaure 100 points de vie."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/ami-de-la-nature"
-  },
-  {
-    "name": "Garde offensive",
-    "description": "Accroît temporairement la puissance d'attaque après une garde parfaitement synchronisée.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105",
-        "effect": "Attaque +5 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv2",
-        "value": "110",
-        "effect": "Attaque +10 % lorsqu'il est actif."
-      },
-      {
-        "level": "Lv3",
-        "value": "115",
-        "effect": "Attaque +15 % lorsqu'il est actif."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/garde-offensive"
-  },
-  {
-    "name": "Écailles superposées",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "90",
-        "effect": "Réduit temporairement la perte d'endurance lorsque la vie est inférieure ou égale à 40 %."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/ecailles-superposees"
-  },
-  {
-    "name": "Pyromane",
-    "description": "Augmente la puissance des attaques élémentaires feu. Il y a une limite aux augmentations.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Attaque Feu +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Attaque Feu +10 % Attaque Feu +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Attaque Feu +20 % Attaque Feu +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pyromane"
-  },
-  {
-    "name": "Mort-aux-rats",
-    "description": "Augmente la puissance des afflictions de type poison. Il y a une limite aux augmentations.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "105/1",
-        "effect": "Accumulation poison +5 % Accumulation poison +10"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/2",
-        "effect": "Accumulation poison +10 % Accumulation poison +20"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/5",
-        "effect": "Accumulation poison +20 % Accumulation poison +50"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/mort-aux-rats"
-  },
-  {
-    "name": "Vigueur du Xu Wu",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "120/15",
-        "effect": "Confère temporairement +15 d'attaque après avoir consommé des objets tels que des steaks à point."
-      },
-      {
-        "level": "Lv4",
-        "value": "120/25",
-        "effect": "Confère temporairement +25 d'attaque après avoir consommé des objets tels que des steaks à point."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/vigueur-du-xu-wu"
-  },
-  {
-    "name": "Puissance absolue",
-    "description": "Les épées longues, insectoglaives, lames doubles, morpho-haches, et volto-haches restent chargés plus longtemps.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Augmente modérément la durée pendant laquelle les armes sont chargées."
-      },
-      {
-        "level": "Lv2",
-        "value": "",
-        "effect": "Augmente la durée pendant laquelle les armes sont chargées."
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Augmente grandement la durée pendant laquelle les armes sont chargés."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/puissance-absolue"
-  },
-  {
-    "name": "Acrobate",
-    "description": "Empêche les attaques de vous repousser pendant un saut.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Annule les repoussements durant les sauts."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/acrobate"
-  },
-  {
-    "name": "Volonté de l'Anjanath tonnerre",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv2",
-        "value": "25",
-        "effect": "Confère une jauge d'endurance supplémentaire."
-      },
-      {
-        "level": "Lv4",
-        "value": "50",
-        "effect": "Confère une grande jauge d'endurance supplémentaire."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/volonte-de-lanjanath-tonnerre"
-  },
-  {
-    "name": "Blizzard",
-    "description": "Augmente la puissance des attaques élémentaires glace. Il y a une limite aux augmentations.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "100/4",
-        "effect": "Attaque Glace +40"
-      },
-      {
-        "level": "Lv2",
-        "value": "110/5",
-        "effect": "Attaque Glace +10 % Attaque Glace +50"
-      },
-      {
-        "level": "Lv3",
-        "value": "120/6",
-        "effect": "Attaque Glace +20 % Attaque Glace +60"
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/blizzard"
-  },
-  {
-    "name": "Antiparalysie",
-    "description": "Réduit la durée de paralysie.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "70",
-        "effect": "Durée paralysie -30 %"
-      },
-      {
-        "level": "Lv2",
-        "value": "40",
-        "effect": "Durée paralysie -60 %"
-      },
-      {
-        "level": "Lv3",
-        "value": "",
-        "effect": "Protège de la paralysie."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/antiparalysie"
-  },
-  {
-    "name": "Douceur du cuir",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "30/30",
-        "effect": "Augmente temporairement votre affinité pendant les glissades."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/douceur-du-cuir"
-  },
-  {
-    "name": "Halo de guérison",
-    "description": "Augmente la vitesse de guérison des dégâts temporaires (zone rouge de la jauge de vie).",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "200",
-        "effect": "Double la vitesse de récupération des dégâts temporaires."
-      },
-      {
-        "level": "Lv2",
-        "value": "300",
-        "effect": "Triple la vitesse de récupération des dégâts temporaires."
-      },
-      {
-        "level": "Lv3",
-        "value": "400",
-        "effect": "Quadruple la vitesse de récupération des dégâts temporaires."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/halo-de-guerison"
-  },
-  {
-    "name": "Faveur du seigneur",
-    "description": "",
-    "levels": [
-      {
-        "level": "Lv3",
-        "value": "20/10",
-        "effect": "Augmente temporairement la puissance d'attaque avec les effets qui affectent les compagnons (comme les Mélodies)."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/faveur-du-seigneur"
-  },
-  {
-    "name": "Pattes engourdies",
-    "description": "Permet d'utiliser des fioles de léthargie.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "",
-        "effect": "Permet d'utiliser des fioles de léthargie."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/pattes-engourdies"
-  },
-  {
-    "name": "BOUM !",
-    "description": "Augmente la puissance des attaques explosives : lancecanon, Feu de wyverne, fioles de choc et munitions antiblindage.",
-    "levels": [
-      {
-        "level": "Lv1",
-        "value": "5/120/3/110",
-        "effect": "Augmente modérément la puissance des attaques et la vitesse du Feu de wyverne. Attaque feu du Bombardement +30."
-      },
-      {
-        "level": "Lv2",
-        "value": "10/150/6/120",
-        "effect": "Augmente la puissance des attaques et la vitesse du Feu de wyverne. Attaque feu du Bombardement +60."
-      },
-      {
-        "level": "Lv3",
-        "value": "15/200/9/130",
-        "effect": "Augmente grandement la puissance des attaques et la vitesse du Feu de wyverne. Attaque feu du Bombardement +90."
-      }
-    ],
-    "source": "https://mhwilds.kiranico.com/fr/data/skills/boum"
+    "source": "https://wilds.mhdb.io/fr/skills/148"
   }
 ]

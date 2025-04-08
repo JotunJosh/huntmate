@@ -32,3 +32,7 @@
 
 - Verbesserte kommentare im code und div bug gefixed
 
+📦 v3.2.0 – 8.4.2025
+
+- Anpassung fuer Titel Update 1
+
