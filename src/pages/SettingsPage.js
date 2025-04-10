@@ -22,6 +22,7 @@ const SettingsPage = () => {
   const [releaseLog, setReleaseLog] = useState("");
   const [updateStatus, setUpdateStatus] = useState("");
   const [updateAvailable, setUpdateAvailable] = useState(false);
+  const [version, setVersion] = useState("");
 
   // 📁 Initiales Setup bei Laden der Seite
   useEffect(() => {
@@ -29,6 +30,8 @@ const SettingsPage = () => {
     if (storedDarkMode) {
       document.body.classList.add("dark-mode");
     }
+
+    window.electronAPI.getAppVersion().then(setVersion);
 
     // 📜 Lade Release-Log (für Anzeige oder Update)
     window.electronAPI?.getReleaseLog?.().then((log) => {
@@ -180,7 +183,7 @@ const SettingsPage = () => {
         <div className="button-group external-links">
           <a
             className="link-button"
-            href={`https://github.com/JotunJosh/huntmate/releases/download/v${require('../../package.json').version}/HuntMate-Setup-${require('../../package.json').version}.msi`}
+            href={`https://github.com/JotunJosh/huntmate/releases/download/v${version}/HuntMate-Setup-${version}.msi`}
             download
           >
             ⬇️ {t("externalLinks.downloadLatest")}

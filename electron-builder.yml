@@ -20,17 +20,17 @@ files:  # 📦 Dateien, die in das App-Bundle aufgenommen werden sollen
 
 extraResources:  # 📂 Zusätzliche Ressourcen, die nach `resources/app/` kopiert werden
   - from: data-decos.json
-    to: app/data-decos.json
+    to: data-decos.json
   - from: skills_de.json
-    to: app/skills_de.json
+    to: skills_de.json
   - from: skills_fr.json
-    to: app/skills_fr.json
+    to: skills_fr.json
   - from: skills_en.json
-    to: app/skills_en.json
+    to: skills_en.json
   - from: data.json
-    to: app/data.json
-  - from: preload.js  
-    to: app/preload.js  
+    to: data.json
+  - from: preload.js
+    to: preload.js  
 #/ Additional files copied into resources/app folder.
 
 publish:  # 🚀 Automatische Veröffentlichung auf GitHub Releases
@@ -38,7 +38,7 @@ publish:  # 🚀 Automatische Veröffentlichung auf GitHub Releases
   releaseType: release
 #/ Uploads releases to GitHub automatically (optional, only if CLI is configured).
 
-asar: false  # 🔓 Keine asar-Verpackung → Dateien bleiben einzeln zugänglich
+asar: true  # 🔓 Keine asar-Verpackung → Dateien bleiben einzeln zugänglich
 #/ ASAR disabled to allow direct file access (e.g. via fs).
 
 appId: com.huntmate.app  # 🆔 Eindeutige App-ID

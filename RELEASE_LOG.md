@@ -36,3 +36,7 @@
 
 - Anpassung fuer Titel Update 1
 
+📦 v3.2.1 – 10.4.2025
+
+- MSI Installer auf arsa umgestellt und app für neue Umgebung umstrukturiert
+

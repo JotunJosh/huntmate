@@ -10,7 +10,8 @@ const { contextBridge, ipcRenderer, shell } = require("electron");
 contextBridge.exposeInMainWorld("electronAPI", {
   // 🌐 Öffnet externe Links im Standardbrowser
   // Opens external links in the user's default browser
-  openExternalLink: (url) => shell.openExternal(url),
+  // openExternalLink: (url) => shell.openExternal(url),
+  openExternalLink: (url) => ipcRenderer.invoke("open-external-link", url),
 
   // 📂 Gibt den Pfad zur Hauptdaten-Datei zurück (data.json)
   // Returns the path to the main data file (data.json)

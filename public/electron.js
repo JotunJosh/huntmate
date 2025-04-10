@@ -1,34 +1,30 @@
 // ⚙️ Electron Core Module & Node.js-Funktionen
-const { app, Menu, BrowserWindow, ipcMain } = require("electron");
+const { app, Menu, BrowserWindow, ipcMain, shell } = require("electron");
 const { autoUpdater } = require("electron-updater"); // ⬅️ Automatische Updates
 const fs = require("fs");
 const path = require("path");
 
 // 🪟 Hauptfenster erstellen
-function createWindow() {
+const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 800,
     webPreferences: {
-      preload: path.join(app.getAppPath(), "preload.js"), // 🔗 Zugriff auf electronAPI
-      contextIsolation: true,
       nodeIntegration: false,
-      sandbox: false,
+      contextIsolation: true,
+      preload: app.isPackaged
+        ? path.join(process.resourcesPath, "preload.js")
+        : path.join(__dirname, "..", "preload.js")
     },
   });
 
-  // 🍽 Menüleiste entfernen (clean UI)
   Menu.setApplicationMenu(null);
   mainWindow.setMenuBarVisibility(false);
   mainWindow.removeMenu();
 
-  // 📄 Lade React-Build
-  let finalPath;
-  if (app.isPackaged) {
-    finalPath = path.join(process.resourcesPath, "app", "build", "index.html");
-  } else {
-    finalPath = "build/index.html";
-  }
+  const finalPath = app.isPackaged
+  ? path.join(app.getAppPath(), "build", "index.html") // 💡 DER sichere Weg
+  : path.join(__dirname, "..", "build", "index.html");
 
   console.log("📂 Lade Datei:", finalPath);
 
@@ -36,8 +32,11 @@ function createWindow() {
     console.error("❌ Ladefehler:", err);
   });
 
+  // mainWindow.webContents.openDevTools();
+
   return mainWindow;
-}
+};
+
 
 // 🚀 App starten + Auto-Updater konfigurieren
 app.whenReady().then(() => {
@@ -87,21 +86,25 @@ app.whenReady().then(() => {
 // 🛠 IPC-Kommandos für Renderer-Prozess (electronAPI)
 ipcMain.handle("getDataPath", () => {
   return app.isPackaged
-    ? path.join(process.resourcesPath, "app", "data.json")
-    : path.join("data.json");
+    ? path.join(process.resourcesPath, "data.json")           // <== geändert
+    : path.join(__dirname, "..", "data.json");
 });
 
 ipcMain.handle("getDecoDataPath", () => {
   return app.isPackaged
-    ? path.join(process.resourcesPath, "app", "data-decos.json")
-    : path.join("data-decos.json");
+    ? path.join(process.resourcesPath, "data-decos.json")     // <== geändert
+    : path.join(__dirname, "..", "data-decos.json");
 });
 
 ipcMain.handle("getSkillDetailsPath", (_, lang) => {
   const fileName = `skills_${lang}.json`;
   return app.isPackaged
-    ? path.join(process.resourcesPath, "app", fileName)
-    : path.join(fileName);
+    ? path.join(process.resourcesPath, fileName)              // <== geändert
+    : path.join(__dirname, "..", fileName);
+});
+
+ipcMain.handle("open-external-link", (event, url) => {
+  return shell.openExternal(url);
 });
 
 ipcMain.handle("get-app-version", () => {
