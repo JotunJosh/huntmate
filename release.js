@@ -48,6 +48,16 @@ pkg.version = newVersion;
 fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2));
 console.log(`📦 Neue Version: ${newVersion}`);
 
+// 🔄 Version-Badge in README.md aktualisieren
+const readmePath = "README.md";
+let readmeContent = fs.readFileSync(readmePath, "utf8");
+readmeContent = readmeContent.replace(
+  /(!\[version\]\(https:\/\/img\.shields\.io\/badge\/version-)([\d.]+)(-blue\.svg\))/,
+  `$1${newVersion}$3`
+);
+fs.writeFileSync(readmePath, readmeContent);
+console.log("📝 README.md Version-Badge aktualisiert.");
+
 // 💬 Eingabeaufforderung für den Changelog
 // Prompt user for changelog input
 const rl = readline.createInterface({

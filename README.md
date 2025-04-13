@@ -1,6 +1,6 @@
 # HuntMate
 
-![version](https://img.shields.io/badge/version-3.0.0-blue.svg)
+![version](https://img.shields.io/badge/version-3.2.1-blue.svg)
 ![license](https://img.shields.io/badge/license-MIT-green.svg)
 ![platform](https://img.shields.io/badge/platform-Electron-informational)
 ![issues](https://img.shields.io/github/issues/JotunJosh/huntmate)
