@@ -11,7 +11,7 @@ function UpdateStatusOverlay() {
   useEffect(() => {
     // 🛰️ Hört auf Statusänderungen vom Electron-Main-Prozess
     if (window.electronAPI?.onUpdateStatus) {
-      window.electronAPI.onUpdateStatus((msg) => {
+      window.API.onUpdateStatus((msg) => {
         setStatus(msg);
       });
     }
